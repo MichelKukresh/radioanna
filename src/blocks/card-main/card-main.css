@@ -1,0 +1,10 @@
+.card-main {
+    background-image: url(../../images/main-card.png);
+    width: 810px;
+    height: 455px;
+    border-radius: 12px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

@@ -1,0 +1,15 @@
+.footer__direction {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  line-height: 3.5;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .footer__direction {
+    flex-direction: column;
+    margin-bottom: 28px;
+  }
+}

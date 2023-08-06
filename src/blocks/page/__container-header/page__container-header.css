@@ -1,0 +1,23 @@
+.page__container-header {
+    /* min-width: 320px;
+    max-width: 880px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    /* margin: 0 auto; */
+    /* padding: 45px 0 60px 0; */
+    
+  }
+
+  /* .page__container-header:first-child {
+    margin-bottom: 6px;
+  } */
+  
+  /* @media (max-width: 650px) {
+    .page__container-header {
+      padding-top: 28px;
+    }
+  }
+   */

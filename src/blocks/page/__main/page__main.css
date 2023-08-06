@@ -1,0 +1,17 @@
+ .page__main {
+  margin-top: 15px;
+    margin-bottom: 52px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    max-width: 1335px;
+    align-items: center;
+    
+}
+
+/* @media (max-width: 690px) {
+  .page__main {
+    margin-top: 42px;
+    margin-bottom: 34px;
+  }
+} */

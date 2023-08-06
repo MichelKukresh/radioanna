@@ -1,0 +1,8 @@
+.read-in-categories__headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000000;
+    
+
+}
