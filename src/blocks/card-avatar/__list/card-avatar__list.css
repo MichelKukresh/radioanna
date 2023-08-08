@@ -1,0 +1,8 @@
+.card-avatar__list {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}

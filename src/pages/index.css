@@ -62,3 +62,9 @@
 @import url("../blocks/card-main/__title/card-main__title.css");
 
 @import url("../blocks/card-donat/card-donat.css");
+
+@import url("../blocks/card-avatar/__discription/card-avatar__discription.css");
+@import url("../blocks/card-avatar/__img/card-avatar__img.css");
+@import url("../blocks/card-avatar/__list/card-avatar__list.css");
+@import url("../blocks/card-avatar/__lists/card-avatar__lists.css");
+@import url("../blocks/card-avatar/card-avatar.css");
