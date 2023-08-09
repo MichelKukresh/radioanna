@@ -1,0 +1,11 @@
+.card-edition__list {
+    background-color: #FBFBFB;
+    border-radius: 12px;
+  }
+
+  .card-edition__list:not(:first-child) {
+    border-radius: 8px;
+  }
+ 
+  
+  
