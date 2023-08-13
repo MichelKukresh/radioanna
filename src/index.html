@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>Russian-travel</title>
+    <!-- Подключаем CSS слайдера -->
+    <link rel="stylesheet" href="../src/slider/simple-adaptive-slider.css" />
   </head>
 
   <body class="page">
@@ -76,22 +78,240 @@
 
     <main class="section page__container-main">
       <div class="section page__main">
-        <section class="section content__section">
+        <section class="section content content__section">
           <div class="bread-crumbs">
             <a class="bread-crumbs__link" href="">Главная</a
             ><a class="bread-crumbs__link" href="">/ Рубрика</a
             ><a class="bread-crumbs__link" href="">/ Политика</a>
           </div>
         </section>
+        <!-- <section class="section content content__section"></section> -->
 
-        <section class="section content__section">Главное за день</section>
-        <section class="section content__section">
+        <section class="section content content__section section-main">
+          <div class="section-main__title"> <div><h2>Главное за день</h2></div></div>
+          <div class="section-main__content">
+            <div class="section-main__item">    <!-- 3 шаблон все видео  -->
+              <div class="card-video">
+                <div class="card-video__title-container">
+                  <h3 class="card-video__title">ANNAprograms</h3>
+                  <a class="card-video__link">Все видео</a>
+                </div>
+                <div class="card-video__video">
+                  <iframe
+                    id="viar-video-for-465639"
+                    src="https://viar.media/player/embed_player.php?vid=U9HWON3B1YMR&amp;width=100%&amp;height=271"
+                    width="100%"
+                    height="100%"
+                    frameborder="0"
+                    allowfullscreen="allowfullscreen"
+                  ></iframe>
+                </div>
+                <p class="card-video__description">
+                  Каждый из нас понимает очевидную вещь: сложившаяся структура
+                  организации обеспечивает актуальность распределения внутренних
+                  резервов и ресурсов.
+                </p>
+              </div><div class="card-donat"></div><div class="card-donat"></div></div>
+            <div class="section-main__item"><!-- шаблон 10.1 Подключаем JS слайдера -->
+              <script
+                defer
+                src="../src/slider/simple-adaptive-slider.js"
+              ></script>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  // активация слайдера
+                  new ItcSimpleSlider(".itcss", {
+                    loop: false,
+                    autoplay: true,
+                    swipe: true,
+                  });
+                });
+              </script>
+              <!-- шаблон 10.2  Разметка слайдера -->
+              <div class="itcss">
+                <div class="itcss__wrapper">
+                  <div class="itcss__items">
+                    <div class="itcss__item">
+                      <img
+                        style="height: 250px"
+                        src="images/card-edition.png"
+                        alt="картинка слайдера"
+                      />
+                    </div>
+                    <div class="itcss__item">
+                      <img
+                        style="height: 250px"
+                        src="images/card-exclusive.png"
+                        alt="картинка слайдера"
+                      />
+                    </div>
+                    <div class="itcss__item">
+                      <img
+                        style="height: 250px"
+                        src="images/card-them.png"
+                        alt="картинка слайдера"
+                      />
+                    </div>
+                    <div class="itcss__item">
+                      <img
+                        style="height: 250px"
+                        src="images/card-edition.png"
+                        alt="картинка слайдера"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="itcss__btn itcss__btn_prev"
+                  role="button"
+                  data-slide="prev"
+                ></button>
+                <button
+                  class="itcss__btn itcss__btn_next"
+                  role="button"
+                  data-slide="next"
+                ></button>
+              </div>
+              
+              <!-- 4 шаблон карточек эксклюзивов -->
+              <ul class="card-exclusive">
+                <div class="card-exclusive__title-container">
+                  <h3 class="card-exclusive__title">Эксклюзивы ANNA-NEWS</h3>
+                  <a class="card-exclusive__link">Смотреть полностью</a>
+                </div>
+                <li>
+                  <a href="" class="card-exclusive__list">
+                    <img
+                      class="card-exclusive__img"
+                      src="images/card-exclusive.png"
+                      alt="картинка эксклюзива"
+                    />
+                    <div class="card-exclusive__text">
+                      <h4 class="card-exclusive__subtitle">Заголовок</h4>
+                      <p class="card-exclusive__description">
+                        Сложно сказать, почему действия представителей оппозиции
+                        будут превращены в посмешище, хотя само их существование
+                        приносит несомненную пользу обществу.
+                      </p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a href="" class="card-exclusive__list">
+                    <img
+                      class="card-exclusive__img"
+                      src="images/card-exclusive.png"
+                      alt="картинка эксклюзива"
+                    />
+                    <div class="card-exclusive__text">
+                      <h4 class="card-exclusive__subtitle">Заголовок</h4>
+                      <p class="card-exclusive__description">
+                        Сложно сказать, почему действия представителей оппозиции
+                        будут превращены в посмешище, хотя само их существование
+                        приносит несомненную пользу обществу.
+                      </p>
+                    </div></a
+                  >
+                </li>
+              </ul></div>
+            <div class="section-main__item">       <ul class="read-in-categories">
+              <h3 class="read-in-categories__title">Последние новости</h3>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+            </ul>
+
+              <!-- 2 шаблон для вставки соц сетей -->
+              <div class="social">
+                <ul class="social__lists">
+                  <li>
+                    <a href=""
+                      ><img src="images/youtube.svg" alt="иконка ютуба"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="images/telegram.svg" alt="иконка ютуба"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="images/twitter.svg" alt="иконка ютуба"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="images/instagram.svg" alt="иконка ютуба"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="images/facebook.svg" alt="иконка ютуба"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="images/WK.svg" alt="иконка ютуба"
+                    /></a>
+                  </li>
+                </ul>
+                <h3 class="social__title">Читать в соц.сетях</h3>
+              </div>
+</div>
+          </div>
+        </section>
+
+
+           <!-- Контейнре с шаблонами -->
+        <section class="section content content__section">
+          
           <div>
-            <div>сайд бар</div>
-            <div>
-              <div>контейнер слайдер</div>
-              <div>эксклюзивы</div>
-            </div>
+           
 
             <div>
               <!-- 1 шаблон для карточки последних новостей -->
@@ -262,43 +482,167 @@
                 </p>
               </div>
 
-
               <!-- 7 шаблон доната -->
               <div class="card-donat"></div>
 
-           
-
-            <!-- 8 шаблон для списка с аватаром -->
+              <!-- 8 шаблон для списка с аватаром -->
               <div class="card-avatar">
                 <ul class="card-avatar__lists">
-                  <li><a href="" class="card-avatar__list"><img class="card-avatar__img" src="images/card-avatar.png" alt="картинка аватара"/><p class="card-avatar__discription">Для современного мира семантический разбор внешних противодействий влечет за собой процесс внедрения.</p></a></li>
-                  <li><a href="" class="card-avatar__list"><img class="card-avatar__img" src="images/card-avatar.png" alt="картинка аватара"/><p class="card-avatar__discription">Для современного мира семантический разбор внешних противодействий влечет за собой процесс внедрения.</p></a></li>
-                  <li><a href="" class="card-avatar__list"><img class="card-avatar__img" src="images/card-avatar.png" alt="картинка аватара"/><p class="card-avatar__discription">Для современного мира семантический разбор внешних противодействий влечет за собой процесс внедрения.</p></a></li>
-              </ul>
-
-              <!-- 9 шаблон контейнер выбор редакции -->
-
-              <!-- @import url("../blocks/card-edition/__container/card-edition__container.css");
-@import url("../blocks/card-edition/__img/card-edition__img.css");
-@import url("../blocks/card-edition/__sub-title/card-edition__sub-title.css");
-@import url("../blocks/card-edition/__title/card-edition__title.css");
-@import url("../blocks/card-edition/card-edition.css"); -->
-              <div class="card-edition">
-                <ul class="card-edition__lists">
-                  <li class="card-edition__list"><a class="card-edition__link" href=""><img class="card-edition__img" src="images/card-edition.png" alt="картинка из выбора редакции"/> <h3 class="card-edition__title">Политика не может не реагировать на изменения</h3> <p class="card-edition__sub-title">Современные технологии достигли такого уровня, что постоянный количественный рост и сфера нашей активности играет определяющее значение для благоприятных перспектив. Наше дело 
-                    не так однозначно, как может показаться: сложившаяся структура организации однозначно фиксирует необходимость модели развития.</p></a></li>
-                  <li class="card-edition__list"><a class="card-edition__link" href=""><img class="card-edition__img" src="images/card-edition.png" alt="картинка из выбора редакции"/> <h3 class="card-edition__title">Внезапно, объем доходов населения сократился</h3> <p class="card-edition__sub-title"></p></a></li>
-                  <li class="card-edition__list"><a class="card-edition__link" href=""><img class="card-edition__img" src="images/card-edition.png" alt="картинка из выбора редакции"/> <h3 class="card-edition__title">Подтверждено: небо темнеет</h3> <p class="card-edition__sub-title"></p></a></li>
-                
+                  <li>
+                    <a href="" class="card-avatar__list"
+                      ><img
+                        class="card-avatar__img"
+                        src="images/card-avatar.png"
+                        alt="картинка аватара"
+                      />
+                      <p class="card-avatar__discription">
+                        Для современного мира семантический разбор внешних
+                        противодействий влечет за собой процесс внедрения.
+                      </p></a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="card-avatar__list"
+                      ><img
+                        class="card-avatar__img"
+                        src="images/card-avatar.png"
+                        alt="картинка аватара"
+                      />
+                      <p class="card-avatar__discription">
+                        Для современного мира семантический разбор внешних
+                        противодействий влечет за собой процесс внедрения.
+                      </p></a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="card-avatar__list"
+                      ><img
+                        class="card-avatar__img"
+                        src="images/card-avatar.png"
+                        alt="картинка аватара"
+                      />
+                      <p class="card-avatar__discription">
+                        Для современного мира семантический разбор внешних
+                        противодействий влечет за собой процесс внедрения.
+                      </p></a
+                    >
+                  </li>
                 </ul>
 
-
-              </div>
-
-
-
+                <!-- 9 шаблон контейнер выбор редакции -->
+                <div class="card-edition">
+                  <ul class="card-edition__lists">
+                    <li class="card-edition__list">
+                      <a class="card-edition__link" href=""
+                        ><img
+                          class="card-edition__img"
+                          src="images/card-edition.png"
+                          alt="картинка из выбора редакции"
+                        />
+                        <h3 class="card-edition__title">
+                          Политика не может не реагировать на изменения
+                        </h3>
+                        <p class="card-edition__sub-title">
+                          Современные технологии достигли такого уровня, что
+                          постоянный количественный рост и сфера нашей
+                          активности играет определяющее значение для
+                          благоприятных перспектив. Наше дело не так однозначно,
+                          как может показаться: сложившаяся структура
+                          организации однозначно фиксирует необходимость модели
+                          развития.
+                        </p></a
+                      >
+                    </li>
+                    <li class="card-edition__list">
+                      <a class="card-edition__link" href=""
+                        ><img
+                          class="card-edition__img"
+                          src="images/card-edition.png"
+                          alt="картинка из выбора редакции" />
+                        <h3 class="card-edition__title">
+                          Внезапно, объем доходов населения сократился
+                        </h3>
+                        <p class="card-edition__sub-title"></p
+                      ></a>
+                    </li>
+                    <li class="card-edition__list">
+                      <a class="card-edition__link" href=""
+                        ><img
+                          class="card-edition__img"
+                          src="images/card-edition.png"
+                          alt="картинка из выбора редакции" />
+                        <h3 class="card-edition__title">
+                          Подтверждено: небо темнеет
+                        </h3>
+                        <p class="card-edition__sub-title"></p
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- шаблон 10.1 Подключаем JS слайдера -->
+                <script
+                  defer
+                  src="../src/slider/simple-adaptive-slider.js"
+                ></script>
+                <script>
+                  document.addEventListener("DOMContentLoaded", () => {
+                    // активация слайдера
+                    new ItcSimpleSlider(".itcss", {
+                      loop: false,
+                      autoplay: true,
+                      swipe: true,
+                    });
+                  });
+                </script>
+                <!-- шаблон 10.2  Разметка слайдера -->
+                <div class="itcss">
+                  <div class="itcss__wrapper">
+                    <div class="itcss__items">
+                      <div class="itcss__item">
+                        <img
+                          style="height: 250px"
+                          src="images/card-edition.png"
+                          alt="картинка слайдера"
+                        />
+                      </div>
+                      <div class="itcss__item">
+                        <img
+                          style="height: 250px"
+                          src="images/card-exclusive.png"
+                          alt="картинка слайдера"
+                        />
+                      </div>
+                      <div class="itcss__item">
+                        <img
+                          style="height: 250px"
+                          src="images/card-them.png"
+                          alt="картинка слайдера"
+                        />
+                      </div>
+                      <div class="itcss__item">
+                        <img
+                          style="height: 250px"
+                          src="images/card-edition.png"
+                          alt="картинка слайдера"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="itcss__btn itcss__btn_prev"
+                    role="button"
+                    data-slide="prev"
+                  ></button>
+                  <button
+                    class="itcss__btn itcss__btn_next"
+                    role="button"
+                    data-slide="next"
+                  ></button>
+                </div>
               </div>
             </div>
+
+
           </div>
         </section>
       </div>

@@ -76,3 +76,10 @@
 @import url("../blocks/card-edition/__title/card-edition__title.css");
 @import url("../blocks/card-edition/card-edition.css");
 @import url("../blocks/card-edition/__link/card-edition__link.css");
+
+@import url("../blocks/title-headers/title-headers.css");
+
+@import url("../blocks/section-main/__content/section-main__content.css");
+@import url("../blocks/section-main/__title/section-main__title.css");
+@import url("../blocks/section-main/section-main.css");
+@import url("../blocks/section-main/__item/section-main__item.css");

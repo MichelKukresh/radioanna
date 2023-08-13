@@ -1,12 +1,14 @@
 .read-in-categories {
   color: black;
   /* border: solid 1px red; */
-  width: 483px;
+  /* width: 483px; */
+  /* width: 100%; */
   list-style-type: none;
   padding: 20px;
   margin: 0px;
   background-color: #FBFBFB;
   border-radius: 12px;
+  
   
   
 }
