@@ -83,3 +83,40 @@
 @import url("../blocks/section-main/__title/section-main__title.css");
 @import url("../blocks/section-main/section-main.css");
 @import url("../blocks/section-main/__item/section-main__item.css");
+
+@import url("../blocks/section-carousel/__content/section-carousel__content.css");
+@import url("../blocks/section-carousel/section-carousel.css");
+
+@import url("../blocks/section-donat/section-donat.css");
+
+@import url("../blocks/section-duble-line/section-duble-line.css");
+
+@import url("../blocks/card-operational/card-operational.css");
+@import url("../blocks/card-operational/__content/card-operational__content.css");
+@import url("../blocks/card-operational/__headers/card-operational__headers.css");
+@import url("../blocks/card-operational/__img/card-operational__img.css");
+@import url("../blocks/card-operational/__title/card-operational__title.css");
+@import url("../blocks/card-operational/__title/_description//card-operational__title_description.css");
+@import url("../blocks/card-operational/__title/_link/card-operational__title_link.css");
+@import url("../blocks/card-operational/__title/_subtitle/card-operational__title_subtitle.css");
+
+@import url("../blocks/card-rubric/card-rubric.css");
+@import url("../blocks/card-rubric/__container/card-rubric__container.css");
+@import url("../blocks/card-rubric/__img/card-rubric__img.css");
+@import url("../blocks/card-rubric/__list/card-rubric__list.css");
+@import url("../blocks/card-rubric/__lists/card-rubric__lists.css");
+@import url("../blocks/card-rubric/__title/card-rubric__title.css");
+@import url("../blocks/card-rubric/__link/card-rubric__link.css");
+
+@import url("../blocks/card-views/card-views.css");
+@import url("../blocks/card-views/__container/card-views__container.css");
+@import url("../blocks/card-views/__content/card-views__content.css");
+@import url("../blocks/card-views/__description/card-views__description.css");
+@import url("../blocks/card-views/__img/card-views__img.css");
+@import url("../blocks/card-views/__info/card-views__info.css");
+@import url("../blocks/card-views/__sub-title/card-views__sub-title.css");
+@import url("../blocks/card-views/__title/card-views__title.css");
+@import url("../blocks/card-views/__list/card-views__list.css");
+@import url("../blocks/card-views/__lists/card-views__lists.css");
+
+@import url("../carousel/carousel.css");

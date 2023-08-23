@@ -1,0 +1,24 @@
+.slick-track li {
+  margin-right: 20px;
+}
+
+.slick-arrow {
+  content: ""; /* Удаляем текст */
+  background-image: url("../images/chevron.svg");
+  background-size: cover;
+  width: 37px;
+  height: 76px;
+  border: none;
+  background-color: inherit;
+  left: -48px;
+  top: 149px;
+  margin-top: -47px;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.slick-arrow.slick-next {
+  left: calc(100% + 10px) ;
+  top: 149px;
+  transform: rotate(0deg);
+} 
