@@ -145,7 +145,7 @@
               </script>
               <!-- шаблон 10.2  Разметка слайдера -->
               <div class="itcss">
-                <div class="itcss__wrapper">
+                <!-- <div class="itcss__wrapper"> -->
                   <div class="itcss__items">
                     <div class="itcss__item">
                       <img
@@ -155,6 +155,20 @@
                       />
                     </div>
                     <div class="itcss__item">
+                      <img
+                        style="height: 250px"
+                        src="images/card-edition.png"
+                        alt="картинка слайдера"
+                      />
+                    </div>
+                    <div class="itcss__item">
+                      <img
+                        style="height: 250px"
+                        src="images/card-edition.png"
+                        alt="картинка слайдера"
+                      />
+                    </div>
+                    <!-- <div class="itcss__item">
                       <img
                         style="height: 250px"
                         src="images/card-exclusive.png"
@@ -174,10 +188,10 @@
                         src="images/card-edition.png"
                         alt="картинка слайдера"
                       />
-                    </div>
-                  </div>
+                    </div> -->
+                  <!-- </div> -->
                 </div>
-                <button
+                <!-- <button
                   class="itcss__btn itcss__btn_prev"
                   role="button"
                   data-slide="prev"
@@ -186,7 +200,7 @@
                   class="itcss__btn itcss__btn_next"
                   role="button"
                   data-slide="next"
-                ></button>
+                ></button> -->
               </div>
 
               <!-- 4 шаблон карточек эксклюзивов -->
@@ -1285,7 +1299,7 @@
   src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
 ></script>
     <script>
-
+// карусель из простых карточек
 $(document).ready(function () {
   $(".section-carousel__content").slick({
     slidesToShow: 3,
@@ -1299,11 +1313,27 @@ $(document).ready(function () {
 
   $(".slick-prev").text("");
 $(".slick-next").text("");
-});
+});  
 
+// карусель на главной странице
 
+$(document).ready(function () {
+  $(".itcss__items").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    centerMode: true,
+    centerPadding: "50px",
+    // autoplay: true,
+    // autoplaySpeed: 1500,
+    dots: true,
+   //appendDots: $('.your-dots-container'),
+  });
 
-      
+  $(".slick-prev").text("");
+$(".slick-next").text("");
+}); 
+
     </script>
   
 
