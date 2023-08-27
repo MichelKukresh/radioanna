@@ -1,8 +1,10 @@
 .social {
     background-color: #575B53;
     border-radius: 12px;
-    padding: 20px;
+    padding: 29px 42px 6px 42px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    min-height: 172px;
+
 }

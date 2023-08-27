@@ -8,6 +8,9 @@
 @import url("../blocks/page/__container-main/page__container-main.css");
 @import url("../blocks/section/section.css");
 @import url("../blocks/page/__main/page__main.css");
+@import url("../blocks/page/__footer/page__footer.css");
+
+
 @import url("../blocks/content/__section/content__section.css");
 
 @import url("../blocks/header/header.css");
@@ -32,6 +35,7 @@
 @import url("../blocks/social/social.css");
 @import url("../blocks/social/__lists/social__lists.css");
 @import url("../blocks/social/__title/social__title.css");
+@import url("../blocks/social/__sub-title/social__sub-title.css");
 
 @import url("../blocks/card-video/card-video.css");
 @import url("../blocks/card-video/__video/card-video__video.css");
@@ -49,6 +53,7 @@
 @import url("../blocks/card-exclusive/__subtitle/card-exclusive__subtitle.css");
 @import url("../blocks/card-exclusive/__description/card-exclusive__description.css");
 @import url("../blocks/card-exclusive/__link/card-exclusive__link.css");
+@import url("../blocks/card-exclusive/_politics/card-exclusive_politics.css");
 
 @import url("../blocks/card-them/card-them.css");
 @import url("../blocks/card-them/__description/card-them__description.css");
@@ -62,12 +67,14 @@
 @import url("../blocks/card-main/__title/card-main__title.css");
 
 @import url("../blocks/card-donat/card-donat.css");
+@import url("../blocks/card-donat/__img/card-donat.css");
 
 @import url("../blocks/card-avatar/__discription/card-avatar__discription.css");
 @import url("../blocks/card-avatar/__img/card-avatar__img.css");
 @import url("../blocks/card-avatar/__list/card-avatar__list.css");
 @import url("../blocks/card-avatar/__lists/card-avatar__lists.css");
 @import url("../blocks/card-avatar/card-avatar.css");
+@import url("../blocks/card-avatar/__link/card-avatar__link.css");
 
 @import url("../blocks/card-edition/__lists/card-edition__lists.css");
 @import url("../blocks/card-edition/__list/card-edition__list.css");
@@ -83,6 +90,7 @@
 @import url("../blocks/section-main/__title/section-main__title.css");
 @import url("../blocks/section-main/section-main.css");
 @import url("../blocks/section-main/__item/section-main__item.css");
+@import url("../blocks/section-main/__donat/section-main__donat.css");
 
 @import url("../blocks/section-carousel/__content/section-carousel__content.css");
 @import url("../blocks/section-carousel/section-carousel.css");
@@ -120,3 +128,22 @@
 @import url("../blocks/card-views/__lists/card-views__lists.css");
 
 @import url("../carousel/carousel.css");
+
+@import url("../blocks/element-title/element-title.css");
+@import url("../blocks/element-title/__link/element-title__link.css");
+@import url("../blocks/element-title/__list/element-title__list.css");
+@import url("../blocks/element-title/__lists/element-title__lists.css");
+@import url("../blocks/element-title/__text/element-title__text.css");
+
+@import url("../blocks/section-politics/section-politics.css");
+
+@import url("../blocks/section-views/section-views.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__direction/footer__direction.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__container/footer__container.css");
+@import url("../blocks/footer/__info/footer__info.css");
+@import url("../blocks/footer/__img/footer__img.css");
+@import url("../blocks/footer/__img/_rss/footer__img_rss.css");

@@ -1,6 +1,15 @@
 .section-main__item {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15px; */
+    justify-content: space-between;
 
+}
+
+.section-main__item:first-child {
+    margin-top: 57px;
+}
+
+.section-main__item:last-child {
+    margin-top: 57px;
 }

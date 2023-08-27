@@ -1,5 +1,6 @@
 .section-duble-line {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 50px;
+    margin-bottom: 81px;
+    gap: 55px;
 }

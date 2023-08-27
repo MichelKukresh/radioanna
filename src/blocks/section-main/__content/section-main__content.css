@@ -3,6 +3,6 @@
     flex-direction: row; */
     gap: 20px;
     display: grid;
-  grid-template-columns: 24% 41% 32%;
+  grid-template-columns: 22.5% 44.5% 30%;
   width: 100%;
 }

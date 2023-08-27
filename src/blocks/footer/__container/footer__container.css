@@ -1,0 +1,7 @@
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 255px) ;
+    /* gap: 90px; */
+    /* justify-content: space-between; */
+}

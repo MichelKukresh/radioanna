@@ -1,5 +1,8 @@
 .card-operational {
 color: black;
-background-color: #FBFBFB;
+/* background-color: #FBFBFB; */
 border-radius: 12px;
+display: flex;
+flex-direction: column;
+gap: 25px;
 }

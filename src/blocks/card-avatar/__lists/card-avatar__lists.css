@@ -1,8 +1,9 @@
 .card-avatar__lists {
-    padding: 20px;
+    padding: 25px 25px 0px 25px;
     margin: 0px;
     background-color: #FBFBFB;
     border-radius: 8px;
     list-style-type: none;
     
 }
+

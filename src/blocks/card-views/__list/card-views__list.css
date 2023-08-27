@@ -1,3 +1,6 @@
 .card-views__list {
-    
+    background-color: #FBFBFB;
+    border-radius: 15px;
+    /* width:  300px; */
+    padding: 20px;
 }

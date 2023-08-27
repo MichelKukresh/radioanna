@@ -1,3 +1,8 @@
 .section-main__title {
-    
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
 }

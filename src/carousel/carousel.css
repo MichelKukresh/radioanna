@@ -1,24 +1,85 @@
+
+/* Корусель из простых карточек */
 .slick-track li {
   margin-right: 20px;
 }
 
 .slick-arrow {
-  content: ""; /* Удаляем текст */
+  content: "";
   background-image: url("../images/chevron.svg");
-  background-size: cover;
+  background-repeat: no-repeat;
   width: 37px;
   height: 76px;
   border: none;
   background-color: inherit;
-  left: -48px;
-  top: 149px;
+  left: -58px;
+    top: 122px;
   margin-top: -47px;
   position: absolute;
   transform: rotate(180deg);
 }
 
 .slick-arrow.slick-next {
-  left: calc(100% + 10px) ;
-  top: 149px;
+  left: calc(100% + 13px);
+  top: 145px;
   transform: rotate(0deg);
-} 
+}
+
+
+/* Корусель на главной странице */
+.caorusel__main .slick-arrow {
+  content: "";
+  background-image: url("../images/chevron_min.svg");
+  width: 18px;
+  height: 30px;
+  left: calc(100% + -34px);
+  top: 220px;
+  margin-top: -47px;
+  transform: rotate(180deg);
+  position: absolute;
+  z-index: 99;
+}
+
+.caorusel__main .slick-prev {
+  
+  left: 17px;
+  transform: rotate(0deg);
+}
+
+.caorusel__main .slick-dots {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 0px;
+}
+
+.caorusel__main .slick-dots button {
+  text-indent: -9999px;
+  background-image: url(../images/point.svg);
+  /* background-size: cover; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 12px;
+  
+}
+
+.caorusel__main .slick-dots .slick-active button {
+  background-image: url(../images/point_activ.svg);
+}
+
+/* карусель мнения */
+
+/* .caorusel-views .slick-slide {
+  min-width: 250px;
+} */
+
+
+.caorusel-views .slick-slide {
+  margin-right: 30px; /* Увеличьте или уменьшите значение для изменения расстояния */
+}
+
+.caorusel-views .slick-arrow {
+  top: 220px;
+}

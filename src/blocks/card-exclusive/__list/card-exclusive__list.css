@@ -2,6 +2,6 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    margin-bottom: 15px;
-    max-height: 204px;
+    /* margin-bottom: 15px; */
+    height: 208px;
 }

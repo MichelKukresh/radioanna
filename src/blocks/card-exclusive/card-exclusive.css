@@ -8,5 +8,8 @@ margin: 0px;
 /* background-color: #FBFBFB; */
 border-radius: 12px;
 list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 15px;
 }
 

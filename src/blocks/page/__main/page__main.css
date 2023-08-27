@@ -1,10 +1,10 @@
  .page__main {
   margin-top: 15px;
-    margin-bottom: 52px;
-    width: calc(100% - 40px);
+    margin-bottom: 54px;
+    width: calc(100% - 100px);
     display: flex;
     flex-direction: column;
-    max-width: 1335px;
+    max-width: 1620px;
     align-items: center;
     
 }
