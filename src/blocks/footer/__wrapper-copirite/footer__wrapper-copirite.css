@@ -1,0 +1,6 @@
+.footer__wrapper-copirite {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}

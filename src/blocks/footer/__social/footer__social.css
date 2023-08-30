@@ -1,0 +1,9 @@
+.footer__social {
+    right: 0;
+    position: absolute;
+    /* left: 0px; */
+    bottom: -10px;
+   
+    max-width: 322px;
+    margin-right: 60px;
+}

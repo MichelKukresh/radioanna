@@ -36,6 +36,8 @@
 @import url("../blocks/social/__lists/social__lists.css");
 @import url("../blocks/social/__title/social__title.css");
 @import url("../blocks/social/__sub-title/social__sub-title.css");
+@import url("../blocks/social/_footer/social_footer.css");
+@import url("../blocks/social/__sub-title/__footer/social__sub-title_footer.css");
 
 @import url("../blocks/card-video/card-video.css");
 @import url("../blocks/card-video/__video/card-video__video.css");
@@ -147,3 +149,9 @@
 @import url("../blocks/footer/__info/footer__info.css");
 @import url("../blocks/footer/__img/footer__img.css");
 @import url("../blocks/footer/__img/_rss/footer__img_rss.css");
+@import url("../blocks/footer/__social/footer__social.css");
+@import url('../blocks/footer/__wrapper-copirite/footer__wrapper-copirite.css');
+@import url("../blocks/footer/__img/_partner/footer__img_partner.css");
+
+
+@import url("../blocks/search/search.css");

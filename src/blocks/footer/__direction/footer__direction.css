@@ -3,6 +3,7 @@
  flex-direction: row; 
  justify-content: space-between;
  width: 100%;
+ position: relative;
  
  /* gap: 74px; */
  /* 
@@ -21,7 +22,7 @@
 } */
 .footer__direction nav {
  /* margin-right: 100px; */
-
+ max-width: 150px;
 }
 
 
@@ -50,6 +51,12 @@
 .footer__direction nav h3 {
   font-weight: 400;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 0px;
+}
+
+.footer__direction .footer__direction_line {
+  border-bottom: 1px solid;
+  font-size: 14px;
+  
 }
