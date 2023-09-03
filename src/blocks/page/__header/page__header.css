@@ -12,4 +12,5 @@
 }
 .page__header:last-child {
   justify-content: space-between; 
+  align-items: center;
 }

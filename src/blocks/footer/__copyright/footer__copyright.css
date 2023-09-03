@@ -14,8 +14,27 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 320px) {
+
+
+@media (max-width: 1071px) {
+  .footer__copyright {
+    width: 917px;
+  }
+}
+
+@media (max-width: 917px) {
+  .footer__copyright {
+    width: 100%;
+  }
+}
+
+
+
+
+/* @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 100%;
   }
-}
+} */
+
+

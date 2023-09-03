@@ -8,3 +8,9 @@
     padding: 0px;
     margin: 0px;
 }
+
+@media(max-width: 1150px) {
+    .card-rubric__lists {
+        column-gap: 15px;
+    }
+}

@@ -6,3 +6,42 @@
   grid-template-columns: 22.5% 44.5% 30%;
   width: 100%;
 }
+
+@media (max-width: 1280px){
+  .section-main__content {
+
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-areas:
+    "caorusel caorusel"
+    "video last";
+}
+
+@media (max-width: 700px){
+  .section-main__content {
+
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-areas:
+    "caorusel caorusel"
+    "video video"
+    "last last"
+     }   ;
+}
+  
+  
+
+.section-main__content_1 {
+  grid-area: video;
+}
+
+.section-main__content_2 {
+  grid-area: caorusel;
+}
+
+.section-main__content_3 {
+  grid-area: last;
+}
+
+}
+

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="pages/index.css" />
-    <title>Russian-travel</title>
+    <title>Radio-ANNA</title>
     <link
       rel="stylesheet"
       type="text/css"
@@ -29,18 +29,18 @@
               alt="картинка иконки радио лайв"
               class="header__logo"
           /></a>
-          <a class="header__widget" href="">
+          <a class="header__widget header__widget_none" href="">
             <span>Бегущая строка</span> <span>Бегущая строка</span>
             <span>Бегущая строка</span> <span>Бегущая строка</span></a
           >
           <a
-            class="header__widget header__widget_telegramm-text"
+            class="header__widget "
             href="https://telegram.me/anna_news"
             ><img
               src="../src/images/telegram.svg"
               alt="иконка телеграмм"
-            />Получать оперативную <br />
-            информацию</a
+            /> <span class="header__widget_telegramm-text">Получать оперативную <br />
+           информацию</span> </a
           >
           <a href=""
             ><img src="../src/images/icon_message.svg" alt="иконка сообщения"
@@ -51,13 +51,13 @@
         <div class="page__header">
           <nav>
             <ul class="header__navigaton">
-              <li><a class="header__link" href="#">СВО</a></li>
-              <li><a class="header__link" href="#">Афганистан</a></li>
-              <li><a class="header__link" href="#">Сирия</a></li>
-              <li><a class="header__link" href="#">Донбасс</a></li>
-              <li><a class="header__link" href="#">ВПК/Технологии</a></li>
+              <li><a class="header__link header__link_desctop" href="#">СВО</a></li>
+              <li><a class="header__link header__link_desctop" href="#">Афганистан</a></li>
+              <li><a class="header__link header__link_desctop" href="#">Сирия</a></li>
+              <li><a class="header__link header__link_desctop" href="#">Донбасс</a></li>
+              <li><a class="header__link header__link_desctop" href="#">ВПК/Технологии</a></li>
               <li>
-                <a class="header__link" href=""
+                <a class="header__link header__link_mobile" href=""
                   >Все рубрики
                   <img src="images/cevron.svg" alt="иконка шеврона" />
                 </a>
@@ -91,7 +91,7 @@
 
         <section class="section content content__section section-main">
           <div class="section-main__content">
-            <div class="section-main__item">
+            <div class="section-main__item section-main__content_1">
               <!-- 3 шаблон все видео  -->
               <div class="card-video">
                 <div class="card-video__title-container">
@@ -125,7 +125,7 @@
                 </div>
               </div>
             </div>
-            <div class="section-main__item">
+            <div class="section-main__item section-main__content_2">
               <!-- шаблон 10.2  Разметка слайдера -->
               <div class="itcss">
                 <h2 class="section-main__title">Главное за день</h2>
@@ -216,7 +216,7 @@
                 </li>
               </ul>
             </div>
-            <div class="section-main__item">
+            <div class="section-main__item section-main__content_3">
               <ul class="read-in-categories">
                 <h3 class="read-in-categories__title">Последние новости</h3>
                 <li>
@@ -616,15 +616,11 @@
 
         <section class="section content content__section section-duble-line">
           <!-- 13 шаблон карточки оперативная лента -->
-          <div class="card-operational">
-            <!-- <div class="card-operational__headers">
-            <h3 class="card-operational__title">Донбас. Оперативная лента</h3>
-            <a class="card-operational__title card-operational__title_link">Перейти в рубрику</a>
-          </div> -->
+          <div class="card-operational">           
             <div class="element-title">
               <ul class="element-title__lists">
                 <li class="element-title__list">
-                  <h3 class="element-title__text">Донбас. Оперативная лента</h3>
+                  <h3 class="element-title__text">Донбасс. Оперативная лента</h3>
                 </li>
               </ul>
               <a class="element-title__link" href="">Перейти в рубрику</a>
@@ -1468,40 +1464,50 @@
         </div>
       </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
-    <!-- integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-    crossorigin="anonymous" -->
-
     <script
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script>
+     
       // карусель из простых карточек
       $(document).ready(function () {
         $(".section-carousel__content").slick({
-          slidesToShow: 6,
-          // slidesToScroll: 1,
-          // infinite: true,
-          // centerMode: true,
-          centerPadding: "50px",
-          //// autoplay: true,
-          //// autoplaySpeed: 1500,
-          // другие настройки слайдера
-          responsive: [
-            {
-              breakpoint: 300,
-              settings: {
-                slidesToShow: 5,
-                slidesToScroll: 1,
-                variableWidth: false,
-                // другие настройки для этого разрешения экрана
-              },
-            },
-            // другие настройки для различных разрешений экрана
-          ],
+          slidesToShow: 5,
+           slidesToScroll: 1,
+           responsive: [
+      {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 680,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 1110,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 5
+        }
+      }
+    ]          
         });
 
         $(".slick-prev").text("");
@@ -1531,6 +1537,28 @@
         $(".caorusel-views").slick({
           slidesToShow: 4,
           slidesToScroll: 1,
+          responsive: [
+      {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+      
+      {
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 2
+                }
+      },
+      
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 4
+                }
+      }
+    ]  
         });
 
         $(".slick-prev").text("");

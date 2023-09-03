@@ -17,7 +17,12 @@
   margin-top: -47px;
   position: absolute;
   transform: rotate(180deg);
+  color: transparent;
+  padding: 0px;
 }
+
+
+
 
 .slick-arrow.slick-next {
   left: calc(100% + 13px);

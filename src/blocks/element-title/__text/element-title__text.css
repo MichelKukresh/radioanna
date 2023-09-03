@@ -1,4 +1,5 @@
 .element-title__text {
     margin: 0px;
+    white-space: nowrap;
 
 }
