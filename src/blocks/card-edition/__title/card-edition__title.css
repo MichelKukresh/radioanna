@@ -8,3 +8,14 @@
 .card-edition__title:not(:first-child) {
     font-size: 16px;
 }
+
+@media (max-width: 1620px) {
+    .card-edition__title {
+      font-size: 18px;
+      
+    }
+
+    .card-edition__title:not(:first-child) {
+        font-size: 14px;
+    }
+  } 

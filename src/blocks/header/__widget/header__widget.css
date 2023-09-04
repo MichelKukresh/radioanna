@@ -11,3 +11,10 @@
     height: 12px;
     text-decoration: none;
 }
+
+@media (max-width: 1620px) {
+    .header__widget  {
+        font-size: 18px;
+        gap: 20px;
+    }
+}

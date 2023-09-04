@@ -5,3 +5,9 @@
     color: #80837F;
     white-space: nowrap;
 }
+
+@media (max-width: 1620px) {
+    .element-title__link {
+        font-size: 13px;
+    } 
+}

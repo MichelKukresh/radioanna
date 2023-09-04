@@ -3,3 +3,10 @@
 font-weight: 500;
 margin-top: 5px;
 }
+
+@media (max-width: 1620px)  {
+    .social__sub-title {
+        font-size: 16px;
+   
+    }  
+}

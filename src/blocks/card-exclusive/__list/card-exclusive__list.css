@@ -5,3 +5,9 @@
     /* margin-bottom: 15px; */
     height: 208px;
 }
+
+@media (max-width: 1620px) {
+    .card-exclusive__list {        
+        height: 183px;
+    }
+}

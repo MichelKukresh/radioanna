@@ -11,3 +11,10 @@
   max-height: 708px;
     overflow-y: scroll;  
 }
+
+@media (max-width: 1620px) {
+  .read-in-categories {
+    max-height: 618px;
+    padding: 5px 5px 5px 16px;
+  }
+}

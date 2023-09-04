@@ -1,25 +1,14 @@
-.header__link {
-  
-  font-size: 20px;
-  /* line-height: 117%;
-  text-align: right;
-  
-  margin-right: 18px; */
+.header__link {  
+  font-size: 20px;  
   text-decoration: none;
   color: #ffffff;
 }
 
-/* .header__lang-link:last-child {
-  margin-right: 0px;
-}
 
-.header__lang-link:hover {
-  opacity: 0.8;
-}
 
-@media screen and (max-width: 320px) {
-  .header__lang-link {
+@media (max-width: 1620px) {
+  .header__link {
     font-size: 18px;
-    line-height: 20px;
+    
   }
-} */
+} 

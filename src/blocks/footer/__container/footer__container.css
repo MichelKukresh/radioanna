@@ -10,8 +10,18 @@
 
 @media (max-width: 1618px) {
     .footer__container {
-        flex-direction: column;
+        /* flex-direction: column;
         align-items: center;
-gap: 10px;
+gap: 10px; */
+width: calc(100% - 70px) ;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .footer__container {
+         flex-direction: column;
+        align-items: center;
+       gap: 10px;
+        
     }
   }

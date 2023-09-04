@@ -5,3 +5,9 @@
     color: black;
 
 }
+
+@media (max-width: 1620px) {
+    .card-exclusive__subtitle {
+        font-size: 16px;
+    }  
+}

@@ -3,3 +3,11 @@
     font-size: 15px;
     text-decoration: underline;
 }
+
+@media (max-width: 1620px) {
+    .social__title {
+        
+        font-size: 13px;
+        
+    }
+}

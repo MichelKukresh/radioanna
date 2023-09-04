@@ -4,3 +4,10 @@
     padding: 0px 25px 0px 25px;
     margin: 10px 0px 10px 0px;
 }
+
+@media (max-width: 1620px) {
+    .card-edition__sub-title {
+      font-size: 14px;
+      
+    }
+  } 

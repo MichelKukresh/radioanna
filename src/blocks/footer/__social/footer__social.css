@@ -7,3 +7,19 @@
     max-width: 322px;
     margin-right: 60px;
 }
+
+
+ @media (max-width: 1620px) {
+    .footer__social {
+        bottom: -54px;   
+        margin-right: -5px;
+  }
+} 
+
+
+@media (max-width: 1250px) {
+    .footer__social {
+        position: relative;   
+        /* margin-right: calc(100); */
+  }
+}

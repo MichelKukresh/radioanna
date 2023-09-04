@@ -6,3 +6,9 @@
     margin-bottom: 12px;
     letter-spacing: 2px;
 }
+
+@media (max-width: 1620px)  {
+    .section-main__title {
+        font-size: 31px; 
+    }
+}

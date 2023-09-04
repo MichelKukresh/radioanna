@@ -5,3 +5,9 @@
    
     
 }
+
+@media (max-width: 1620px) {
+    .card-exclusive__link {
+        font-size: 13px; 
+    }
+}

@@ -6,3 +6,9 @@
     letter-spacing: 2px;
     
 }
+
+@media (max-width: 1620px) {
+    .card-main__title  {
+        font-size: 23px;
+    }
+}

@@ -1,5 +1,13 @@
 .element-title__text {
     margin: 0px;
     white-space: nowrap;
+    font-size: 21px;
+    font-weight: 700;
 
+}
+
+@media (max-width: 1280px) {
+    .element-title__text {
+        font-size: 18px;
+    }
 }
