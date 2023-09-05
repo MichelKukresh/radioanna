@@ -15,4 +15,12 @@
     grid-row: span 2;
   }
   
-  
+  @media (max-width:1270px) {
+    
+    /* .card-edition__lists {
+      column-gap: 54px;
+    row-gap: 10px;
+    } */
+
+    
+  }

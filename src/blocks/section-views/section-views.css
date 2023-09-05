@@ -5,3 +5,9 @@
     flex-direction: column;
     gap: 10px;
 }
+
+@media (max-width: 1620px) {
+    .section-views {
+        margin-bottom: 50px; 
+    }
+}

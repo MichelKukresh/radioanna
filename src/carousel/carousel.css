@@ -30,6 +30,21 @@
   transform: rotate(0deg);
 }
 
+@media (max-width: 1620px) {
+  .slick-arrow {
+    background-size: cover;
+    width: 23px;
+    height: 46px;
+    left: -40px;
+  }
+  .slick-arrow.slick-next {
+    left: calc(100% + 3px);
+    top: 145px;
+    transform: rotate(0deg);
+  }
+}
+
+
 
 /* Корусель на главной странице */
 .caorusel__main .slick-arrow {

@@ -8,6 +8,12 @@
 
 @media (max-width: 1620px) {
     .card-main__discription {
-        font-size: 14px;
+        font-size: 13px;
+    } 
+}
+
+@media (max-width: 1270px) {
+    .card-main__discription {
+        font-size: 11px;
     } 
 }

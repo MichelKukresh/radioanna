@@ -12,5 +12,6 @@
 @media (max-width: 1620px) {
     .social  {        
         padding: 9px 15px 6px 15px;
+        min-height: 144px;
     }
 }

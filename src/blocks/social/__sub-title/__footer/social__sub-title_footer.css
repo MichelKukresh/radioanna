@@ -4,6 +4,12 @@ font-size: 16px;
 
 @media (max-width: 1620px) {
     .social__sub-title_footer {
-        font-size: 14px;
+        font-size: 13px;
+        }
+}
+
+@media (max-width: 1270px) {
+    .social__sub-title_footer {
+        font-size: 11px;
         }
 }

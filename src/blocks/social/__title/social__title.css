@@ -7,7 +7,15 @@
 @media (max-width: 1620px) {
     .social__title {
         
-        font-size: 13px;
+        font-size: 12px;
+        
+    }
+}
+
+@media (max-width: 1270px) {
+    .social__title {
+        
+        font-size: 11px;
         
     }
 }

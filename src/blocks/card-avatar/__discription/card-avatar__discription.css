@@ -8,7 +8,16 @@
 
 @media (max-width: 1620px) {
     .card-avatar__discription {
-      font-size: 16px;
+      font-size: 15px;
+      min-height: 76px;
+      
+    }
+  } 
+  
+  @media (max-width: 1270px) {
+    .card-avatar__discription {
+      font-size: 13px;
+      /* min-height: 76px; */
       
     }
   } 

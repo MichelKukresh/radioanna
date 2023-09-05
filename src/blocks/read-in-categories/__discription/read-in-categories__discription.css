@@ -10,6 +10,12 @@
 
 @media (max-width: 1620px)  {
     .read-in-categories__discription {
-        font-size: 16px; 
+        font-size: 15px; 
+    } 
+}
+
+@media (max-width: 1270px)  {
+    .read-in-categories__discription {
+        font-size: 13px; 
     } 
 }

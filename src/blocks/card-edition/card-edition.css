@@ -7,3 +7,9 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media (max-width: 1620px)  {
+    .card-edition  {
+        height: 470px;
+    }
+}

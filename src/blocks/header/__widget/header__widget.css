@@ -14,7 +14,17 @@
 
 @media (max-width: 1620px) {
     .header__widget  {
-        font-size: 18px;
-        gap: 20px;
+        padding: 12px 5px 12px 5px;
+        font-size: 13px;
+        gap: 10px;
     }
+}
+
+@media (max-width: 1270px) {
+
+    .header__widget {
+    
+    font-size: 11px;
+    gap: 5px;
+}
 }

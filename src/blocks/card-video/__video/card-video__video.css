@@ -5,3 +5,9 @@
     height: 211px;
     overflow: hidden;
 }
+
+@media (max-width: 1620px) {
+    .card-video__video {
+        height: 152px;
+        }
+}

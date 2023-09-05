@@ -11,6 +11,12 @@
     
   }
 
+  @media (max-width:1270px) {
+    .page__container-header {
+      margin-top: 0px;
+    }
+  }
+
   /* .page__container-header:first-child {
     margin-bottom: 6px;
   } */

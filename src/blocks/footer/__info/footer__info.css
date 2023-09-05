@@ -22,9 +22,21 @@
         margin-right: 15px; 
     }
     .footer__info span {       
-        font-size: 14px;              
+        font-size: 13px;              
     }
 }
+
+@media (max-width: 1270px) {
+
+    .footer__info {
+        margin-right: 13px; 
+    }
+    .footer__info span {       
+        font-size: 11px;              
+    }
+}
+
+
 
 @media (max-width: 1200px) {
     .footer__info {

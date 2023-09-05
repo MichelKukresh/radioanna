@@ -14,17 +14,8 @@
   margin-top: 12px;
 }
 
-/* @media (max-width: 1023px) {
+@media (max-width:1270px) {
   .header {
-    width: calc(100% - 48px);
+    margin-top: 0px;
   }
 }
-
-@media (max-width: 767px) {
-  .header {
-    width: calc(100% - 32px);
-    min-height: 42px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-} */

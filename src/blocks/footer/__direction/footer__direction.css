@@ -50,13 +50,13 @@
 
 @media (max-width: 1620px) {
   .footer__direction nav ul a {    
-    font-size: 14px;    
+    font-size: 13px;    
   }
   .footer__direction nav h3 {    
-    font-size: 18px;    
+    font-size: 17px;    
   }
   .footer__direction .footer__direction_line {   
-    font-size: 13px;    
+    font-size: 12px;    
   }
 
 }

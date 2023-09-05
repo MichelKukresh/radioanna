@@ -1,3 +1,9 @@
 .card-views__description {
     min-height: 150px;
 }
+
+@media (max-width: 1620px) {
+    .card-views__description {
+        min-height: 97px;
+    }
+}

@@ -8,6 +8,12 @@
 
 @media (max-width: 1620px) {
     .card-exclusive__subtitle {
-        font-size: 16px;
+        font-size: 15px;
+    }  
+}
+
+@media (max-width: 1270px) {
+    .card-exclusive__subtitle {
+        font-size: 13px;
     }  
 }

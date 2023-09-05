@@ -10,6 +10,12 @@
 
 @media (max-width: 1620px) {
     .card-them__description {
-        font-size: 16px; 
+        font-size: 14px; 
+    } 
+}
+
+@media (max-width: 1270px) {
+    .card-them__description {
+        font-size: 12px; 
     } 
 }

@@ -7,7 +7,14 @@
 
 @media (max-width: 1620px) {
     .card-edition__sub-title {
-      font-size: 14px;
+      font-size: 13px;
+      
+    }
+  } 
+
+  @media (max-width: 1270px) {
+    .card-edition__sub-title {
+      font-size: 11px;
       
     }
   } 

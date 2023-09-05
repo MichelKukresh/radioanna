@@ -13,3 +13,13 @@
 .section-main__item:last-child {
     margin-top: 57px;
 }
+
+@media (max-width: 1620px) {
+    .section-main__item:first-child {
+        margin-top: 52px;
+    }
+    
+    .section-main__item:last-child {
+        margin-top: 52px;
+    }
+}

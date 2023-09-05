@@ -3,3 +3,9 @@
     flex-direction: column;
     margin-bottom: 97px;
 }
+
+@media (max-width: 1620px) {
+    .section-main {        
+        margin-bottom: 60px;
+    }
+}

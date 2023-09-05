@@ -8,6 +8,13 @@
 
 @media (max-width: 1620px) {
     .card-exclusive__list {        
-        height: 183px;
+        height: 160px;
     }
+}
+
+@media (max-width: 1620px) {
+.card-exclusive__list {
+    height: 140px;
+
+}
 }

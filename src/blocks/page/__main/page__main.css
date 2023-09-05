@@ -9,9 +9,8 @@
     
 }
 
-/* @media (max-width: 690px) {
+@media (max-width: 1620px) {
   .page__main {
-    margin-top: 42px;
-    margin-bottom: 34px;
+    margin-bottom: 54px;
   }
-} */
+}
