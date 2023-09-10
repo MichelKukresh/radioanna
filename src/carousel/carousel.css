@@ -21,6 +21,12 @@
   padding: 0px;
 }
 
+@media (max-width: 580px) {
+  .slick-arrow {    
+    display: none;
+}
+
+}
 
 
 
@@ -59,6 +65,15 @@
   position: absolute;
   z-index: 99;
 }
+
+ @media (max-width: 580px) {
+  .slick-list.slick-next {
+    display: none;
+  }
+ } 
+
+
+
 
 .caorusel__main .slick-prev {
   
@@ -102,4 +117,15 @@
 
 .caorusel-views .slick-arrow {
   top: 220px;
+}
+
+
+@media (max-width: 580px) {
+  .caorusel-views .slick-slide {
+     margin-right: 0px;
+}
+.slick-track li {
+   margin-right: 0px;
+}
+  
 }

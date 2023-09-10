@@ -24,6 +24,12 @@
 @import url("../blocks/header/__widget/_none/header__widget_none.css");
 @import url("../blocks/header/__link/_desctop/header__link_desctop.css");
 @import url("../blocks/header/__link/_mobile/header__link_mobile.css");
+@import url("../blocks/header/__message/header__message.css");
+@import url("../blocks/header/__radio/header__radio.css");
+@import url("../blocks/header/__radio/_img/header__radio_img.css");
+@import url("../blocks/header/__button/_serch/header__button_search.css");
+@import url("../blocks/header/__button/_flag/header__button_flag.css");
+@import url("../blocks/header/__button/_menu/header__button_menu.css");
 
 @import url("../blocks/bread-crumbs/bread-crumbs.css");
 @import url("../blocks/bread-crumbs/__link/bread-crumbs__link.css");

@@ -8,3 +8,9 @@
     /* justify-content: space-between; */
     justify-content: center;
 }
+
+@media (max-width: 580px) { 
+    .social__lists {
+        gap: 11px;  
+    }
+}

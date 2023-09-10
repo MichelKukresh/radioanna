@@ -11,3 +11,9 @@
         font-size: 18px;
     }
 }
+
+@media (max-width: 580px) {
+    .element-title__text {
+    font-size: 11px;
+}
+}

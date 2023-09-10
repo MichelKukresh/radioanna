@@ -23,8 +23,8 @@
               alt="логотип сайта Анна радио"
               class="header__logo"
           /></a>
-          <a href=""
-            ><img
+          <a class="header__radio" href=""
+            ><img class="header__radio_img"
               src="images/radio.svg"
               alt="картинка иконки радио лайв"              
           /></a>
@@ -41,7 +41,7 @@
             /> <span class="header__widget_telegramm-text">Получать оперативную <br />
            информацию</span> </a
           >
-          <a href=""
+          <a class="header__message" href=""
             ><img src="../src/images/icon_message.svg" alt="иконка сообщения"
           /></a>
         </div>
@@ -65,13 +65,13 @@
           </nav>
           <div>
             <button class="header__button">
-              <img src="images/search-white.svg" alt="картинка поиска" />
+              <img class="header__button_search" src="images/search-white.svg" alt="картинка поиска" />
             </button>
             <button class="header__button">
-              <img src="images/flag.svg" alt="картинка флага" />
+              <img class="header__button_flag" src="images/flag.svg" alt="картинка флага" />
             </button>
             <button class="header__button">
-              <img src="images/menu.svg" alt="картинка меню" />
+              <img class="header__button_menu" src="images/menu.svg" alt="картинка меню" />
             </button>
           </div>
         </div>
@@ -1469,6 +1469,7 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script>
+
      
       // карусель из простых карточек
       $(document).ready(function () {
@@ -1563,6 +1564,24 @@
         $(".slick-prev").text("");
         $(".slick-next").text("");
       });
+
+      
+      // отключаем кнопки при ширине менее 580px
+      $(document).ready(function() {
+  // Проверяем ширину окна при загрузке страницы
+  if ($(window).width() < 580) {
+    $('.slick-arrow').hide();
+  }
+
+  // Проверяем ширину окна при изменении размера окна
+  $(window).resize(function() {
+    if ($(window).width() < 580) {
+      $('.slick-arrow').hide();
+    } else {
+      $('.slick-arrow').show();
+    }
+  });
+});
     </script>
   </body>
 </html>

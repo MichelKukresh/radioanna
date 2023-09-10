@@ -4,3 +4,10 @@
     padding: 20px;
     margin-left: -15px;
 }
+
+@media (max-width: 580px) {
+    .card-exclusive__text {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+};

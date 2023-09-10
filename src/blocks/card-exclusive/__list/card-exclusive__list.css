@@ -18,3 +18,12 @@
 
 }
 }
+
+@media (max-width: 1620px) {
+    .card-exclusive__list {
+    flex-direction: column;
+    height: auto;
+}
+
+    
+}

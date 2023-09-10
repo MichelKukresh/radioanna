@@ -16,3 +16,9 @@
         height: 319px; 
     }
 }
+
+@media (max-width: 580px) {
+    .card-main {
+        height: 208px; 
+    }
+}

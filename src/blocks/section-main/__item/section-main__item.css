@@ -23,3 +23,17 @@
         margin-top: 52px;
     }
 }
+
+@media (max-width: 1620px) {
+    .section-main__item:first-child {
+    margin-top: 10px;
+}
+
+}
+
+@media (max-width: 580px) {
+.section-main__item:last-child {
+    margin-top: 10px;
+}
+
+}

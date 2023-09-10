@@ -6,6 +6,12 @@
   .card-edition__list:not(:first-child) {
     border-radius: 8px;
   }
+
+  @media (max-width: 580px) {
+    .card-edition__list:not(:first-child) {
+      display: none;
+    }
+  }
  
   
   

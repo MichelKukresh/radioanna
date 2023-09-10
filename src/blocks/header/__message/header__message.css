@@ -1,0 +1,12 @@
+.header__message {
+
+
+}
+
+@media (max-width: 580px) {
+    .header__message {
+display: none;
+    
+    }
+    
+}

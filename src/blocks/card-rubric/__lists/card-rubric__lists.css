@@ -14,3 +14,10 @@
         column-gap: 15px;
     }
 }
+
+@media (max-width: 580px) {
+    .card-rubric__lists {    
+    grid-template-columns: 1fr;
+}
+}
+

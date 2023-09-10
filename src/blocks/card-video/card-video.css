@@ -16,3 +16,10 @@ min-height: 476px;
     }
 }
 
+@media (max-width: 1270px) {
+    .card-video {
+        min-height: 346px;
+    }
+}
+
+

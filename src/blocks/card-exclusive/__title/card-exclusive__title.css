@@ -17,3 +17,10 @@
         font-size: 17px;
     } 
 }
+
+@media (max-width: 580px) {
+    .card-exclusive__title {
+    font-size: 13px;
+}
+
+}

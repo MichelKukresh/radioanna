@@ -25,3 +25,9 @@ width: calc(100% - 70px) ;
         
     }
   }
+
+  @media (max-width: 580px) {
+    .footer__container {
+    width: calc(100% - 37px);
+}
+  }

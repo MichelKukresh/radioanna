@@ -18,3 +18,10 @@
         font-size: 28px; 
     }
 }
+
+@media (max-width: 5800px) {
+    .section-main__title {
+    font-size: 20px;
+}
+
+}
