@@ -9,4 +9,8 @@
 - inter light 300 - 16, 18
 - inter extraLight 200 - 13
 
-Проект доступен по ссылке https://michelkukresh.github.io/radioanna/src/
+Проект доступен по cсылкам:
+
+- [Главная страница](https://michelkukresh.github.io/radioanna/src/index1.html "Главная страница")
+- [Вторая страница](https://michelkukresh.github.io/radioanna/src/index2.html "Вторая страница")
+- [Третья страница](https://michelkukresh.github.io/radioanna/src/index3.html "Третья страница")
