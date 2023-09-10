@@ -9,6 +9,7 @@
 @import url("../blocks/section/section.css");
 @import url("../blocks/page/__main/page__main.css");
 @import url("../blocks/page/__footer/page__footer.css");
+@import url("../blocks/page/__main/_min/page__maim_min.css");
 
 
 @import url("../blocks/content/__section/content__section.css");
@@ -76,9 +77,11 @@
 @import url("../blocks/card-main/card-main.css");
 @import url("../blocks/card-main/__discription/card-main__discription.css");
 @import url("../blocks/card-main/__title/card-main__title.css");
+@import url("../blocks/card-main/_max/card-main_max.css");
 
 @import url("../blocks/card-donat/card-donat.css");
 @import url("../blocks/card-donat/__img/card-donat.css");
+@import url("../blocks/card-donat/_max/card-donat_max.css");
 
 @import url("../blocks/card-avatar/__discription/card-avatar__discription.css");
 @import url("../blocks/card-avatar/__img/card-avatar__img.css");
@@ -172,3 +175,16 @@
 @import url("../blocks/popup-menu/__lists/popup-menu__lists.css");
 @import url("../blocks/popup-menu/__title/popup-menu__title.css");
 @import url("../blocks/popup-menu/__lists/_column-2/popup-menu__lists_column-2.css");
+
+@import url("../blocks/section-rubric/section-rubric.css");
+@import url("../blocks/section-rubric/__donat/section-rubric__donat.css");
+@import url("../blocks/section-rubric/__container/section-rubric__container.css");
+
+@import url("../blocks/element-main-title/element-main-title.css");
+
+@import url("../blocks/section-rubric-simple-card/section-rubric-simple-card.css");
+@import url("../blocks/section-rubric-simple-card/__item/section-rubric-simple-card__item.css");
+
+@import url("../blocks/section-next-button/section-next-button.css");
+
+@import url("../blocks/button-next/button-next.css");

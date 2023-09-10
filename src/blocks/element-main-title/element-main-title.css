@@ -1,4 +1,4 @@
-.section-main__title {
+.element-main-title {
     color: black;
     font-size: 35px;
     font-weight: 700;
@@ -8,19 +8,19 @@
 }
 
 @media (max-width: 1620px)  {
-    .section-main__title {
+    .element-main-title {
         font-size: 30px; 
     }
 }
 
 @media (max-width: 1270px)  {
-    .section-main__title {
+    .element-main-title {
         font-size: 28px; 
     }
 }
 
 @media (max-width: 5800px) {
-    .section-main__title {
+    .element-main-title {
     font-size: 20px;
 }
 
