@@ -1,0 +1,13 @@
+.popup-menu {
+    top: 145px;
+    right: 40px;
+    position: absolute;
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 30px;    
+    z-index: 999;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

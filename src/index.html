@@ -13,6 +13,8 @@
     />
   </head>
 
+
+  <!-- ШАБЛОН ГЛАВНОЙ СТРАНИЦЫ --------------------------------------------------------------------------------------->
   <body class="page">
     <header class="header section page__container-header">
       <div class="page__container-header">
@@ -24,23 +26,22 @@
               class="header__logo"
           /></a>
           <a class="header__radio" href=""
-            ><img class="header__radio_img"
+            ><img
+              class="header__radio_img"
               src="images/radio.svg"
-              alt="картинка иконки радио лайв"              
+              alt="картинка иконки радио лайв"
           /></a>
           <a class="header__widget header__widget_none" href="">
             <span>Бегущая строка</span> <span>Бегущая строка</span>
             <span>Бегущая строка</span> <span>Бегущая строка</span></a
           >
-          <a
-            class="header__widget "
-            href="https://telegram.me/anna_news"
-            ><img
-              src="../src/images/telegram.svg"
-              alt="иконка телеграмм"
-            /> <span class="header__widget_telegramm-text">Получать оперативную <br />
-           информацию</span> </a
-          >
+          <a class="header__widget" href="https://telegram.me/anna_news"
+            ><img src="../src/images/telegram.svg" alt="иконка телеграмм" />
+            <span class="header__widget_telegramm-text"
+              >Получать оперативную <br />
+              информацию</span
+            >
+          </a>
           <a class="header__message" href=""
             ><img src="../src/images/icon_message.svg" alt="иконка сообщения"
           /></a>
@@ -50,11 +51,27 @@
         <div class="page__header">
           <nav>
             <ul class="header__navigaton">
-              <li><a class="header__link header__link_desctop" href="#">СВО</a></li>
-              <li><a class="header__link header__link_desctop" href="#">Афганистан</a></li>
-              <li><a class="header__link header__link_desctop" href="#">Сирия</a></li>
-              <li><a class="header__link header__link_desctop" href="#">Донбасс</a></li>
-              <li><a class="header__link header__link_desctop" href="#">ВПК/Технологии</a></li>
+              <li>
+                <a class="header__link header__link_desctop" href="#">СВО</a>
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#"
+                  >Афганистан</a
+                >
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#">Сирия</a>
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#"
+                  >Донбасс</a
+                >
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#"
+                  >ВПК/Технологии</a
+                >
+              </li>
               <li>
                 <a class="header__link header__link_mobile" href=""
                   >Все рубрики
@@ -65,21 +82,79 @@
           </nav>
           <div>
             <button class="header__button">
-              <img class="header__button_search" src="images/search-white.svg" alt="картинка поиска" />
+              <img
+                class="header__button_search"
+                src="images/search-white.svg"
+                alt="картинка поиска"
+              />
             </button>
             <button class="header__button">
-              <img class="header__button_flag" src="images/flag.svg" alt="картинка флага" />
+              <img
+                class="header__button_flag"
+                src="images/flag.svg"
+                alt="картинка флага"
+              />
             </button>
             <button class="header__button">
-              <img class="header__button_menu" src="images/menu.svg" alt="картинка меню" />
+              <img
+                class="header__button_menu"
+                src="images/menu.svg"
+                alt="картинка меню"
+              />
             </button>
           </div>
         </div>
       </div>
+      <!-- 17 Шаблон попап хедер -->
+      <diV class="popup-menu">
+        <nav class="popup-menu__container">
+          <h4 class="popup-menu__title">Регионы</h4>
+          <ul class="popup-menu__lists">
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+          </ul>
+        </nav>
+          <nav class="popup-menu__container">
+            <h4 class="popup-menu__title">Рубрики</h4>
+            <ul class="popup-menu__lists popup-menu__lists_column-2">
+              <!-- Настройка если понадобится другое количество добавить модификатор соответствующий -->
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+            </ul>
+        </nav>
+
+
+
+      </diV>
     </header>
 
     <main class="section page__container-main">
       <div class="section page__main">
+        <!-- 18 шаблон хлебных крошек -->
         <section class="section content content__section">
           <div class="bread-crumbs">
             <a class="bread-crumbs__link" href="">Главная</a
@@ -615,11 +690,13 @@
 
         <section class="section content content__section section-duble-line">
           <!-- 13 шаблон карточки оперативная лента -->
-          <div class="card-operational">           
+          <div class="card-operational">
             <div class="element-title">
               <ul class="element-title__lists">
                 <li class="element-title__list">
-                  <h3 class="element-title__text">Донбасс. Оперативная лента</h3>
+                  <h3 class="element-title__text">
+                    Донбасс. Оперативная лента
+                  </h3>
                 </li>
               </ul>
               <a class="element-title__link" href="">Перейти в рубрику</a>
@@ -1395,7 +1472,11 @@
               <h3>Видео</h3>
               <ul>
                 <li><a href="">Видеоновости</a></li>
-                <li><a class="footer__direction_line" href="">ВИАР - свободное медиапространство</a></li>
+                <li>
+                  <a class="footer__direction_line" href=""
+                    >ВИАР - свободное медиапространство</a
+                  >
+                </li>
               </ul>
             </nav>
 
@@ -1407,59 +1488,60 @@
                 <li><a href="">Контакты</a></li>
                 <li><a href="">Реклама на сайте</a></li>
               </ul>
-            </nav></div>
-            <div class="footer__social">
-              <!-- 2 шаблон для вставки соц сетей -->
-              <div class="social social_footer">
-                <div class="search"><input />
-                </div>
-                
-                <ul class="social__lists">
-                  <li>
-                    <a href=""
-                      ><img src="images/youtube.svg" alt="иконка ютуба"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><img src="images/telegram.svg" alt="иконка ютуба"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><img src="images/twitter.svg" alt="иконка ютуба"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><img src="images/instagram.svg" alt="иконка ютуба"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><img src="images/facebook.svg" alt="иконка ютуба"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><img src="images/WK.svg" alt="иконка ютуба"
-                    /></a>
-                  </li>
-                </ul>
-                <!-- <h3 class="social__title">
+            </nav>
+          </div>
+          <div class="footer__social">
+            <!-- 2 шаблон для вставки соц сетей -->
+            <div class="social social_footer">
+              <div class="search"><input /></div>
+
+              <ul class="social__lists">
+                <li>
+                  <a href=""
+                    ><img src="images/youtube.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/telegram.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/twitter.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/instagram.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/facebook.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""><img src="images/WK.svg" alt="иконка ютуба" /></a>
+                </li>
+              </ul>
+              <!-- <h3 class="social__title">
                   ВИАР - свободное медиапространство
                 </h3> -->
-                <p class="social__sub-title social__sub-title_footer">
-                  Подпишитесь на наши ресурсы,чтобы читать свежие новости раньше
-                  других
-                </p>
-              </div>
+              <p class="social__sub-title social__sub-title_footer">
+                Подпишитесь на наши ресурсы,чтобы читать свежие новости раньше
+                других
+              </p>
             </div>
+          </div>
         </div>
       </div>
       <div class="footer__copyright">
         <div class="footer__wrapper-copirite">
-        <div>© ANNA NEWS 2022</div><div>Политика конфиденциальности</div><div>Политика конфиденциальности</div><div>Пользовательское соглашение</div>  
+          <div>© ANNA NEWS 2022</div>
+          <div>Политика конфиденциальности</div>
+          <div>Политика конфиденциальности</div>
+          <div>Пользовательское соглашение</div>
         </div>
       </div>
     </footer>
@@ -1469,45 +1551,43 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script>
-
-     
       // карусель из простых карточек
       $(document).ready(function () {
         $(".section-carousel__content").slick({
           slidesToShow: 5,
-           slidesToScroll: 1,
-           responsive: [
-      {
-        breakpoint: 540,
-        settings: {
-          slidesToShow: 1
-        }
-      },
-      {
-        breakpoint: 680,
-        settings: {
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 980,
-        settings: {
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 1110,
-        settings: {
-          slidesToShow: 4
-        }
-      },
-      {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 5
-        }
-      }
-    ]          
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 540,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 680,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 980,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 1110,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 1400,
+              settings: {
+                slidesToShow: 5,
+              },
+            },
+          ],
         });
 
         $(".slick-prev").text("");
@@ -1538,50 +1618,49 @@
           slidesToShow: 4,
           slidesToScroll: 1,
           responsive: [
-      {
-        breakpoint: 540,
-        settings: {
-          slidesToShow: 1
-        }
-      },
-      
-      {
-        breakpoint: 980,
-        settings: {
-          slidesToShow: 2
-                }
-      },
-      
-      {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 4
-                }
-      }
-    ]  
+            {
+              breakpoint: 540,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+
+            {
+              breakpoint: 980,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+
+            {
+              breakpoint: 1400,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+          ],
         });
 
         $(".slick-prev").text("");
         $(".slick-next").text("");
       });
 
-      
       // отключаем кнопки при ширине менее 580px
-      $(document).ready(function() {
-  // Проверяем ширину окна при загрузке страницы
-  if ($(window).width() < 580) {
-    $('.slick-arrow').hide();
-  }
+      $(document).ready(function () {
+        // Проверяем ширину окна при загрузке страницы
+        if ($(window).width() < 580) {
+          $(".slick-arrow").hide();
+        }
 
-  // Проверяем ширину окна при изменении размера окна
-  $(window).resize(function() {
-    if ($(window).width() < 580) {
-      $('.slick-arrow').hide();
-    } else {
-      $('.slick-arrow').show();
-    }
-  });
-});
+        // Проверяем ширину окна при изменении размера окна
+        $(window).resize(function () {
+          if ($(window).width() < 580) {
+            $(".slick-arrow").hide();
+          } else {
+            $(".slick-arrow").show();
+          }
+        });
+      });
     </script>
   </body>
 </html>

@@ -19,7 +19,7 @@
 }
 }
 
-@media (max-width: 1620px) {
+@media (max-width: 580px) {
     .card-exclusive__list {
     flex-direction: column;
     height: auto;
