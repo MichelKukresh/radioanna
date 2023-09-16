@@ -1,17 +1,13 @@
 .card-main__title {
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 22px;
     margin: 0 20px 0 20px;
     letter-spacing: 2px;
     
 }
 
-@media (max-width: 1620px) {
-    .card-main__title  {
-        font-size: 22px;
-    }
-}
+
 
 @media (max-width: 1270px) {
     .card-main__title  {

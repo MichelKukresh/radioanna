@@ -1,22 +1,12 @@
 .card-exclusive__title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 17px;
     margin-bottom: 0px;
 
 }
 
-@media (max-width: 1620px) {
-    .card-exclusive__title {
-        font-size: 19px;
-    } 
-}
 
-@media (max-width: 1270px) {
-    .card-exclusive__title {
-        font-size: 17px;
-    } 
-}
 
 @media (max-width: 580px) {
     .card-exclusive__title {

@@ -1,16 +1,12 @@
 .card-exclusive__subtitle {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 0px;
     color: black;
 
 }
 
-@media (max-width: 1620px) {
-    .card-exclusive__subtitle {
-        font-size: 15px;
-    }  
-}
+
 
 @media (max-width: 1270px) {
     .card-exclusive__subtitle {

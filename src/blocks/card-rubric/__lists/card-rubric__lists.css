@@ -2,18 +2,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* gap: 42px; */
-    column-gap: 42px;
+    
     row-gap: 15px;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    column-gap: 15px;
 }
 
-@media(max-width: 1620px) {
-    .card-rubric__lists {
-        column-gap: 15px;
-    }
-}
+
 
 @media (max-width: 580px) {
     .card-rubric__lists {    

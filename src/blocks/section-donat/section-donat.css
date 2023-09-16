@@ -1,11 +1,12 @@
 .section-donat {
-    margin-bottom: 71px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-bottom: 60px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    height: 200px;
 }
 
-@media (max-width: 1620px) {
-    .section-donat {        
-        margin-bottom: 60px;
+@media (max-width:700px) {
+    .section-donat {
+        height: 150px;
     }
 }

@@ -66,6 +66,7 @@
 @import url("../blocks/card-exclusive/__description/card-exclusive__description.css");
 @import url("../blocks/card-exclusive/__link/card-exclusive__link.css");
 @import url("../blocks/card-exclusive/_politics/card-exclusive_politics.css");
+@import url("../blocks/card-exclusive/__list/_mobile-first-only/card-exclusive__list_mobile-first-only.css");
 
 @import url("../blocks/card-them/card-them.css");
 @import url("../blocks/card-them/__description/card-them__description.css");
@@ -82,6 +83,7 @@
 @import url("../blocks/card-donat/card-donat.css");
 @import url("../blocks/card-donat/__img/card-donat.css");
 @import url("../blocks/card-donat/_max/card-donat_max.css");
+@import url("../blocks/card-donat/__mobile-none/card-donat__mobile-none.css");
 
 @import url("../blocks/card-avatar/__discription/card-avatar__discription.css");
 @import url("../blocks/card-avatar/__img/card-avatar__img.css");
@@ -89,6 +91,7 @@
 @import url("../blocks/card-avatar/__lists/card-avatar__lists.css");
 @import url("../blocks/card-avatar/card-avatar.css");
 @import url("../blocks/card-avatar/__link/card-avatar__link.css");
+@import url("../blocks/card-avatar/__list/_mobile-first-only/card-avatar__list_mobile-first-only.css");
 
 @import url("../blocks/card-edition/__lists/card-edition__lists.css");
 @import url("../blocks/card-edition/__list/card-edition__list.css");
@@ -105,6 +108,9 @@
 @import url("../blocks/section-main/section-main.css");
 @import url("../blocks/section-main/__item/section-main__item.css");
 @import url("../blocks/section-main/__donat/section-main__donat.css");
+@import url("../blocks/section-main/_mobile-none/section-main_mobile-none.css");
+@import url("../blocks/section-main/__item/_desctop/section__item_desctop.css");
+@import url("../blocks/section-main/__item/_mobile/section__item_mobile.css");
 
 @import url("../blocks/section-carousel/__content/section-carousel__content.css");
 @import url("../blocks/section-carousel/section-carousel.css");
@@ -112,6 +118,7 @@
 @import url("../blocks/section-donat/section-donat.css");
 
 @import url("../blocks/section-duble-line/section-duble-line.css");
+@import url("../blocks/section-duble-line/_mobile-none.css/section-duble-line_mobile-none.css");
 
 @import url("../blocks/card-operational/card-operational.css");
 @import url("../blocks/card-operational/__content/card-operational__content.css");

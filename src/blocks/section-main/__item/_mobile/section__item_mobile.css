@@ -1,0 +1,9 @@
+.section__item_mobile {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .section__item_mobile {
+        display: block;
+    }
+}

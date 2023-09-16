@@ -1,14 +1,10 @@
 .card-video__title {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
 
 }
 
-@media (max-width: 1620px) {
-    .card-video__title  {
-        font-size: 18px;  
-    } 
-}
+
 
 @media (max-width: 1270px) {
     .card-video__title  {

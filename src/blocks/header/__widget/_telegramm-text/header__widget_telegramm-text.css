@@ -1,12 +1,8 @@
 .header__widget_telegramm-text {
-    font-size: 18px;
+    font-size: 11px;
 }
 
-@media (max-width: 1620px) {
-    .header__widget_telegramm-text {
-        font-size: 12px;
-    }
-}
+
 
 @media (max-width: 1270px) {
     .header__widget_telegramm-text {

@@ -4,20 +4,15 @@
   /* width: 483px; */
   /* width: 100%; */
   list-style-type: none;
-  padding: 5px 30px 5px 30px;
+  padding: 5px 5px 5px 16px;
   margin: 0px;
   background-color: #FBFBFB;
   border-radius: 12px;
-  max-height: 708px;
+  /* max-height: 708px; */
     overflow-y: scroll;  
 }
 
-@media (max-width: 1620px) {
-  .read-in-categories {
-    max-height: 576px;
-    padding: 5px 5px 5px 16px;
-  }
-}
+
 
 @media (max-width: 580px) {
   .read-in-categories {    

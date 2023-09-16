@@ -2,7 +2,7 @@
   font-family: inter, 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 114%;
   text-align: right;
   color: #ffffff;
@@ -14,11 +14,7 @@
   margin-right: auto;
 }
 
-@media (max-width: 1620px) {
-  .footer__copyright {
-    font-size: 12px;
-  }
-}
+
 
 @media (max-width: 1270px) {
   .footer__copyright {

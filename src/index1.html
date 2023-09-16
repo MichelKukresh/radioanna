@@ -13,7 +13,6 @@
     />
   </head>
 
-
   <!-- ШАБЛОН ГЛАВНОЙ СТРАНИЦЫ --------------------------------------------------------------------------------------->
   <body class="page">
     <header class="header section page__container-header">
@@ -106,7 +105,7 @@
         </div>
       </div>
       <!-- 17 Шаблон попап хедер -->
-      <diV class="popup-menu">
+      <!-- <diV class="popup-menu">
         <nav class="popup-menu__container">
           <h4 class="popup-menu__title">Регионы</h4>
           <ul class="popup-menu__lists">
@@ -122,7 +121,8 @@
           <nav class="popup-menu__container">
             <h4 class="popup-menu__title">Рубрики</h4>
             <ul class="popup-menu__lists popup-menu__lists_column-2">
-              <!-- Настройка если понадобится другое количество добавить модификатор соответствующий -->
+              
+
               <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
               <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
               <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
@@ -149,12 +149,13 @@
 
 
 
-      </diV>
+      </diV> -->
     </header>
 
     <main class="section page__container-main">
       <div class="section page__main">
-         <section class="section content content__section section-main">
+        <h2 class="element-main-title">Главное за день</h2>
+        <section class="section content content__section section-main">
           <div class="section-main__content">
             <div class="section-main__item section-main__content_1">
               <!-- 3 шаблон все видео  -->
@@ -164,14 +165,13 @@
                   <a class="card-video__link">Все видео</a>
                 </div>
                 <div class="card-video__video">
-                  <iframe
-                    id="viar-video-for-465639"
-                    src="https://viar.media/player/embed_player.php?vid=U9HWON3B1YMR&amp;width=100%&amp;height=271"
+                  <video
+                    controls
+                    poster="images/video-img.png"
                     width="100%"
                     height="100%"
-                    frameborder="0"
-                    allowfullscreen="allowfullscreen"
-                  ></iframe>
+                    src="https://anna-news.info/mediafiles/2023/09/IMG_7467.mp4?_=1"
+                  ></video>
                 </div>
                 <p class="card-video__description">
                   Каждый из нас понимает очевидную вещь: сложившаяся структура
@@ -181,7 +181,7 @@
               </div>
               <div class="section-main__donat">
                 <div class="card-donat"></div>
-                <div class="card-donat">
+                <div class="card-donat card-donat__mobile-none">
                   <img
                     class="card-donat_img"
                     src="images/card_donat-img.png"
@@ -193,8 +193,6 @@
             <div class="section-main__item section-main__content_2">
               <!-- шаблон 10.2  Разметка слайдера -->
               <div class="itcss">
-                <h2 class="element-main-title">Главное за день</h2>
-
                 <!-- Слайдер на главной странице -->
                 <div class="caorusel__main">
                   <div class="">
@@ -238,48 +236,49 @@
                   </div>
                 </div>
               </div>
-
-              <!-- 4 шаблон карточек эксклюзивов -->
-              <ul class="card-exclusive">
-                <div class="card-exclusive__title-container">
-                  <h3 class="card-exclusive__title">Эксклюзивы ANNA-NEWS</h3>
-                  <a class="card-exclusive__link">Смотреть полностью</a>
-                </div>
-                <li>
-                  <a href="" class="card-exclusive__list">
-                    <img
-                      class="card-exclusive__img"
-                      src="images/card-exclusive.png"
-                      alt="картинка эксклюзива"
-                    />
-                    <div class="card-exclusive__text">
-                      <h4 class="card-exclusive__subtitle">Заголовок</h4>
-                      <p class="card-exclusive__description">
-                        Сложно сказать, почему действия представителей оппозиции
-                        будут превращены в посмешище, хотя само их существование
-                        приносит несомненную пользу обществу.
-                      </p>
-                    </div></a
-                  >
-                </li>
-                <li>
-                  <a href="" class="card-exclusive__list">
-                    <img
-                      class="card-exclusive__img"
-                      src="images/card-exclusive.png"
-                      alt="картинка эксклюзива"
-                    />
-                    <div class="card-exclusive__text">
-                      <h4 class="card-exclusive__subtitle">Заголовок</h4>
-                      <p class="card-exclusive__description">
-                        Сложно сказать, почему действия представителей оппозиции
-                        будут превращены в посмешище, хотя само их существование
-                        приносит несомненную пользу обществу.
-                      </p>
-                    </div></a
-                  >
-                </li>
-              </ul>
+              <div class="section__item_desctop">
+                <!-- 4 шаблон карточек эксклюзивов -->
+                <ul class="card-exclusive">
+                  <div class="card-exclusive__title-container">
+                    <h3 class="card-exclusive__title">Эксклюзивы ANNA-NEWS</h3>
+                    <a class="card-exclusive__link">Смотреть полностью</a>
+                  </div>
+                  <li>
+                    <a href="" class="card-exclusive__list">
+                      <img
+                        class="card-exclusive__img"
+                        src="images/card-exclusive.png"
+                        alt="картинка эксклюзива"
+                      />
+                      <div class="card-exclusive__text">
+                        <h4 class="card-exclusive__subtitle">Заголовок</h4>
+                        <p class="card-exclusive__description">
+                          Сложно сказать, почему действия представителей
+                          оппозиции будут превращены в посмешище, хотя само их
+                          существование приносит несомненную пользу обществу.
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="card-exclusive__list">
+                      <img
+                        class="card-exclusive__img"
+                        src="images/card-exclusive.png"
+                        alt="картинка эксклюзива"
+                      />
+                      <div class="card-exclusive__text">
+                        <h4 class="card-exclusive__subtitle">Заголовок</h4>
+                        <p class="card-exclusive__description">
+                          Сложно сказать, почему действия представителей
+                          оппозиции будут превращены в посмешище, хотя само их
+                          существование приносит несомненную пользу обществу.
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="section-main__item section-main__content_3">
               <ul class="read-in-categories">
@@ -383,7 +382,7 @@
               </ul>
 
               <!-- 2 шаблон для вставки соц сетей -->
-              <div class="social">
+              <div class="social section-main_mobile-none">
                 <ul class="social__lists">
                   <li>
                     <a href=""
@@ -424,6 +423,52 @@
                   других
                 </p>
               </div>
+            </div>
+            <!-- Пояснение, для того что бы разменять блоки местами происходит скрытие на дестктопе и показ на мобильной -->
+            <div
+              class="section-main__item section-main__content_4 section__item_mobile"
+            >
+              <!-- 4 шаблон карточек эксклюзивов -->
+              <ul class="card-exclusive">
+                <div class="card-exclusive__title-container">
+                  <h3 class="card-exclusive__title">Эксклюзивы ANNA-NEWS</h3>
+                  <a class="card-exclusive__link">Смотреть полностью</a>
+                </div>
+                <li>
+                  <a href="" class="card-exclusive__list">
+                    <img
+                      class="card-exclusive__img"
+                      src="images/card-exclusive.png"
+                      alt="картинка эксклюзива"
+                    />
+                    <div class="card-exclusive__text">
+                      <h4 class="card-exclusive__subtitle">Заголовок</h4>
+                      <p class="card-exclusive__description">
+                        Сложно сказать, почему действия представителей оппозиции
+                        будут превращены в посмешище, хотя само их существование
+                        приносит несомненную пользу обществу.
+                      </p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a href="" class="card-exclusive__list">
+                    <img
+                      class="card-exclusive__img"
+                      src="images/card-exclusive.png"
+                      alt="картинка эксклюзива"
+                    />
+                    <div class="card-exclusive__text">
+                      <h4 class="card-exclusive__subtitle">Заголовок</h4>
+                      <p class="card-exclusive__description">
+                        Сложно сказать, почему действия представителей оппозиции
+                        будут превращены в посмешище, хотя само их существование
+                        приносит несомненную пользу обществу.
+                      </p>
+                    </div></a
+                  >
+                </li>
+              </ul>
             </div>
           </div>
         </section>
@@ -623,7 +668,7 @@
               <a class="element-title__link" href="">Перейти в рубрику</a>
             </div>
             <ul class="card-avatar__lists">
-              <li class="card-avatar__list">
+              <li class="card-avatar__list ">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"
@@ -636,7 +681,7 @@
                   </p></a
                 >
               </li>
-              <li class="card-avatar__list">
+              <li class="card-avatar__list ">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"
@@ -649,7 +694,7 @@
                   </p></a
                 >
               </li>
-              <li class="card-avatar__list">
+              <li class="card-avatar__list ">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"
@@ -662,7 +707,7 @@
                   </p></a
                 >
               </li>
-              <li class="card-avatar__list">
+              <li class="card-avatar__list ">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"
@@ -717,7 +762,7 @@
               </p>
             </div>
           </div>
-
+<div class="section-duble-line_mobile-none">
           <!-- 14 шаблон  -->
           <div class="card-rubric">
             <ul class="card-rubric__lists">
@@ -794,7 +839,7 @@
                 ></a>
               </li>
             </ul>
-          </div>
+          </div></div>
         </section>
 
         <section class="section content content__section section-duble-line">
@@ -941,7 +986,25 @@
 
           <!-- 4 шаблон карточек эксклюзивов -->
           <ul class="card-exclusive card-exclusive_politics">
-            <li>
+            <li class="card-exclusive__list_mobile-first-only">
+              <a href="" class="card-exclusive__list">
+                <img
+                  class="card-exclusive__img"
+                  src="images/card-exclusive.png"
+                  alt="картинка эксклюзива"
+                />
+
+                <div class="card-exclusive__text">
+                  <h4 class="card-exclusive__subtitle">Заголовок</h4>
+                  <p class="card-exclusive__description">
+                    Сложно сказать, почему действия представителей оппозиции
+                    будут превращены в посмешище, хотя само их существование
+                    приносит несомненную пользу обществу.
+                  </p>
+                </div></a
+              >
+            </li>
+            <li class="card-exclusive__list_mobile-first-only">
               <a href="" class="card-exclusive__list">
                 <img
                   class="card-exclusive__img"
@@ -958,7 +1021,7 @@
                 </div></a
               >
             </li>
-            <li>
+            <li class="card-exclusive__list_mobile-first-only">
               <a href="" class="card-exclusive__list">
                 <img
                   class="card-exclusive__img"
@@ -975,24 +1038,7 @@
                 </div></a
               >
             </li>
-            <li>
-              <a href="" class="card-exclusive__list">
-                <img
-                  class="card-exclusive__img"
-                  src="images/card-exclusive.png"
-                  alt="картинка эксклюзива"
-                />
-                <div class="card-exclusive__text">
-                  <h4 class="card-exclusive__subtitle">Заголовок</h4>
-                  <p class="card-exclusive__description">
-                    Сложно сказать, почему действия представителей оппозиции
-                    будут превращены в посмешище, хотя само их существование
-                    приносит несомненную пользу обществу.
-                  </p>
-                </div></a
-              >
-            </li>
-            <li>
+            <li class="card-exclusive__list_mobile-first-only">
               <a href="" class="card-exclusive__list">
                 <img
                   class="card-exclusive__img"
@@ -1200,7 +1246,7 @@
               <a class="element-title__link" href="">Перейти в рубрику</a>
             </div>
             <ul class="card-avatar__lists">
-              <li class="card-avatar__list">
+              <li class="card-avatar__list card-avatar__list_mobile-first-only">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"
@@ -1213,7 +1259,7 @@
                   </p></a
                 >
               </li>
-              <li class="card-avatar__list">
+              <li class="card-avatar__list card-avatar__list_mobile-first-only">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"
@@ -1226,7 +1272,7 @@
                   </p></a
                 >
               </li>
-              <li class="card-avatar__list">
+              <li class="card-avatar__list card-avatar__list_mobile-first-only">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"
@@ -1239,7 +1285,7 @@
                   </p></a
                 >
               </li>
-              <li class="card-avatar__list">
+              <li class="card-avatar__list card-avatar__list_mobile-first-only">
                 <a href="" class="card-avatar__link"
                   ><img
                     class="card-avatar__img"

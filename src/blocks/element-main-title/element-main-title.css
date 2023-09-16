@@ -1,23 +1,15 @@
 .element-main-title {
     color: black;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 12px;
     letter-spacing: 2px;
 }
 
-@media (max-width: 1620px)  {
-    .element-main-title {
-        font-size: 30px; 
-    }
-}
 
-@media (max-width: 1270px)  {
-    .element-main-title {
-        font-size: 28px; 
-    }
-}
+
+
 
 @media (max-width: 5800px) {
     .element-main-title {

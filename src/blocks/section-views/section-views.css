@@ -1,13 +1,8 @@
 .section-views {
-    margin-bottom: 71px;
+    margin-bottom: 50px;
     margin-top: 22px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-@media (max-width: 1620px) {
-    .section-views {
-        margin-bottom: 50px; 
-    }
-}

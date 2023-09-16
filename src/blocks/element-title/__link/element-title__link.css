@@ -1,16 +1,12 @@
 .element-title__link {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: #80837F;
     white-space: nowrap;
 }
 
-@media (max-width: 1620px) {
-    .element-title__link {
-        font-size: 12px;
-    } 
-}
+
 
 @media (max-width: 1270px) {
     .element-title__link {

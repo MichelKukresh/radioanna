@@ -3,26 +3,16 @@
     flex-direction: row;
     text-decoration: none;
     /* margin-bottom: 15px; */
-    height: 208px;
+    /* height: 208px; */
+    height: 100%;
 }
 
-@media (max-width: 1620px) {
-    .card-exclusive__list {        
-        height: 160px;
-    }
-}
 
-@media (max-width: 1620px) {
-.card-exclusive__list {
-    height: 140px;
-
-}
-}
 
 @media (max-width: 580px) {
     .card-exclusive__list {
     flex-direction: column;
-    height: auto;
+    /* height: auto; */
 }
 
     

@@ -1,18 +1,11 @@
 .card-rubric__container {
     background-color: #FBFBFB;
-    padding-bottom: 70px;
+    padding-bottom: 49px;
     border-radius: 12px;
     
 }
 
-@media(max-width: 1620px) {
-    .card-rubric__container {
-        
-        padding-bottom: 49px;
-       
-        
-    } 
-}
+
 
 @media(max-width: 1270px) {
     .card-rubric__container {

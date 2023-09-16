@@ -1,16 +1,12 @@
 .card-exclusive__description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     padding: 0px 0px 0px 0px;
     color: black;
 
 }
 
-@media (max-width: 1620px) {
-    .card-exclusive__description {
-        font-size: 13px; 
-    }  
-}
+
 
 @media (max-width: 1270px) {
     .card-exclusive__description {

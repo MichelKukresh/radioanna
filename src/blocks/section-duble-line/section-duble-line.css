@@ -1,16 +1,11 @@
 .section-duble-line {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 81px;
-    gap: 55px;
+    margin-bottom: 60px;
+        gap: 25px;
 }
 
-@media (max-width: 1620px) {
-    .section-duble-line {        
-        margin-bottom: 60px;
-        gap: 25px;
-    }
-}
+
 
 /* @media(max-width: 1300px) {
     .section-duble-line {

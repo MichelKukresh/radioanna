@@ -34,7 +34,7 @@
   background-image: url("../images/chevron.svg");
 }
 
-@media (max-width: 1620px) {
+@media (max-width: 5020px) {
   .slick-arrow {
     background-size: cover;
     width: 23px;
@@ -90,6 +90,7 @@
   background-repeat: no-repeat;
   border: none;
   height: 12px;
+  background-color: inherit;
 }
 
 .caorusel__main .slick-dots .slick-active button {

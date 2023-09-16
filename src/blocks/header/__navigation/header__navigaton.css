@@ -3,19 +3,15 @@
     list-style-type: none;
     gap: 50px;
     font-weight: 400;
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 15px;
+    
     margin: 0;
     padding: 0;
     height: 46px;
     align-items: center;
 }
 
-@media (max-width: 1620px) {
-    .header__navigaton {
-        font-size: 17px;
-    }
-}
+
 
 @media (max-width: 1270px) {
     .header__navigaton {

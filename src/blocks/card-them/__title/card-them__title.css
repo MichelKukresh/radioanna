@@ -1,6 +1,6 @@
 .card-them__title {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 11px;
     margin: 0px;
     color: #696969;
     padding: 5px 20px 0px 20px;
@@ -8,11 +8,7 @@
 
 }
 
-@media (max-width: 1620px) {
-    .card-them__title {
-        font-size: 11px; 
-    }
-}
+
 
 @media (max-width: 1270px) {
     .card-them__title {

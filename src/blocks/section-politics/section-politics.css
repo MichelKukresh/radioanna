@@ -1,13 +1,8 @@
 .section-politics {
-    margin-bottom: 70px;
+    margin-bottom: 33px;
     display: flex;
     flex-direction: column;
     gap: 25px;
     margin-top: -18px;
 }
 
-@media(max-width: 1620px)  {
-    .section-politics {
-        margin-bottom: 33px; 
-    }
-}

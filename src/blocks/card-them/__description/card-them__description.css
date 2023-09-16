@@ -1,6 +1,6 @@
 .card-them__description {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 12px;
     padding: 0px 20px 20px 20px;
     margin: 0px;
     color: black;
@@ -8,11 +8,7 @@
 
 }
 
-@media (max-width: 1620px) {
-    .card-them__description {
-        font-size: 14px; 
-    } 
-}
+
 
 @media (max-width: 1270px) {
     .card-them__description {

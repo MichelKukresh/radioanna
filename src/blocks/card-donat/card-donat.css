@@ -5,12 +5,8 @@
     background-color: #7F7F7F;
     border-radius: 12px;
     /* margin-bottom: 15px; */
-    height: 208px;
+    min-height: 50px;
     overflow: hidden;
+    height: 100%;
 }
 
-@media (max-width: 1620px) {
-    .card-donat {        
-        height: 160px;
-    }
-}

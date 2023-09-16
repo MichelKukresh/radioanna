@@ -1,14 +1,10 @@
 .card-video__link {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   color: #80837f;
 }
 
-@media (max-width: 1620px) {
-  .card-video__link {
-    font-size: 14px;
-  }
-}
+
 
 @media (max-width: 1270px) {
   .card-video__link {
