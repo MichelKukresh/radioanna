@@ -14,3 +14,6 @@
 - [Главная страница](https://michelkukresh.github.io/radioanna/src/index1.html "Главная страница")
 - [Вторая страница](https://michelkukresh.github.io/radioanna/src/index2.html "Вторая страница")
 - [Третья страница](https://michelkukresh.github.io/radioanna/src/index3.html "Третья страница")
+- [Третья страница](https://michelkukresh.github.io/radioanna/src/index4.html "Четвертая страница")
+- [Третья страница](https://michelkukresh.github.io/radioanna/src/index5.html "Пятая страница")
+- [Третья страница](https://michelkukresh.github.io/radioanna/src/index6.html "Шестая страница")

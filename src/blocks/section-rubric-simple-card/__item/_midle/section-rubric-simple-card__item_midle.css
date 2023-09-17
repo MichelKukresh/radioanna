@@ -1,0 +1,4 @@
+.section-rubric-simple-card__item_midle {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}

@@ -1,0 +1,9 @@
+.card__edition_min {
+    height: 432px;
+}
+
+@media (max-width: 500px ) {
+    .card__edition_min {
+       height: 100%;
+    }
+}

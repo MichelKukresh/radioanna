@@ -100,6 +100,11 @@
 @import url("../blocks/card-edition/__title/card-edition__title.css");
 @import url("../blocks/card-edition/card-edition.css");
 @import url("../blocks/card-edition/__link/card-edition__link.css");
+@import url("../blocks/card-edition/__lists/_equal/card-edition__listd_equal.css");
+@import url("../blocks/card-edition/_min/card__edition_min.css");
+@import url("../blocks/card-edition/__img/_min/card-edition__img_min.css");
+@import url("../blocks/card-edition/__list/_mobile-none/card-edition__list_mobile-none.css");
+@import url("../blocks/card-edition/__list/_donat/card-edition__list_donat.css");
 
 @import url("../blocks/title-headers/title-headers.css");
 
@@ -156,6 +161,7 @@
 @import url("../blocks/element-title/__lists/element-title__lists.css");
 @import url("../blocks/element-title/__text/element-title__text.css");
 
+
 @import url("../blocks/section-politics/section-politics.css");
 
 @import url("../blocks/section-views/section-views.css");
@@ -191,9 +197,33 @@
 
 @import url("../blocks/section-rubric-simple-card/section-rubric-simple-card.css");
 @import url("../blocks/section-rubric-simple-card/__item/section-rubric-simple-card__item.css");
+@import url("../blocks/section-rubric-simple-card/__item/_midle/section-rubric-simple-card__item_midle.css");
 
 @import url("../blocks/section-next-button/section-next-button.css");
 
 @import url("../blocks/button-next/button-next.css");
 
 @import url("../blocks/section-main-duble/section-main-duble.css");
+
+@import url("../blocks/card-video-max/card-video-max.css");
+@import url("../blocks/card-video-max/__container/card-video-max__container.css");
+@import url("../blocks/card-video-max/__play/card-video-max__play.css");
+@import url("../blocks/card-video-max/__title/card-video-max__title.css");
+@import url("../blocks/card-video-max/__video/card-video-max__video.css");
+
+@import url("../blocks/section-live/section-live.css");
+
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-title/_top/section-title_top.css");
+@import url("../blocks/section-title/_main/section-title_main.css");
+
+
+@import url("../blocks/card-video-mid/card-video-mid.css");
+@import url("../blocks/card-video-mid/__play/card-video-mid__play.css");
+@import url("../blocks/card-video-mid/__time/card-video__time.css");
+@import url("../blocks/card-video-mid/__title/card-video-mid__title.css");
+@import url("../blocks/card-video-mid/__video/card-video-mid__video.css");
+@import url("../blocks");
+@import url("../blocks");
+@import url("../blocks");
+@import url("../blocks");
