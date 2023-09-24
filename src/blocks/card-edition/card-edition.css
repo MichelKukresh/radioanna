@@ -1,8 +1,8 @@
 .card-edition {
-    /* width: 799px; */
+    
     width: 100%;
     height: 550px;
-    /* border: solid 1px black; */
+    
     display: flex;
     flex-direction: column;
     gap: 20px;

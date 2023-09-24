@@ -41,6 +41,7 @@
 @import url("../blocks/read-in-categories/__link/read-in-categories__link.css");
 @import url("../blocks/read-in-categories/__title/read-in-categories__title.css");
 @import url("../blocks/read-in-categories/__sub-title/read-in-categories__sub-title.css");
+@import url("../blocks/read-in-categories/_scrol-none/read-in-categories__scrol-none.css");
 
 @import url("../blocks/social/social.css");
 @import url("../blocks/social/__lists/social__lists.css");
@@ -48,6 +49,7 @@
 @import url("../blocks/social/__sub-title/social__sub-title.css");
 @import url("../blocks/social/_footer/social_footer.css");
 @import url("../blocks/social/__sub-title/__footer/social__sub-title_footer.css");
+@import url("../blocks/social/_height/social_height.css");
 
 @import url("../blocks/card-video/card-video.css");
 @import url("../blocks/card-video/__video/card-video__video.css");
@@ -74,6 +76,7 @@
 @import url("../blocks/card-them/__title/card-them__title.css");
 @import url("../blocks/card-them/__list/cadr-them__list.css");
 @import url("../blocks/card-them/__link/cadr-them__link.css");
+@import url("../blocks/card-them/__container-video/card-them__container-video.css");
 
 @import url("../blocks/card-main/card-main.css");
 @import url("../blocks/card-main/__discription/card-main__discription.css");
@@ -217,13 +220,44 @@
 @import url("../blocks/section-title/_top/section-title_top.css");
 @import url("../blocks/section-title/_main/section-title_main.css");
 
-
 @import url("../blocks/card-video-mid/card-video-mid.css");
 @import url("../blocks/card-video-mid/__play/card-video-mid__play.css");
 @import url("../blocks/card-video-mid/__time/card-video__time.css");
 @import url("../blocks/card-video-mid/__title/card-video-mid__title.css");
 @import url("../blocks/card-video-mid/__video/card-video-mid__video.css");
-@import url("../blocks");
-@import url("../blocks");
-@import url("../blocks");
-@import url("../blocks");
+
+@import url("../blocks/section-copirite/section-copirite.css");
+@import url("../blocks/section-copirite/__right/section-copirite__right.css");
+@import url("../blocks/section-copirite/__content/section-copirite__content.css");
+
+@import url("../blocks/card-copirite/card-copirite.css");
+@import url("../blocks/card-copirite/__containet/card-copirite__container.css");
+@import url("../blocks/card-copirite/__img/card-copirite__img.css");
+@import url("../blocks/card-copirite/__text/card-copirite__text.css");
+@import url("../blocks/card-copirite/__lists/card-copirite__lists.css");
+@import url("../blocks/card-copirite/__list/card-copirite__list.css");
+@import url("../blocks/card-copirite/__list/_point/card-copirite__list_point.css");
+@import url("../blocks/card-copirite/__text/_headers/card-copirite__text_headers.css");
+@import url("../blocks/card-copirite/__text/_line/card-copirite__text_line.css");
+@import url("../blocks/card-copirite/__donat-list/card-copirite__donat-list.css");
+@import url("../blocks/card-copirite/__donat-rub/card-copirite__donat-rub.css");
+@import url("../blocks/card-copirite/__container-video/card-copirite__container-video.css");
+
+@import url("../blocks/element-time/element-time.css");
+@import url("../blocks/element-time/__contaimer/element-time__container.css");
+@import url("../blocks/element-time/__img/element-time__img.css");
+
+@import url("../blocks/section-social-simple/section-social-simple.css");
+@import url("../blocks/section-social-simple/__bottom/section-social-simple__bottom.css");
+@import url("../blocks/section-social-simple/__top/section-social-simple__top.css");
+@import url("../blocks/section-social-simple/__text/section-social-simple__text.css");
+@import url("../blocks/section-social-simple/__duble/section-social-simple__duble.css");
+
+@import url("../blocks/social-dark/social-dark.css");
+@import url("../blocks/social-dark/__container/social-dark__container.css");
+@import url("../blocks/social-dark/__img/social-dark__img.css");
+
+@import url("../blocks/section-tab/section-tab.css");
+
+@import url("../blocks/element-rest/element-rest.css");
+@import url("../blocks/element-play/element-play.css");

@@ -1,26 +1,17 @@
 .card-avatar__list {
-    /* text-decoration: none;
-    color: black;
-    display: flex;
-    flex-direction: row;
-    gap: 10px; */
-    /* border-bottom: solid 1px #DADADA; */
-    margin-bottom: 15px;
-    position: relative;
-    
+  margin-bottom: 15px;
+  position: relative;
 }
 
 .card-avatar__list:not(:last-child)::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: calc(100% - 105px);
-    height: 1px;
-    background-color: #DADADA;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 105px);
+  height: 1px;
+  background-color: #dadada;
 }
 .card-avatar__list:last-child {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
-
-

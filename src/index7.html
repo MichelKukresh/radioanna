@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Radio-ANNA</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+
+  <!-- ШАБЛОН СТРАНИЦЫ С АВТОМОБИЛЯМИ --------------------------------------------------------------------------------------->
+  <body class="page">
+    <header class="header section page__container-header">
+      <div class="page__container-header">
+        <div class="page__header">
+          <a class=".header__logo" href=""
+            ><img
+              src="images/logo.svg"
+              alt="логотип сайта Анна радио"
+              class="header__logo"
+          /></a>
+          <a class="header__radio" href=""
+            ><img
+              class="header__radio_img"
+              src="images/radio.svg"
+              alt="картинка иконки радио лайв"
+          /></a>
+          <a class="header__widget header__widget_none" href="">
+            <span>Бегущая строка</span> <span>Бегущая строка</span>
+            <span>Бегущая строка</span> <span>Бегущая строка</span></a
+          >
+          <a class="header__widget" href="https://telegram.me/anna_news"
+            ><img src="../src/images/telegram.svg" alt="иконка телеграмм" />
+            <span class="header__widget_telegramm-text"
+              >Получать оперативную <br />
+              информацию</span
+            >
+          </a>
+          <a class="header__message" href=""
+            ><img src="../src/images/icon_message.svg" alt="иконка сообщения"
+          /></a>
+        </div>
+      </div>
+      <div class="page__container-header page__container-header_bottom">
+        <div class="page__header">
+          <nav>
+            <ul class="header__navigaton">
+              <li>
+                <a class="header__link header__link_desctop" href="#">СВО</a>
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#"
+                  >Афганистан</a
+                >
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#">Сирия</a>
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#"
+                  >Донбасс</a
+                >
+              </li>
+              <li>
+                <a class="header__link header__link_desctop" href="#"
+                  >ВПК/Технологии</a
+                >
+              </li>
+              <li>
+                <a class="header__link header__link_mobile" href=""
+                  >Все рубрики
+                  <img src="images/cevron.svg" alt="иконка шеврона" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <button class="header__button">
+              <img
+                class="header__button_search"
+                src="images/search-white.svg"
+                alt="картинка поиска"
+              />
+            </button>
+            <button class="header__button">
+              <img
+                class="header__button_flag"
+                src="images/flag.svg"
+                alt="картинка флага"
+              />
+            </button>
+            <button class="header__button">
+              <img
+                class="header__button_menu"
+                src="images/menu.svg"
+                alt="картинка меню"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- 17 Шаблон попап хедер -->
+      <!-- <diV class="popup-menu">
+        <nav class="popup-menu__container">
+          <h4 class="popup-menu__title">Регионы</h4>
+          <ul class="popup-menu__lists">
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+          </ul>
+        </nav>
+          <nav class="popup-menu__container">
+            <h4 class="popup-menu__title">Рубрики</h4>
+            <ul class="popup-menu__lists popup-menu__lists_column-2">
+              
+
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+            </ul>
+        </nav>
+
+
+
+      </diV> -->
+    </header>
+
+    <main class="section page__container-main">
+      <div class="section page__main">
+        <!-- 18 шаблон хлебных крошек -->
+        <section class="section content content__section">
+          <div class="bread-crumbs">
+            <a class="bread-crumbs__link" href="">Главная</a
+            ><a class="bread-crumbs__link" href="">/ Рубрика</a
+            ><a class="bread-crumbs__link" href="">/ Политика</a>
+          </div>
+        </section>
+        <section
+          class="section content content__section section-title section-title_top"
+        >
+          <h2 class="element-main-title">Заголовок</h2>
+        </section>
+
+        <section class="section content content__section section-copirite">
+          <div>
+            <!-- 22 шаблон большой карточки с текстом -->
+
+            <div class="card-copirite">
+              <img
+                class="card-copirite__img"
+                src="images/card-copirite.png"
+                alt="Опсиание картинки"
+              />
+
+              <div class="card-copirite__container">
+                <div class="element-time">
+                  Дата/время Автор
+                  <div class="element-time__container">
+                    <img
+                      class="element-time__img"
+                      alt="Картика просмотров"
+                      src="images/icon _eye.svg"
+                    />
+                    xxx
+                  </div>
+                </div>
+
+                <p class="card-copirite__text card-copirite__text_line">
+                  Принимая во внимание показатели успешности, высокое качество
+                  позиционных исследований способствует подготовке и реализации
+                  вывода текущих активов. С другой стороны, современная
+                  методология разработки влечет за собой процесс внедрения и
+                  модернизации как самодостаточных, так и внешне зависимых
+                  концептуальных решений. Прежде всего, синтетическое
+                  тестирование играет определяющее значение для системы обучения
+                  кадров, соответствующей насущным потребностям.
+                </p>
+                <p class="card-copirite__text">
+                  Господа, начало повседневной работы по формированию позиции
+                  позволяет оценить значение поставленных обществом задач.
+                  Повседневная практика показывает, что граница обучения кадров
+                  способствует подготовке и реализации экономической
+                  целесообразности принимаемых решений. Но интерактивные
+                  прототипы своевременно верифицированы.
+                </p>
+                <h4 class="card-copirite__text card-copirite__text_headers">
+                  Сложно сказать, почему ночь оказалась долгой
+                </h4>
+
+                <ul class="card-copirite__lists">
+                  <li class="card-copirite__list">
+                    Непосредственные участники технического прогресса могут
+                    бытьуказаны как претенденты на роль ключевых факторов.
+                    Разнообразный и богатый опыт говорит нам, что выбранный нами
+                    инновационный путь является качественно новой ступенью
+                    модели развития. Повседневная практика показывает, что
+                    постоянное информационно-пропагандистское обеспечение нашей
+                    деятельности играет важную роль в формировании благоприятных
+                    перспектив. Но некоторые особенности внутренней политики
+                    лишь добавляют фракционных разногласий и рассмотрены
+                    исключительно в разрезе маркетинговых и финансовых
+                    предпосылок. Таким образом, разбавленное изрядной долей
+                    эмпатии, рациональное мышление способствует подготовке и
+                    реализации модели развития. Современные технологии достигли
+                    такого уровня, что реализация намеченных плановых заданий
+                    предполагает независимые способы реализации благоприятных
+                    перспектив. С учётом сложившейся международной обстановки,
+                    выбранный нами инновационный путь обеспечивает широкому
+                    кругу (специалистов) участие в формировании существующих
+                    финансовых и административных условий.
+                  </li>
+                  <li class="card-copirite__list">
+                    <div class="card-copirite__donat-list">
+                      <div class="card-donat"></div>
+                    </div>
+                  </li>
+
+                  <li class="card-copirite__list">
+                    Лишь реплицированные с зарубежных источников, современные
+                    исследования неоднозначны и будут разоблачены. Есть над чем
+                    задуматься: базовые сценарии поведения пользователей будут
+                    описаны максимально подробно. Картельные сговоры не
+                    допускают ситуации, при которой диаграммы связей освещают
+                    чрезвычайно интересные особенности картины в целом, однако
+                    конкретные выводы, разумеется, объявлены нарушающими
+                    общечеловеческие нормы этики и морали. Но укрепление и
+                    развитие внутренней структуры не даёт нам иного выбора,
+                    кроме определения благоприятных перспектив!
+                  </li>
+                  <li class="card-copirite__list">
+                    Лишь реплицированные с зарубежных источников, современные
+                    исследования неоднозначны и будут разоблачены. Есть над чем
+                    задуматься: базовые сценарии поведения пользователей будут
+                    описаны максимально подробно. Картельные сговоры не
+                    допускают ситуации, при которой диаграммы связей освещают
+                    чрезвычайно интересные особенности картины в целом, однако
+                    конкретные выводы, разумеется, объявлены нарушающими
+                    общечеловеческие нормы этики и морали. Но укрепление и
+                    развитие внутренней структуры не даёт нам иного выбора,
+                    кроме определения благоприятных перспектив!
+                  </li>
+                  <li class="card-copirite__list card-copirite__list_point">
+                    Равным образом, консультация с широким активом не даёт нам
+                    иного выбора, кроме определения распределения внутренних
+                    резервов и ресурсов.
+                  </li>
+                  <li class="card-copirite__list card-copirite__list_point">
+                    Есть над чем задуматься: непосредственные участники
+                    технического прогресса, превозмогая сложившуюся непростую
+                    экономическую ситуацию, преданы социально-демократической
+                    анафеме.
+                  </li>
+                  <li class="card-copirite__list card-copirite__list_point">
+                    Приятно, граждане, наблюдать, как элементы политического
+                    процесса набирают популярность среди определенных слоев
+                    населения, а значит, должны быть рассмотрены.
+                  </li>
+                  <li class="card-copirite__list">
+                    С учётом сложившейся международной обстановки, курс на
+                    социально-ориентированный национальный проект в значительной
+                    степени обусловливает важность системы массового участия.
+                    Банальные, но неопровержимые выводы, а также интерактивные
+                    прототипы заблокированы в рамках своих собственных
+                    рациональных ограничений. А также явные признаки победы
+                    институционализации представляют собой не что иное, как
+                    квинтэссенцию победы маркетинга над разумом и должны быть
+                    ассоциативно распределены по отраслям.
+                  </li>
+                </ul>
+
+                <div class="element-time">Категория/теги</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-copirite__right">
+            <!-- 2 шаблон для вставки соц сетей -->
+            <div class="social social_height">
+              <ul class="social__lists">
+                <li>
+                  <a href=""
+                    ><img src="images/youtube.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/telegram.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/twitter.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/instagram.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/facebook.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""><img src="images/WK.svg" alt="иконка ютуба" /></a>
+                </li>
+              </ul>
+              <!-- <h3 class="social__title">
+    ВИАР - свободное медиапространство
+  </h3> -->
+              <p class="social__sub-title">Читать в соц.сетях</p>
+            </div>
+
+            <ul class="read-in-categories read-in-categories__scrol-none">
+              <h3 class="read-in-categories__title">Актуальное к этому часу</h3>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="read-in-categories read-in-categories__scrol-none">
+              <h3 class="read-in-categories__title">
+                Читайте в других рубриках
+              </h3>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a class="read-in-categories__link" href=""
+                  ><div class="read-in-categories__headers">
+                    <h4 class="read-in-categories__sub-title">Время</h4>
+                    <h4 class="read-in-categories__sub-title">Рубрика</h4>
+                  </div>
+                  <p class="read-in-categories__discription">
+                    Но сплочённость команды профессионалов способствует
+                    подготовке и реализации системы массового участия.
+                  </p>
+                </a>
+              </li>
+            </ul>
+
+            <div class="card-copirite__donat-rub">
+              <div class="card-donat"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section content content__section section-social-simple">
+          <div class="section-social-simple__top">
+            <span class="section-social-simple__text">Поделиться:</span>
+            <div class="social-dark">
+              <div class="social-dark__container">
+                <img
+                  class="social-dark__img"
+                  alt="картинка соц сетей - темные"
+                  src="images/telegram_d.svg"
+                />
+                <img
+                  class="social-dark__img"
+                  alt="картинка соц сетей - темные"
+                  src="images/tw_d.svg"
+                />
+                <img
+                  class="social-dark__img"
+                  alt="картинка соц сетей - темные"
+                  src="images/face_d.svg"
+                />
+                <img
+                  class="social-dark__img"
+                  alt="картинка соц сетей - темные"
+                  src="images/youtube_d.svg"
+                />
+              </div>
+            </div>
+            <span class="section-social-simple__text">Смотрите так же:</span>
+          </div>
+
+          <ul class="card-htem section-social-simple__bottom">
+            <li class="cadr-them__list">
+              <a class="cadr-them__link" href=""
+                ><img
+                  class="card-them__img"
+                  src="images/card-them.png"
+                  alt="Картинка темы"
+                />
+                <h3 class="card-them__title">Тема</h3>
+                <p class="card-them__description">
+                  Сейчас всё чаще звучит ласковый перезвон вертикали власти
+                </p></a
+              >
+            </li>
+            <li class="cadr-them__list">
+              <a class="cadr-them__link" href=""
+                ><img
+                  class="card-them__img"
+                  src="images/card-them.png"
+                  alt="Картинка темы"
+                />
+                <h3 class="card-them__title">Тема</h3>
+                <p class="card-them__description">
+                  Сейчас всё чаще звучит ласковый перезвон вертикали власти
+                </p></a
+              >
+            </li>
+            <li class="cadr-them__list">
+              <a class="cadr-them__link" href=""
+                ><img
+                  class="card-them__img"
+                  src="images/card-them.png"
+                  alt="Картинка темы"
+                />
+                <h3 class="card-them__title">Тема</h3>
+                <p class="card-them__description">
+                  Сейчас всё чаще звучит ласковый перезвон вертикали власти
+                </p></a
+              >
+            </li>
+            <li class="cadr-them__list">
+              <a class="cadr-them__link" href=""
+                ><img
+                  class="card-them__img"
+                  src="images/card-them.png"
+                  alt="Картинка темы"
+                />
+                <h3 class="card-them__title">Тема</h3>
+                <p class="card-them__description">
+                  Сейчас всё чаще звучит ласковый перезвон вертикали власти
+                </p></a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section content content__section section-tab"></section>
+      </div>
+    </main>
+
+    <footer class="footer section">
+      <div class="page__footer">
+        <div class="footer__container">
+          <!-- <div class="footer__direction"> -->
+          <div class="footer__info">
+            <span
+              >* Информационное агентство «ANNA NEWS» зарегистрировано в
+              Федеральной службе по надзору в сфере связи, информационных
+              технологий и массовых коммуникаций (Роскомнадзор). Свидетельство о
+              регистрации ИА №ФС77-74482 от 07.12.2018 г. При любом цитировании
+              материалов агентства активная ссылка на сайт anna-news.info
+              обязательна.</span
+            >
+            <img
+              class="footer__img footer__img_rss"
+              src="images/rss.svg"
+              alt="картинка RSS"
+            />
+            <a class="footer__link" href="">Карта сайта</a>
+            <img class="footer__img" src="images/18+.svg" alt="картинка 18+" />
+          </div>
+
+          <!-- </div> -->
+          <div class="footer__direction">
+            <nav>
+              <h3>Партнеры</h3>
+              <ul>
+                <li>
+                  <img
+                    class="footer__img footer__img_partner"
+                    src="images/vmedia.png"
+                    alt="картинка vmedia"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="footer__img footer__img_partner"
+                    src="images/svoi.png"
+                    alt="картинка за своих"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="footer__img footer__img_partner"
+                    src="images/russia.png"
+                    alt="картинка Россия"
+                  />
+                </li>
+              </ul>
+            </nav>
+            <nav>
+              <h3>Регионы</h3>
+              <ul>
+                <li><a href="">Афганистан</a></li>
+                <li><a href="">Украина</a></li>
+                <li><a href="">Донбасс</a></li>
+                <li><a href="">Бывший СССР</a></li>
+                <li><a href="">Бывший Восток</a></li>
+                <li><a href="">Запад</a></li>
+                <li><a href="">Мир</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <h3>Рубрики</h3>
+              <ul>
+                <li><a href="">Оперативная лента</a></li>
+                <li><a href="">Новости СВО</a></li>
+                <li><a href="">Выбор редакции</a></li>
+                <li><a href="">Фоторепортажи</a></li>
+                <li><a href="">Политика</a></li>
+                <li><a href="">Экономика</a></li>
+                <li><a href="">Культура</a></li>
+                <li><a href="">Аналитика</a></li>
+                <li><a href="">ВПК/Технологии</a></li>
+                <li><a href="">Общество</a></li>
+                <li><a href="">Происшествия</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <h3>Радио</h3>
+              <ul>
+                <li><a href="">Оружейка</a></li>
+                <li><a href="">Аналитика</a></li>
+                <li><a href="">Точка зрения</a></li>
+                <li><a href="">Военный час</a></li>
+                <li><a href="">История о лицах</a></li>
+                <li><a href="">Культура</a></li>
+                <li><a href=""></a></li>
+                <li><a href="">Скачать плейлисты</a></li>
+                <li><a href="">Скачать радио</a></li>
+                <li><a href="">для ANDROID</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <h3>Видео</h3>
+              <ul>
+                <li><a href="">Видеоновости</a></li>
+                <li>
+                  <a class="footer__direction_line" href=""
+                    >ВИАР - свободное медиапространство</a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <nav>
+              <h3>Анна</h3>
+              <ul>
+                <li><a href="">О нас</a></li>
+                <li><a href="">Помощь агентству</a></li>
+                <li><a href="">Контакты</a></li>
+                <li><a href="">Реклама на сайте</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__social">
+            <!-- 2 шаблон для вставки соц сетей -->
+            <div class="social social_footer">
+              <div class="search"><input /></div>
+
+              <ul class="social__lists">
+                <li>
+                  <a href=""
+                    ><img src="images/youtube.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/telegram.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/twitter.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/instagram.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/facebook.svg" alt="иконка ютуба"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""><img src="images/WK.svg" alt="иконка ютуба" /></a>
+                </li>
+              </ul>
+              <!-- <h3 class="social__title">
+                  ВИАР - свободное медиапространство
+                </h3> -->
+              <p class="social__sub-title social__sub-title_footer">
+                Подпишитесь на наши ресурсы,чтобы читать свежие новости раньше
+                других
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__wrapper-copirite">
+          <div>© ANNA NEWS 2022</div>
+          <div>Политика конфиденциальности</div>
+          <div>Политика конфиденциальности</div>
+          <div>Пользовательское соглашение</div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      // карусель из простых карточек
+      $(document).ready(function () {
+        $(".section-carousel__content").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 540,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 680,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 980,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 1110,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 1400,
+              settings: {
+                slidesToShow: 5,
+              },
+            },
+          ],
+        });
+
+        $(".slick-prev").text("");
+        $(".slick-next").text("");
+      });
+
+      // карусель на главной странице
+
+      $(document).ready(function () {
+        $(".caorusel__main").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: true,
+          centerPadding: "0px",
+          // autoplay: true,
+
+          dots: true,
+        });
+
+        $(".slick-prev").text("");
+        $(".slick-next").text("");
+      });
+
+      // карусель из карточек мнения
+      $(document).ready(function () {
+        $(".caorusel-views").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 540,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+
+            {
+              breakpoint: 980,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+
+            {
+              breakpoint: 1400,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+          ],
+        });
+
+        $(".slick-prev").text("");
+        $(".slick-next").text("");
+      });
+
+      // отключаем кнопки при ширине менее 580px
+      $(document).ready(function () {
+        // Проверяем ширину окна при загрузке страницы
+        if ($(window).width() < 580) {
+          $(".slick-arrow").hide();
+        }
+
+        // Проверяем ширину окна при изменении размера окна
+        $(window).resize(function () {
+          if ($(window).width() < 580) {
+            $(".slick-arrow").hide();
+          } else {
+            $(".slick-arrow").show();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -4,7 +4,7 @@
   /* width: 483px; */
   /* width: 100%; */
   list-style-type: none;
-  padding: 5px 5px 5px 16px;
+  padding: 5px 16px 5px 16px;
   margin: 0px;
   background-color: #FBFBFB;
   border-radius: 12px;
@@ -12,7 +12,13 @@
     overflow-y: scroll;  
 }
 
+.read-in-categories li {
+  border-bottom: 1px solid #DADADA;
+}
 
+.read-in-categories li:last-child {
+  border-bottom: none;
+}
 
 @media (max-width: 580px) {
   .read-in-categories {    

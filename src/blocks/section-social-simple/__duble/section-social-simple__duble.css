@@ -1,0 +1,11 @@
+.section-social-simple__duble {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 580px) {
+    .section-social-simple__duble {
+        grid-template-columns: 100%;  
+    }
+}

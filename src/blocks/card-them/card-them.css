@@ -1,12 +1,7 @@
 .card-htem {
-    color: black;
-/* border: solid 1px red; */
-/* width: 311px; */
-width: 100%;
-padding: 0px;
-margin: 0px;
-
-
-list-style-type: none;
+  color: black;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
 }
-
