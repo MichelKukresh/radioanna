@@ -1,14 +1,11 @@
 .social__sub-title {
-    font-size: 15px;
-font-weight: 500;
-margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 5px;
 }
 
-
-
-@media (max-width: 1270px)  {
-    .social__sub-title {
-        font-size: 13px;
-   
-    }  
+@media (max-width: 1270px) {
+  .social__sub-title {
+    font-size: 13px;
+  }
 }

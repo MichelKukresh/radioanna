@@ -1,27 +1,24 @@
 .section-rubric {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    height: 500px;
-
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 500px;
 }
 
 @media (max-width: 1280px) {
-    .section-rubric {
-        height: 400px;
-    }
+  .section-rubric {
+    height: 400px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .section-rubric {
-        height: 300px;
-    }
+  .section-rubric {
+    height: 300px;
+  }
 }
 
-@media (max-width: 800px)  {
-    .section-rubric {
-        
-        height: 700px;
-        
-    }
+@media (max-width: 800px) {
+  .section-rubric {
+    height: 700px;
+  }
 }

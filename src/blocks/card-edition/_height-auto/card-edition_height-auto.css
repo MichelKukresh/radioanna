@@ -1,0 +1,9 @@
+.card-edition_height-auto {
+
+}
+
+@media (max-width: 580px) {
+    .card-edition_height-auto {
+        height: auto;
+    } 
+}

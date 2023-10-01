@@ -6,8 +6,6 @@
     white-space: nowrap;
 }
 
-
-
 @media (max-width: 1270px) {
     .element-title__link {
         font-size: 10px;

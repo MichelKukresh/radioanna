@@ -1,19 +1,15 @@
 .read-in-categories {
   color: black;
-  /* border: solid 1px red; */
-  /* width: 483px; */
-  /* width: 100%; */
   list-style-type: none;
   padding: 5px 16px 5px 16px;
   margin: 0px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   border-radius: 12px;
-  /* max-height: 708px; */
-    overflow-y: scroll;  
+  overflow-y: scroll;
 }
 
 .read-in-categories li {
-  border-bottom: 1px solid #DADADA;
+  border-bottom: 1px solid #dadada;
 }
 
 .read-in-categories li:last-child {
@@ -21,7 +17,7 @@
 }
 
 @media (max-width: 580px) {
-  .read-in-categories {    
+  .read-in-categories {
     margin-bottom: 15px;
-}
+  }
 }

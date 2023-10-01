@@ -1,7 +1,6 @@
 .section-live {
-    /* height: 600px; */
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-bottom: 50px;
 }

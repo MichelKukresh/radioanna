@@ -1,9 +1,8 @@
 .element-time {
-    display: flex;
-    /* margin-top: 10px; */
-    margin-bottom: 10px;
-    gap: 10px;
-    color: #8F8F8F;
-    font-size: 12px;
-    font-weight: 300;
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+  color: #8f8f8f;
+  font-size: 12px;
+  font-weight: 300;
 }

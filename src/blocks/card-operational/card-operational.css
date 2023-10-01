@@ -1,7 +1,7 @@
 .card-operational {
-color: black;
-border-radius: 12px;
-display: flex;
-flex-direction: column;
-gap: 25px;
+  color: black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }

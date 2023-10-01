@@ -1,19 +1,14 @@
 .element-main-title {
-    color: black;
-    font-size: 28px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 12px;
-    letter-spacing: 2px;
+  color: black;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
 }
-
-
-
-
 
 @media (max-width: 5800px) {
-    .element-main-title {
+  .element-main-title {
     font-size: 23px;
-}
-
+  }
 }

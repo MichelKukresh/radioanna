@@ -1,20 +1,12 @@
 .section-duble-line {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 60px;
-        gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 60px;
+  gap: 25px;
 }
 
-
-
-/* @media(max-width: 1300px) {
-    .section-duble-line {
-        gap: 25px;
-    }
-} */
-
-@media(max-width: 1000px) {
-    .section-duble-line {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 1000px) {
+  .section-duble-line {
+    grid-template-columns: 1fr;
+  }
 }

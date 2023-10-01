@@ -1,20 +1,11 @@
-.header__link {  
-  font-size: 15px;  
+.header__link {
+  font-size: 15px;
   text-decoration: none;
-   color: #CBCFCA;
+  color: #cbcfca;
 }
-
-
-
-
 
 @media (max-width: 1270px) {
   .header__link {
     font-size: 15px;
-    
   }
-} 
-
-
-
-
+}
