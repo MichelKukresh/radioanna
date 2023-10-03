@@ -31,6 +31,7 @@
 @import url("../blocks/header/__button/_serch/header__button_search.css");
 @import url("../blocks/header/__button/_flag/header__button_flag.css");
 @import url("../blocks/header/__button/_menu/header__button_menu.css");
+@import url("../blocks/header/__button/_mobile-none/header__button_mobile-none.css");
 
 @import url("../blocks/bread-crumbs/bread-crumbs.css");
 @import url("../blocks/bread-crumbs/__link/bread-crumbs__link.css");
@@ -109,6 +110,7 @@
 @import url("../blocks/card-edition/__list/_mobile-none/card-edition__list_mobile-none.css");
 @import url("../blocks/card-edition/__list/_donat/card-edition__list_donat.css");
 @import url("../blocks/card-edition/_height-auto/card-edition_height-auto.css");
+@import url("../blocks/card-edition/_mobile/card-edition_mobile.css");
 
 @import url("../blocks/title-headers/title-headers.css");
 
@@ -123,8 +125,10 @@
 
 @import url("../blocks/section-carousel/__content/section-carousel__content.css");
 @import url("../blocks/section-carousel/section-carousel.css");
+@import url("../blocks/section-carousel/_mobile-none/section-carouse_mobile-none.css");
 
 @import url("../blocks/section-donat/section-donat.css");
+@import url("../blocks/section-donat/_mobile-none/section-donat__mobile-none.css");
 
 @import url("../blocks/section-duble-line/section-duble-line.css");
 @import url("../blocks/section-duble-line/_mobile-none.css/section-duble-line_mobile-none.css");
@@ -244,6 +248,7 @@
 @import url("../blocks/card-copirite/__donat-list/card-copirite__donat-list.css");
 @import url("../blocks/card-copirite/__donat-rub/card-copirite__donat-rub.css");
 @import url("../blocks/card-copirite/__container-video/card-copirite__container-video.css");
+@import url("../blocks/card-copirite/__text/_mod/card-copirite__text_mod.css");
 
 @import url("../blocks/element-time/element-time.css");
 @import url("../blocks/element-time/__contaimer/element-time__container.css");

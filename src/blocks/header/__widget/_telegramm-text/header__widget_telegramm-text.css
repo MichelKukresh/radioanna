@@ -12,6 +12,6 @@
 
 @media (max-width: 830px ) {
     .header__widget_telegramm-text {
-        display: none;
+        display: block;
     }
 }
