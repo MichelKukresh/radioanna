@@ -1,3 +1,9 @@
 .page__container-header_bottom {
     background-color: #575B53;
 }
+
+@media (max-width:580px) {
+    .page__container-header_bottom {
+        display: none;
+    }
+}

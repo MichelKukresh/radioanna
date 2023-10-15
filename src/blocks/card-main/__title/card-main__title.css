@@ -15,5 +15,6 @@
 @media (max-width: 580px) {
   .card-main__title {
     font-size: 14px;
+    margin-bottom: 15px;
   }
 }

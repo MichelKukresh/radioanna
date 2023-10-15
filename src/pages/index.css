@@ -32,6 +32,8 @@
 @import url("../blocks/header/__button/_flag/header__button_flag.css");
 @import url("../blocks/header/__button/_menu/header__button_menu.css");
 @import url("../blocks/header/__button/_mobile-none/header__button_mobile-none.css");
+@import url("../blocks/header/__button/_desctop-none/haeder__button_desctop-none.css");
+@import url("../blocks/header/__button/_tlg/header__button_tlg.css");
 
 @import url("../blocks/bread-crumbs/bread-crumbs.css");
 @import url("../blocks/bread-crumbs/__link/bread-crumbs__link.css");
@@ -96,6 +98,7 @@
 @import url("../blocks/card-avatar/card-avatar.css");
 @import url("../blocks/card-avatar/__link/card-avatar__link.css");
 @import url("../blocks/card-avatar/__list/_mobile-first-only/card-avatar__list_mobile-first-only.css");
+@import url("../blocks/card-avatar/__list/_border-none/card-avatar__list_border-none.css");
 
 @import url("../blocks/card-edition/__lists/card-edition__lists.css");
 @import url("../blocks/card-edition/__list/card-edition__list.css");

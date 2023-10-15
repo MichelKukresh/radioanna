@@ -13,3 +13,9 @@
         font-size: 11px;
     } 
 }
+
+@media (max-width:580px) {
+    .card-main__discription {
+display: none;
+    }
+}
