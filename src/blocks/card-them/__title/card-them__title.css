@@ -8,6 +8,8 @@
 
 @media (max-width: 1270px) {
   .card-them__title {
-    font-size: 10px;
+    font-weight: 200;
+    font-size: 13px;
+    margin-bottom: 5px;
   }
 }

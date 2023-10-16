@@ -35,7 +35,11 @@
             <span>Бегущая строка</span> <span>Бегущая строка</span></a
           >
           <a class="header__widget" href="https://telegram.me/anna_news"
-            ><img src="../src/images/telegram.svg" alt="иконка телеграмм" />
+            ><img
+              class="header__button_tlg"
+              src="../src/images/telegram.svg"
+              alt="иконка телеграмм"
+            />
             <span class="header__widget_telegramm-text"
               >Получать оперативную <br />
               информацию</span
@@ -44,6 +48,22 @@
           <a class="header__message" href=""
             ><img src="../src/images/icon_message.svg" alt="иконка сообщения"
           /></a>
+
+          <button class="header__button haeder__button_desctop-none">
+            <img
+              class="header__button_search"
+              src="images/search-white.svg"
+              alt="картинка поиска"
+            />
+          </button>
+
+          <button class="header__button haeder__button_desctop-none">
+            <img
+              class="header__button_menu"
+              src="images/menu.svg"
+              alt="картинка меню"
+            />
+          </button>
         </div>
       </div>
       <div class="page__container-header page__container-header_bottom">
@@ -71,14 +91,9 @@
                   >ВПК/Технологии</a
                 >
               </li>
-              <!-- <li>
-                <a class="header__link header__link_mobile" href=""
-                  >Все рубрики
-                  <img src="images/cevron.svg" alt="иконка шеврона" />
-                </a>
-              </li> -->
             </ul>
           </nav>
+
           <div>
             <button class="header__button">
               <img
@@ -104,7 +119,51 @@
           </div>
         </div>
       </div>
+      <!-- 17 Шаблон попап хедер -->
+      <!-- <diV class="popup-menu">
+        <nav class="popup-menu__container">
+          <h4 class="popup-menu__title">Регионы</h4>
+          <ul class="popup-menu__lists">
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+            <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+          </ul>
+        </nav>
+          <nav class="popup-menu__container">
+            <h4 class="popup-menu__title">Рубрики</h4>
+            <ul class="popup-menu__lists popup-menu__lists_column-2">
+              
+
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Афганистан</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Украина</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Донбасс</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Бывший СССР</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Ближний Восток</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Запад</a></li>
+              <li class="popup-menu__list"><a class="popup-menu__link" href="">Мир</a></li>
+            </ul>
+        </nav>
+      </diV> -->
     </header>
+
 
     <main class="section page__container-main">
       <div class="section page__main page__maim_min">
@@ -335,13 +394,19 @@
               материалов агентства активная ссылка на сайт anna-news.info
               обязательна.</span
             >
-            <img
-              class="footer__img footer__img_rss"
-              src="images/rss.svg"
-              alt="картинка RSS"
-            />
-            <a class="footer__link" href="">Карта сайта</a>
-            <img class="footer__img" src="images/18+.svg" alt="картинка 18+" />
+            <div>
+              <img
+                class="footer__img footer__img_rss"
+                src="images/rss.svg"
+                alt="картинка RSS"
+              />
+              <a class="footer__link" href="">Карта сайта</a>
+              <img
+                class="footer__img"
+                src="images/18+.svg"
+                alt="картинка 18+"
+              />
+            </div>
           </div>
 
           <!-- </div> -->
