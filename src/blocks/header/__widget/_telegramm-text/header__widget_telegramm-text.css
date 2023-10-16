@@ -15,3 +15,9 @@
         display: block;
     }
 }
+
+@media (max-width: 700px ) {
+    .header__widget_telegramm-text {
+        font-size: 7px;
+    }
+}
