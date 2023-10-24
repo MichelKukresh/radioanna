@@ -1,6 +1,6 @@
 .section-rubric__container {
   display: grid;
-  grid-template-columns: 69% 30%;
+  grid-template-columns: 69% auto;
   gap: 20px;
   height: 100%;
 }

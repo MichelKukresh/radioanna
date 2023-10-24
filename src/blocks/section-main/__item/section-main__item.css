@@ -1,9 +1,9 @@
 .section-main__item {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   justify-content: space-between;
-  max-height: 791px;
+  max-height: 766px;
 }
 
 .section-main__item:first-child {

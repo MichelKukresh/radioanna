@@ -117,15 +117,6 @@
 
 @import url("../blocks/title-headers/title-headers.css");
 
-@import url("../blocks/section-main/__content/section-main__content.css");
-@import url("../blocks/section-main/__title/section-main__title.css");
-@import url("../blocks/section-main/section-main.css");
-@import url("../blocks/section-main/__item/section-main__item.css");
-@import url("../blocks/section-main/__donat/section-main__donat.css");
-@import url("../blocks/section-main/_mobile-none/section-main_mobile-none.css");
-@import url("../blocks/section-main/__item/_desctop/section__item_desctop.css");
-@import url("../blocks/section-main/__item/_mobile/section__item_mobile.css");
-
 @import url("../blocks/section-carousel/__content/section-carousel__content.css");
 @import url("../blocks/section-carousel/section-carousel.css");
 @import url("../blocks/section-carousel/_mobile-none/section-carouse_mobile-none.css");
@@ -271,3 +262,13 @@
 
 @import url("../blocks/element-rest/element-rest.css");
 @import url("../blocks/element-play/element-play.css");
+
+@import url("../blocks/section-main/__content/section-main__content.css");
+@import url("../blocks/section-main/__title/section-main__title.css");
+@import url("../blocks/section-main/section-main.css");
+@import url("../blocks/section-main/__item/section-main__item.css");
+@import url("../blocks/section-main/__donat/section-main__donat.css");
+@import url("../blocks/section-main/_mobile-none/section-main_mobile-none.css");
+@import url("../blocks/section-main/__item/_desctop/section__item_desctop.css");
+@import url("../blocks/section-main/__item/_mobile/section__item_mobile.css");
+@import url("../blocks/section-main/_head-fixed/sextion-main_head-fixed.css");

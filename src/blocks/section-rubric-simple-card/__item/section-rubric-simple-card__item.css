@@ -1,5 +1,5 @@
 .section-rubric-simple-card__item {
-  gap: 30px;
+  gap: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
 }

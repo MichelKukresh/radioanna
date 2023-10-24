@@ -1,6 +1,6 @@
 .section-main-duble {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
     gap: 20px;
     height: 340px;
     margin-top: 50px;
