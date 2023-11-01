@@ -1,5 +1,5 @@
 .section-social-simple__top {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    /* gap:10px; */
 }

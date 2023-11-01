@@ -2,11 +2,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 60px;
-  gap: 25px;
+  gap: 20px;
 }
 
 @media (max-width: 1000px) {
   .section-duble-line {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .section-duble-line {        
+      margin-bottom: 20px;
   }
 }

@@ -3,6 +3,7 @@
   flex-direction: row;
   width: calc(100% - 255px);
   position: relative;
+  max-width: 1630px;
 }
 
 @media (max-width: 1618px) {

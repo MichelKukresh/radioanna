@@ -4,3 +4,8 @@
     margin-bottom: 60px;
 }
 
+@media (max-width: 580px) {
+    .section-main {        
+        margin-bottom: 20px;
+    }
+}

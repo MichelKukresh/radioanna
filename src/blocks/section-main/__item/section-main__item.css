@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
-  max-height: 766px;
+  max-height: 747px;
 }
 
 .section-main__item:first-child {
@@ -23,7 +23,7 @@
 
 @media (max-width: 700px) {
   .section-main__item:nth-child(3) {
-    max-height: 500px;
+    /* max-height: 500px; */
   }
 }
 

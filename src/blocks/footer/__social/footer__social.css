@@ -2,8 +2,8 @@
   right: 0;
   position: absolute;
   max-width: 322px;
-  bottom: -54px;
-  margin-right: -5px;
+  bottom: 0px;
+  margin-right: 41px;
 }
 
 @media (max-width: 1250px) {
