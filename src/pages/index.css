@@ -115,6 +115,7 @@
 @import url("../blocks/card-edition/_height-auto/card-edition_height-auto.css");
 @import url("../blocks/card-edition/_mobile/card-edition_mobile.css");
 @import url("../blocks/card-edition/__img/_first/card-edition__img_first.css");
+@import url("../blocks/card-edition/__lists/_equal/_1-col/card-edition__listd_1-col.css");
 
 @import url("../blocks/title-headers/title-headers.css");
 
@@ -164,6 +165,7 @@
 @import url("../blocks/element-title/__lists/element-title__lists.css");
 @import url("../blocks/element-title/__text/element-title__text.css");
 @import url("../blocks/element-title/_center/element-title_center.css");
+@import url("../blocks/element-title/_mobile-none/element-title_mobile-none.css");
 
 
 @import url("../blocks/section-politics/section-politics.css");
@@ -245,6 +247,7 @@
 @import url("../blocks/card-copirite/__donat-rub/card-copirite__donat-rub.css");
 @import url("../blocks/card-copirite/__container-video/card-copirite__container-video.css");
 @import url("../blocks/card-copirite/__text/_mod/card-copirite__text_mod.css");
+@import url("../blocks/section-copirite/__right/_mobile-none/section-copirite__right_mobile-none.css");
 
 @import url("../blocks/element-time/element-time.css");
 @import url("../blocks/element-time/__contaimer/element-time__container.css");
