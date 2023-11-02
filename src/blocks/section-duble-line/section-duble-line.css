@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-width: 980px) {
+  .section-duble-line {
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 580px) {
   .section-duble-line {        
       margin-bottom: 20px;

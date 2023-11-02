@@ -1,7 +1,7 @@
 .header__navigaton {
   display: flex;
   list-style-type: none;
-  gap: 50px;
+  gap: 20px;
   font-weight: 400;
   font-size: 15px;
   margin: 0;

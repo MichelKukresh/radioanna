@@ -6,6 +6,14 @@
     margin-top: -18px;
 }
 
+@media (max-width: 980px) {
+    .section-politics {        
+        /* margin-bottom: 6px; */
+        margin-top: 0px;
+    }
+  }
+  
+
 @media (max-width: 580px) {
     .section-politics {        
         margin-bottom: 6px;

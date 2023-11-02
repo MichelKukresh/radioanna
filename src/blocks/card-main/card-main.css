@@ -2,12 +2,17 @@
   background-image: url(../../images/main-card.png);
   width: 100%;
   height: 100%;
-  height: 319px;
+  height: 333px;
   border-radius: 12px;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: end;
+}
+@media (max-width: 980px) {
+  .card-main {
+    height: 500px;
+  }
 }
 
 @media (max-width: 580px) {

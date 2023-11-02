@@ -6,6 +6,12 @@
   margin-right: 41px;
 }
 
+@media (max-width: 980px) {
+  .footer__social {
+    margin-right: 0px;
+  }
+}
+
 @media (max-width: 1250px) {
   .footer__social {
     position: relative;

@@ -4,7 +4,7 @@
   }
 
   .card-edition__list:not(:first-child) {
-    border-radius: 8px;
+    border-radius: 12px;
   }
 
   
