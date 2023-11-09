@@ -17,6 +17,7 @@
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  line-height: 1;
 }
 
 .footer__direction nav li {

@@ -167,6 +167,7 @@
 @import url("../blocks/element-title/__text/element-title__text.css");
 @import url("../blocks/element-title/_center/element-title_center.css");
 @import url("../blocks/element-title/_mobile-none/element-title_mobile-none.css");
+@import url("../blocks/element-title/__lists/_gap/element-title__lists_gap.css");
 
 
 @import url("../blocks/section-politics/section-politics.css");
