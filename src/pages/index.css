@@ -34,6 +34,7 @@
 @import url("../blocks/header/__button/_mobile-none/header__button_mobile-none.css");
 @import url("../blocks/header/__button/_desctop-none/haeder__button_desctop-none.css");
 @import url("../blocks/header/__button/_tlg/header__button_tlg.css");
+@import url("../blocks/header/__widget/_long/header__widget_long.css");
 
 @import url("../blocks/bread-crumbs/bread-crumbs.css");
 @import url("../blocks/bread-crumbs/__link/bread-crumbs__link.css");

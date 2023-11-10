@@ -8,7 +8,7 @@
 
 @media (max-width: 1618px) {
   .footer__container {
-    width: calc(100% - 80px);
+    width: calc(100% - 200px);
   }
 }
 

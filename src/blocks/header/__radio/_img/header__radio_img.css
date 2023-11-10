@@ -1,5 +1,5 @@
 .header__radio_img {
-
+    height: 50px;
 }
 
 @media (max-width: 580px) {

@@ -3,6 +3,10 @@
 
 }
 
+.header__message img {
+    height: 34px;
+}
+
 @media (max-width: 580px) {
     .header__message {
 display: none;

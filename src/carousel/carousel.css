@@ -1,8 +1,22 @@
+.slick-slide {
+  margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+   margin: 0 -10px !important;
+}
 
+.slisk-slider {
+  padding: 0;
+}
+
+.slide {
+  padding: 10px;
+}
 
 /* Корусель из простых карточек */
 .slick-track li {
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .slick-arrow {
@@ -35,7 +49,7 @@ margin-bottom: 0px ;
 }
 
 .slick-arrow.slick-next {
-  left: calc(100% - 5px);
+  /* left: calc(100% - 12px); */
 
   background-image: url("../images/chevron.svg");
 }
@@ -48,7 +62,7 @@ margin-bottom: 0px ;
     left: -40px;
   }
   .slick-arrow.slick-next {
-    left: calc(100% + 3px);
+    left: calc(100% + 12px);
     transform: rotate(0deg);
   }
 }
@@ -104,7 +118,7 @@ margin-bottom: 0px ;
 /* карусель мнения */
 
 .caorusel-views .slick-slide {
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 @media (max-width: 580px) {

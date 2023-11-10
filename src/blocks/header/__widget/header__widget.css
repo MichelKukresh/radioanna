@@ -10,6 +10,7 @@
   font-size: 13px;
   height: 12px;
   text-decoration: none;
+  justify-content: space-between;
 }
 
 @media (max-width: 980px) {

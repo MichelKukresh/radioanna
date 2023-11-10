@@ -2,7 +2,7 @@
     position: relative;   
 }
 .search input {
-    height: 46px;
+    height: 40px;
     border: none;
     margin-bottom: 36px;
     width: 100%;
@@ -15,7 +15,7 @@
     background-image: url('../../images/search-blask.svg');
     height: 28px;
     width: 28px;    
-    top: 10px;
+    top: 7px;
     right: 24px;
     background-repeat: no-repeat;
 }
