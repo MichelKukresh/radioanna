@@ -18,3 +18,9 @@
     gap: 10px;
   }
 }
+
+@media (max-width: 580px) {
+  .page__header {
+    width: calc(100% - 20px);
+  }
+}

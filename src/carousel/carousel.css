@@ -123,9 +123,9 @@ margin-bottom: 0px ;
 
 @media (max-width: 580px) {
   .caorusel-views .slick-slide {
-    margin-right: 0px;
+    margin-right: 10px;
   }
   .slick-track li {
-    margin-right: 0px;
+    margin-right: 10px;
   }
 }
