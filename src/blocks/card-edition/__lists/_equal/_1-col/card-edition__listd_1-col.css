@@ -1,6 +1,6 @@
 
 @media (max-width: 700px) {
     .card-edition__listd_1-col {
-    grid-template-rows: 205px;
+    grid-template-rows: auto;
 }
 }
