@@ -7,9 +7,34 @@ border: 1px solid red;
 }
 
 .card-video-max video {
-    /* height: 950px; */
+    /* height: 915px; */
+    height: 57%;
     width: 100%;
     /* border-radius: 10px; */
     overflow: hidden;
-    background-size: cover;
+    /* background-size: cover; */
 }
+
+/* @media (max-width:1601px) {
+    .card-video-max video {
+        height: 777px;
+    } 
+}
+
+@media (max-width:1281px) {
+    .card-video-max video {
+        height: 598px;
+    } 
+}
+
+@media (max-width:1025px) {
+    .card-video-max video {
+        height: 453px;
+    } 
+}
+
+@media (max-width:901px) {
+    .card-video-max video {
+        height: 385px;
+    } 
+} */
