@@ -2,4 +2,14 @@
 border-radius: 10px;
 overflow: hidden;
 position: relative;
+width: 100%;
+border: 1px solid red;
+}
+
+.card-video-max video {
+    /* height: 950px; */
+    width: 100%;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    background-size: cover;
 }
