@@ -8,10 +8,11 @@ border: 1px solid red;
 
 .card-video-max video {
     /* height: 915px; */
-    height: 57%;
+    /* height: 57%; */
     width: 100%;
     /* border-radius: 10px; */
     overflow: hidden;
+    object-fit: cover;
     /* background-size: cover; */
 }
 
