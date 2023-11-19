@@ -130,6 +130,7 @@
 @import url("../blocks/section-duble-line/section-duble-line.css");
 @import url("../blocks/section-duble-line/_mobile-none.css/section-duble-line_mobile-none.css");
 @import url("../blocks/section-duble-line/_margin/section-duble-line_margin.css");
+@import url("../blocks/section-duble-line/_video/section-duble-line_video.css");
 
 @import url("../blocks/card-operational/card-operational.css");
 @import url("../blocks/card-operational/__content/card-operational__content.css");
