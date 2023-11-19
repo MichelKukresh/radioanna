@@ -1,4 +1,5 @@
 .card-video-mid__video {
-    height: 100%;
-    border-radius: 15px;    
+    /* height: 100%; */
+    border-radius: 15px; 
+    object-fit: cover;   
 }
