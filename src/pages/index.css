@@ -252,6 +252,7 @@
 @import url("../blocks/card-copirite/__container-video/card-copirite__container-video.css");
 @import url("../blocks/card-copirite/__text/_mod/card-copirite__text_mod.css");
 @import url("../blocks/section-copirite/__right/_mobile-none/section-copirite__right_mobile-none.css");
+@import url("../blocks/card-copirite/__img/_video/card-copirite__img_video.css");
 
 @import url("../blocks/element-time/element-time.css");
 @import url("../blocks/element-time/__contaimer/element-time__container.css");
