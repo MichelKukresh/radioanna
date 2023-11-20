@@ -10,12 +10,12 @@
 
 @media (max-width: 500px) {
   .card-video__time {
-    bottom: 30%;
+    bottom: 24%;
   }
 }
 
 @media (max-width: 350px) {
   .card-video__time {
-    bottom: 30%;
+    bottom: 24%;
   }
 }
