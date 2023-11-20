@@ -118,7 +118,7 @@ margin-bottom: 0px ;
 
 /* слайдер мнения */
 
-.caorusel-views .slick-dots button {
+.caorusel-views .slick-dots button, .section-carousel__content .slick-dots button{
   text-indent: -9999px;
   background-image: url(../images/point.svg);
   background-position: center center;
@@ -129,19 +129,17 @@ margin-bottom: 0px ;
 }
 
 
-.caorusel-views .slick-dots .slick-active button {
+.caorusel-views .slick-dots .slick-active button, .section-carousel__content .slick-dots .slick-active button{
   background-image: url(../images/point_activ.svg);
 }
 
-.caorusel-views ul.slick-dots {
+.caorusel-views ul.slick-dots, .section-carousel__content ul.slick-dots {
   display: none !important;
 }
 
 
 @media (max-width: 580px) {
-  .caorusel-views ul.slick-dots {
-   
-
+  .caorusel-views ul.slick-dots, .section-carousel__content ul.slick-dots {
     list-style-type: none;
   display: flex !important;
   gap: 5px;
