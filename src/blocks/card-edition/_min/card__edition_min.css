@@ -6,4 +6,8 @@
     .card__edition_min {
        height: 27%;
     }
+
+    .card__edition_min.card__edition_min_h {
+        height: 25%;
+     }
 }
