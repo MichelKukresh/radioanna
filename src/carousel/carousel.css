@@ -115,10 +115,39 @@ margin-bottom: 0px ;
   background-image: url(../images/point_activ.svg);
 }
 
-/* карусель мнения */
 
-.caorusel-views .slick-slide {
-  /* margin-right: 20px; */
+/* слайдер мнения */
+
+.caorusel-views .slick-dots button {
+  text-indent: -9999px;
+  background-image: url(../images/point.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 12px;
+  background-color: inherit;
+}
+
+
+.caorusel-views .slick-dots .slick-active button {
+  background-image: url(../images/point_activ.svg);
+}
+
+.caorusel-views .slick-dots {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 10px;
+  margin-top: 20px;
+}
+
+@media (min-width: 580px) {
+  .caorusel-views ul .slick-dots {
+    display: none;
+  }
 }
 
 @media (max-width: 580px) {
