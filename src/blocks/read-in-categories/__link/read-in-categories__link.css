@@ -1,3 +1,4 @@
 .read-in-categories__link {
-    text-decoration: none;
+    /* text-decoration: none; */
+    padding-bottom: 10px;
 }

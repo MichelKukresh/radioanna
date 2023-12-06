@@ -1,5 +1,7 @@
 .cadr-them__link {
     text-decoration: none;
     position: relative;
+    display: flex;
+    flex-direction: column;
 
 }

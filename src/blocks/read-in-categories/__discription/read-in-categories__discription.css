@@ -5,6 +5,7 @@
   font-size: 15px;
   margin: 5px 0px 0px 0px;
   padding-bottom: 15px;
+  text-decoration: none;
 }
 
 @media (max-width: 1270px) {
