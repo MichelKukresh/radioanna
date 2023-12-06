@@ -3,6 +3,7 @@
     background-color: #FBFBFB;
     padding: 20px;
     margin-left: -15px;
+    overflow: hidden;
 }
 
 @media (max-width: 580px) {
