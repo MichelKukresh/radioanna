@@ -19,6 +19,6 @@
 - [Шестая страница](https://michelkukresh.github.io/radioanna/src/index6.html "Шестая страница")
 - [Седьмая страница](https://michelkukresh.github.io/radioanna/src/index7.html "Седьмая страница")
 - [Восьмая страница](https://michelkukresh.github.io/radioanna/src/index8.html "Восьмая страница")
-- [Девятая страница](https://michelkukresh.github.io/radioanna/src/index8.html "Восьмая страница")
+- [Девятая страница](https://michelkukresh.github.io/radioanna/src/index9.html "Восьмая страница")
 
 - [Ссылка на макет Figma](https://www.figma.com/file/nd9ZERUwIxeDjEbtgylaNx/Untitled?type=design&node-id=0-1&mode=design "Ссылка на макет Figma")
