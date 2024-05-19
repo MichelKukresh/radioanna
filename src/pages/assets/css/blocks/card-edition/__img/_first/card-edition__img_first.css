@@ -1,0 +1,9 @@
+.card-edition__img_first {
+    height: 55% !important;
+}
+/* 
+@media (max-width: 1000px) {
+    .card-edition__img_first {
+        height: 60% !important;
+    }
+} */

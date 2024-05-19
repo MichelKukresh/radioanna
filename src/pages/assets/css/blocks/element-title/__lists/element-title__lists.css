@@ -1,0 +1,11 @@
+.element-title__lists {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;   
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+

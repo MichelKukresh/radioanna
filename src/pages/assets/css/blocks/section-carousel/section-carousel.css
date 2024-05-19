@@ -1,0 +1,13 @@
+.section-carousel {
+   display: flex;
+    flex-direction: column; 
+    margin-bottom: 72px;
+    gap: 20px;
+}
+
+@media (max-width: 980px) {
+    .section-carousel {        
+        margin-bottom: 20px;        
+    }
+  }
+  

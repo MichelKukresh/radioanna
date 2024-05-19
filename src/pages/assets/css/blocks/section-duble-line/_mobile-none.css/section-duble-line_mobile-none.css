@@ -1,0 +1,9 @@
+.section-duble-line_mobile-none {
+
+}
+
+@media (max-width: 700px) {
+    .section-duble-line_mobile-none {
+    display: none;
+    }
+}

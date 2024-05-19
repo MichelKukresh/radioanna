@@ -1,0 +1,26 @@
+.social__lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  /* gap: 24px; */
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+@media (max-width: 1280px) {
+  .social__lists {
+    gap: 4%;
+  }
+}
+
+@media (max-width: 580px) {
+  .social__lists {
+    gap: 11px;
+  }
+}
+
+.social__lists img {
+  width: 33px;
+  height: 33px;
+}

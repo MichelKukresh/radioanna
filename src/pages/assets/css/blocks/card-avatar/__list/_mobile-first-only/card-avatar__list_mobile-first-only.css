@@ -1,0 +1,16 @@
+.card-avatar__list_mobile-first-only {
+
+}
+
+@media (max-width: 700px) {
+
+    .card-avatar__list_mobile-first-only {
+        margin-bottom: 4px;
+        /* background-color: #fbfbfb; */
+    }
+
+    .card-avatar__list_mobile-first-only:not(:first-child) {
+    display: none;
+    
+    }  
+}

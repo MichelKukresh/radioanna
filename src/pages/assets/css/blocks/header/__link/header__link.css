@@ -1,0 +1,17 @@
+.header__link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #cbcfca;
+}
+
+.header__link img{
+  height: 12px;
+}
+
+
+
+@media (max-width: 1270px) {
+  .header__link {
+    font-size: 15px;
+  }
+}

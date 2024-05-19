@@ -1,0 +1,23 @@
+.header__widget_telegramm-text {
+    font-size: 13px;
+}
+
+
+
+@media (max-width: 1270px) {
+    .header__widget_telegramm-text {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 830px ) {
+    .header__widget_telegramm-text {
+        display: block;
+    }
+}
+
+@media (max-width: 700px ) {
+    .header__widget_telegramm-text {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,10 @@
+.card-video-max__container {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 20px;
+}
+

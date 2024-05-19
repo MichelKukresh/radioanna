@@ -1,0 +1,9 @@
+.card-edition_mobile {
+
+}
+
+@media (max-width:580px) {
+    .card-edition_mobile {
+        display: none;
+    }
+}

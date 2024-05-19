@@ -1,0 +1,43 @@
+.section-live {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  /* height: 80vh; */
+}
+
+/* @media (max-width:1281px) {
+  .section-live {
+    height: 63vh;
+  }
+}
+
+@media (max-width:1025px) {
+  .section-live {
+    height: 50vh;
+  }
+}
+
+@media (max-width:921px) {
+  .section-live {
+    height: 45vh;
+  }
+}
+
+@media (max-width:720px) {
+  .section-live {
+    height: 35vh;
+  }
+}
+
+@media (max-width:420px) {
+  .section-live {
+    height: 30vh;
+  }
+} */
+
+@media (max-width: 700px) {
+  .section-live {    
+    margin-bottom: 20px;
+  }
+}

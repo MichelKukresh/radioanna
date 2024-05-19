@@ -1,0 +1,38 @@
+.card-video-max {
+border-radius: 10px;
+overflow: hidden;
+position: relative;
+width: 100%;
+/* border: 1px solid red; */
+}
+
+.card-video-max video {    
+    height: 70vh;
+    width: 100%;    
+    overflow: hidden;
+    object-fit: cover;    
+}
+
+ @media (max-width:580px) {
+    .card-video-max video {
+        height: 50vh;
+    } 
+}
+/*
+@media (max-width:1281px) {
+    .card-video-max video {
+        height: 598px;
+    } 
+}
+
+@media (max-width:1025px) {
+    .card-video-max video {
+        height: 453px;
+    } 
+}
+
+@media (max-width:901px) {
+    .card-video-max video {
+        height: 385px;
+    } 
+} */

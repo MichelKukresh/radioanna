@@ -1,0 +1,9 @@
+.section-rubric__container_bottom {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    .section-rubric__container_bottom {
+        margin-bottom: 20px;
+    }
+}

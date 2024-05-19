@@ -1,0 +1,9 @@
+.haeder__button_desctop-none {
+display: none;
+}
+
+@media (max-width: 580px) {
+    .haeder__button_desctop-none {
+        display: block;
+    }
+}

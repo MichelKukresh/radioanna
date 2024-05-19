@@ -1,0 +1,6 @@
+.card-views__lists {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  gap: 20px;
+}

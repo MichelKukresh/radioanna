@@ -1,0 +1,9 @@
+.card-video-max__play {
+    background-image: url(../../../images/play.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    height: 59px;
+    width: 75px;
+    background-color: inherit;
+}

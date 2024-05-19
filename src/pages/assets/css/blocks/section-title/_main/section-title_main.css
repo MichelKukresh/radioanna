@@ -1,0 +1,10 @@
+.section-title_main {
+    margin-left: calc(22.5% + 20px) ;
+    max-width: 500px;
+}
+
+@media (max-width: 980px) {
+    .section-title_main {
+        margin-left: 0px;
+    }
+}

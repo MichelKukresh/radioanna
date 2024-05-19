@@ -1,0 +1,8 @@
+.card-video-mid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    border-radius: 12px;
+    overflow: hidden;
+}

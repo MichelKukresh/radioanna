@@ -1,0 +1,12 @@
+.card-exclusive__list {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  height: 100%;
+}
+
+@media (max-width: 580px) {
+  .card-exclusive__list {
+    flex-direction: column;
+  }
+}

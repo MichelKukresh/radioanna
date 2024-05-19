@@ -1,0 +1,13 @@
+.page__container-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 1270px) {
+  .page__container-header {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,21 @@
+.search {    
+    position: relative;   
+}
+.search input {
+    height: 40px;
+    border: none;
+    /* margin-bottom: 36px; */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.search::after {
+    content: "";
+    position: absolute;   
+    background-image: url('../../images/search-blask.svg');
+    height: 28px;
+    width: 28px;    
+    top: 7px;
+    right: 24px;
+    background-repeat: no-repeat;
+}

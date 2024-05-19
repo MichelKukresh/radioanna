@@ -1,0 +1,25 @@
+.read-in-categories {
+  color: black;
+  list-style-type: none;
+  padding: 5px 25px 5px 25px;
+  margin: 0px;
+  background-color: #fbfbfb;
+  border-radius: 12px;
+  overflow-y: scroll;
+}
+
+.read-in-categories li {
+  border-bottom: 1px solid #dadada;
+}
+
+.read-in-categories li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 700px) {
+  .read-in-categories {
+    margin-bottom: 15px;
+    overflow-y: inherit;
+    padding: 5px 16px 5px 16px;
+  }
+}

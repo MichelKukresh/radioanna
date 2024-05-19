@@ -31,7 +31,8 @@
   .section-main__content {
     gap: 10px;
     column-gap: 0px;
-    grid-template-columns: repeat(1, 1fr);    
+    grid-template-columns: repeat(1, 1fr); 
+    
     grid-template-areas:
       "caorusel caorusel"
       "last last"

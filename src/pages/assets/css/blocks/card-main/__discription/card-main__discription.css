@@ -1,0 +1,21 @@
+.card-main__discription {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 20px 20px 20px 20px;
+    letter-spacing: 2px;
+}
+
+
+
+@media (max-width: 1270px) {
+    .card-main__discription {
+        font-size: 11px;
+    } 
+}
+
+@media (max-width:580px) {
+    .card-main__discription {
+display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.card-edition__list_mobile-none {
+
+}
+
+@media (max-width: 580px) {
+    .card-edition__list_mobile-none:not(:first-child) {
+      display: none;
+    }
+  }
+ 

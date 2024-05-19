@@ -1,0 +1,6 @@
+.card-views_setting-5-25 ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(338px, 1fr));
+
+}
+

@@ -1,0 +1,12 @@
+.card-edition__listd_equal {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    height: 100%;
+}
+
+@media (max-width: 500px ) {
+    .card-edition__listd_equal {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto; 
+    }
+}

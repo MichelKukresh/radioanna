@@ -1,0 +1,10 @@
+.card-views__container {
+    display: grid;
+    grid-template-columns: 44% 55%;
+    gap: 15px;
+}
+
+.card-views__art-info {  /* #hack */
+  height: 124px; 
+  overflow: hidden; 
+}

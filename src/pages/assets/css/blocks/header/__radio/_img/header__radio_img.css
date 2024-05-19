@@ -1,0 +1,11 @@
+.header__radio_img {
+    height: 50px;
+    cursor: pointer; /* #hack */
+}
+
+@media (max-width: 580px) {
+    .header__radio_img {
+        height: 30px;
+    }
+    
+}

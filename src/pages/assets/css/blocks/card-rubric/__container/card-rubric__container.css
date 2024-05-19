@@ -1,0 +1,13 @@
+.card-rubric__container {
+  background-color: #fbfbfb;
+  /* padding-bottom: 49px; */
+  border-radius: 12px;
+  height: 290px; /* #hack */
+  overflow: hidden;  /* #hack */
+}
+
+@media (max-width: 1270px) {
+  .card-rubric__container {
+    /* padding-bottom: 30px; */
+  }
+}

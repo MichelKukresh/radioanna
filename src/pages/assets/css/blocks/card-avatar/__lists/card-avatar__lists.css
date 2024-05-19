@@ -1,0 +1,13 @@
+.card-avatar__lists {
+  padding: 15px 15px 0px 15px;
+  margin: 0px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  list-style-type: none;
+}
+
+@media (max-width: 580px) {
+  .card-avatar__lists {
+    padding: 5px 5px 0px 5px;
+  }
+}

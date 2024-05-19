@@ -1,0 +1,12 @@
+.card-video-mid__video {
+    /* height: 100%; */
+    border-radius: 15px; 
+    object-fit: cover;   
+    height: 50vh;
+}
+
+@media (max-width:580px) {
+    .card-video-mid__video {
+        height: 36vh;  
+    }
+}

@@ -1,0 +1,17 @@
+.section-donat {
+  margin-bottom: 60px;
+  height: 200px;
+}
+
+@media (max-width: 980px) {
+  .section-donat {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .section-donat {
+    height: 150px;
+  }
+}

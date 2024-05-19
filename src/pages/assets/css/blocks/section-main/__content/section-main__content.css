@@ -1,0 +1,45 @@
+.section-main__content {
+  gap: 20px;
+  display: grid;
+  /* grid-template-columns: 22.5% 44.5% 30%; */
+  /* grid-template-columns: 300px 44% 30%; */
+
+  grid-template-columns: 300px calc((100% - 300px) * 0.56) 1fr;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .section-main__content {
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 300px 1fr;
+
+    grid-template-areas:
+      "caorusel caorusel"
+      "video last";
+  }
+
+  .section-main__content_1 {
+    grid-area: video;
+  }
+
+  .section-main__content_2 {
+    grid-area: caorusel;
+  }
+
+  .section-main__content_3 {
+    grid-area: last;
+  }
+}
+
+@media (max-width: 700px) {
+  .section-main__content {
+    gap: 10px;
+    column-gap: 0px;
+    grid-template-columns: repeat(1, 1fr);    
+    grid-template-areas:
+      "caorusel caorusel"
+      "last last"
+      "video video";
+  }
+  
+}

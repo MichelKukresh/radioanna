@@ -1,0 +1,12 @@
+.bread-crumbs__link {
+  font-weight: 300;
+  font-size: 14px;
+  color: #4a4a3b;
+  text-decoration: none;
+}
+
+@media (max-width: 1270px) {
+  .bread-crumbs__link {
+    font-size: 12px;
+  }
+}

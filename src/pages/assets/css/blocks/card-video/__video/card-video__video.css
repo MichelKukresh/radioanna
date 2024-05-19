@@ -1,0 +1,9 @@
+.card-video__video {
+  border-radius: 12px;
+  width: 300px;
+  height: 168px;
+  
+  overflow: hidden;
+  background-color: brown;
+  margin: auto;
+}

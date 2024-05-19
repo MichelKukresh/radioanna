@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #ffffff;
+  margin-top: 0px;
+  position: relative;
+}
+
+@media (max-width: 1270px) {
+  .header {
+    margin-top: 0px;
+    place-content: center;
+  }
+}

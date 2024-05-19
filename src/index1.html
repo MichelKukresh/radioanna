@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="pages/style.css" />
     <title>Radio-ANNA</title>
     <link
       rel="stylesheet"
@@ -56,7 +56,7 @@
               alt="картинка поиска"
             />
           </button>
-
+          <div class="search search_header" style="display: none; position: absolute; top: 57px; right: 10px;"><input></div>
           <button class="header__button haeder__button_desctop-none">
             <img
               class="header__button_menu"
@@ -100,14 +100,15 @@
             </ul>
           </nav>
 
-          <div>
-            <button class="header__button">
+          <div class="header__handle">
+            <div class="search search_header"><input></div>
+            <!-- <button class="header__button">
               <img
                 class="header__button_search"
                 src="images/search-white.svg"
                 alt="картинка поиска"
               />
-            </button>
+            </button> -->
             <button class="header__button header__button_mobile-none">
               <img
                 class="header__button_flag"
@@ -188,13 +189,14 @@
                   <a class="card-video__link">Все видео</a>
                 </div>
                 <div class="card-video__video">
-                  <video
+                  <!-- <video
                     controls
                     poster="images/video-img.png"
                     width="100%"
                     height="100%"
                     src="https://anna-news.info/mediafiles/2023/09/IMG_7467.mp4?_=1"
-                  ></video>
+                  ></video> -->
+                  <iframe width="300" height="250" src="https://viar.media/player/embed_player.php?vid=M8Y2M8RH1NSD&width=300&height=250" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <p class="card-video__description">
                   Каждый из нас понимает очевидную вещь: сложившаяся структура
@@ -1799,6 +1801,10 @@
           }
         });
       });
+    </script>
+    <script>
+
+    $(".header__button_search").click(function(){ $(".search_header").toggle(); })
     </script>
   </body>
 </html>

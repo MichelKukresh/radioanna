@@ -1,0 +1,15 @@
+.cadr-them__link {
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* #hack - добавил новый класс: */
+.cadr-them__link_inner {  
+  height:60px;
+  overflow:hidden;
+  /*border: 1px #ff0000 solid;*/
+  margin: 0 8px 8px 8px;
+}

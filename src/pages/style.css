@@ -1,0 +1,472 @@
+/*
+Theme Name: anna-news23
+Description: ANNA-NEWS NEW 2023
+*/
+
+
+@import url("assets/css/vendor/normalize.css?6");
+@import url("assets/css/vendor/fonts/InterWeb/inter.css?6");
+
+@import url("assets/css/blocks/page/page.css?6");
+@import url("assets/css/blocks/page/__container-header/page__container-header.css?6");
+@import url("assets/css/blocks/page/__container-header/_bottom/page__container-header_bottom.css?6");
+@import url("assets/css/blocks/page/__header/page__header.css?6");
+@import url("assets/css/blocks/page/__container-main/page__container-main.css?6");
+@import url("assets/css/blocks/section/section.css?6");
+@import url("assets/css/blocks/page/__main/page__main.css?6");
+@import url("assets/css/blocks/page/__footer/page__footer.css?6");
+@import url("assets/css/blocks/page/__main/_min/page__maim_min.css?6");
+
+
+@import url("assets/css/blocks/content/__section/content__section.css?6");
+
+@import url("assets/css/blocks/header/header.css?6");
+@import url("assets/css/blocks/header/__logo/header__logo.css?6");
+@import url("assets/css/blocks/header/__widget/header__widget.css?6");
+@import url("assets/css/blocks/header/__navigation/header__navigaton.css?6");
+@import url("assets/css/blocks/header/__widget/_telegramm-text/header__widget_telegramm-text.css?6");
+@import url("assets/css/blocks/header/__link/header__link.css?6");
+@import url("assets/css/blocks/header/__link/_active/header__link_active.css?6");
+@import url("assets/css/blocks/header/__button/header__button.css?6");
+@import url("assets/css/blocks/header/__widget/_none/header__widget_none.css?6");
+@import url("assets/css/blocks/header/__link/_desctop/header__link_desctop.css?6");
+@import url("assets/css/blocks/header/__link/_mobile/header__link_mobile.css?6");
+@import url("assets/css/blocks/header/__message/header__message.css?6");
+@import url("assets/css/blocks/header/__radio/header__radio.css?6");
+@import url("assets/css/blocks/header/__radio/_img/header__radio_img.css?6");
+@import url("assets/css/blocks/header/__button/_serch/header__button_search.css?6");
+@import url("assets/css/blocks/header/__button/_flag/header__button_flag.css?6");
+@import url("assets/css/blocks/header/__button/_menu/header__button_menu.css?6");
+@import url("assets/css/blocks/header/__button/_mobile-none/header__button_mobile-none.css?6");
+@import url("assets/css/blocks/header/__button/_desctop-none/haeder__button_desctop-none.css?6");
+@import url("assets/css/blocks/header/__button/_tlg/header__button_tlg.css?6");
+@import url("assets/css/blocks/header/__widget/_long/header__widget_long.css?6");
+@import url("assets/css/blocks/header/__handle/header__handle.css");
+
+@import url("assets/css/blocks/bread-crumbs/bread-crumbs.css?6");
+@import url("assets/css/blocks/bread-crumbs/__link/bread-crumbs__link.css?6");
+
+@import url("assets/css/blocks/read-in-categories/read-in-categories.css?6");
+@import url("assets/css/blocks/read-in-categories/__headers/read-in-categories__headers.css?6");
+@import url("assets/css/blocks/read-in-categories/__discription/read-in-categories__discription.css?6");
+@import url("assets/css/blocks/read-in-categories/__link/read-in-categories__link.css?6");
+@import url("assets/css/blocks/read-in-categories/__title/read-in-categories__title.css?6");
+@import url("assets/css/blocks/read-in-categories/__sub-title/read-in-categories__sub-title.css?6");
+@import url("assets/css/blocks/read-in-categories/_scrol-none/read-in-categories__scrol-none.css?6");
+
+@import url("assets/css/blocks/social/social.css?6");
+@import url("assets/css/blocks/social/__lists/social__lists.css?6");
+@import url("assets/css/blocks/social/__title/social__title.css?6");
+@import url("assets/css/blocks/social/__sub-title/social__sub-title.css?6");
+@import url("assets/css/blocks/social/_footer/social_footer.css?6");
+@import url("assets/css/blocks/social/__sub-title/__footer/social__sub-title_footer.css?6");
+@import url("assets/css/blocks/social/_height/social_height.css?6");
+
+@import url("assets/css/blocks/card-video/card-video.css?6");
+@import url("assets/css/blocks/card-video/__video/card-video__video.css?6");
+@import url("assets/css/blocks/card-video/__title-container/card-video__title-container.css?6");
+@import url("assets/css/blocks/card-video/__title/card-video__title.css?6");
+@import url("assets/css/blocks/card-video/__link/card-video__link.css?6");
+@import url("assets/css/blocks/card-video/__description/card-video__description.css?6");
+
+@import url("assets/css/blocks/card-exclusive/card-exclusive.css?6");
+@import url("assets/css/blocks/card-exclusive/__title-container/card-exclusive__title-container.css?6");
+@import url("assets/css/blocks/card-exclusive/__list/card-exclusive__list.css?6");
+@import url("assets/css/blocks/card-exclusive/__img/card-exclusive__img.css?6");
+@import url("assets/css/blocks/card-exclusive/__text/card-exclusive__text.css?6");
+@import url("assets/css/blocks/card-exclusive/__title/card-exclusive__title.css?6");
+@import url("assets/css/blocks/card-exclusive/__subtitle/card-exclusive__subtitle.css?6");
+@import url("assets/css/blocks/card-exclusive/__description/card-exclusive__description.css?6");
+@import url("assets/css/blocks/card-exclusive/__link/card-exclusive__link.css?6");
+@import url("assets/css/blocks/card-exclusive/_politics/card-exclusive_politics.css?6");
+@import url("assets/css/blocks/card-exclusive/__list/_mobile-first-only/card-exclusive__list_mobile-first-only.css?6");
+
+@import url("assets/css/blocks/card-them/card-them.css?6");
+@import url("assets/css/blocks/card-them/__description/card-them__description.css?6");
+@import url("assets/css/blocks/card-them/__img/card-them__img.css?6");
+@import url("assets/css/blocks/card-them/__title/card-them__title.css?6");
+@import url("assets/css/blocks/card-them/__list/cadr-them__list.css?6");
+@import url("assets/css/blocks/card-them/__link/cadr-them__link.css?6");
+@import url("assets/css/blocks/card-them/__container-video/card-them__container-video.css?6");
+
+@import url("assets/css/blocks/card-main/card-main.css?6");
+@import url("assets/css/blocks/card-main/__discription/card-main__discription.css?6");
+@import url("assets/css/blocks/card-main/__title/card-main__title.css?6");
+@import url("assets/css/blocks/card-main/_max/card-main_max.css?6");
+
+@import url("assets/css/blocks/card-donat/card-donat.css?6");
+@import url("assets/css/blocks/card-donat/__img/card-donat.css?6");
+@import url("assets/css/blocks/card-donat/_max/card-donat_max.css?6");
+@import url("assets/css/blocks/card-donat/__mobile-none/card-donat__mobile-none.css?6");
+
+@import url("assets/css/blocks/card-avatar/__discription/card-avatar__discription.css?6");
+@import url("assets/css/blocks/card-avatar/__img/card-avatar__img.css?6");
+@import url("assets/css/blocks/card-avatar/__list/card-avatar__list.css?6");
+@import url("assets/css/blocks/card-avatar/__lists/card-avatar__lists.css?6");
+@import url("assets/css/blocks/card-avatar/card-avatar.css?6");
+@import url("assets/css/blocks/card-avatar/__link/card-avatar__link.css?6");
+@import url("assets/css/blocks/card-avatar/__list/_mobile-first-only/card-avatar__list_mobile-first-only.css?6");
+@import url("assets/css/blocks/card-avatar/__list/_border-none/card-avatar__list_border-none.css?6");
+
+@import url("assets/css/blocks/card-edition/__lists/card-edition__lists.css?6");
+@import url("assets/css/blocks/card-edition/__list/card-edition__list.css?6");
+@import url("assets/css/blocks/card-edition/__img/card-edition__img.css?6");
+@import url("assets/css/blocks/card-edition/__sub-title/card-edition__sub-title.css?6");
+@import url("assets/css/blocks/card-edition/__title/card-edition__title.css?6");
+@import url("assets/css/blocks/card-edition/card-edition.css?6");
+@import url("assets/css/blocks/card-edition/__link/card-edition__link.css?6");
+@import url("assets/css/blocks/card-edition/__lists/_equal/card-edition__listd_equal.css?6");
+@import url("assets/css/blocks/card-edition/_min/card__edition_min.css?6");
+@import url("assets/css/blocks/card-edition/__img/_min/card-edition__img_min.css?6");
+@import url("assets/css/blocks/card-edition/__list/_mobile-none/card-edition__list_mobile-none.css?6");
+@import url("assets/css/blocks/card-edition/__list/_donat/card-edition__list_donat.css?6");
+@import url("assets/css/blocks/card-edition/_height-auto/card-edition_height-auto.css?6");
+@import url("assets/css/blocks/card-edition/_mobile/card-edition_mobile.css?6");
+@import url("assets/css/blocks/card-edition/__img/_first/card-edition__img_first.css?6");
+@import url("assets/css/blocks/card-edition/__lists/_equal/_1-col/card-edition__listd_1-col.css?6");
+
+@import url("assets/css/blocks/title-headers/title-headers.css?6");
+
+@import url("assets/css/blocks/section-carousel/__content/section-carousel__content.css?6");
+@import url("assets/css/blocks/section-carousel/section-carousel.css?6");
+@import url("assets/css/blocks/section-carousel/_mobile-none/section-carouse_mobile-none.css?6");
+
+@import url("assets/css/blocks/section-donat/section-donat.css?6");
+@import url("assets/css/blocks/section-donat/_mobile-none/section-donat__mobile-none.css?6");
+
+@import url("assets/css/blocks/section-duble-line/section-duble-line.css?6");
+@import url("assets/css/blocks/section-duble-line/_mobile-none.css/section-duble-line_mobile-none.css?6");
+@import url("assets/css/blocks/section-duble-line/_margin/section-duble-line_margin.css?6");
+@import url("assets/css/blocks/section-duble-line/_video/section-duble-line_video.css?6");
+
+@import url("assets/css/blocks/card-operational/card-operational.css?6");
+@import url("assets/css/blocks/card-operational/__content/card-operational__content.css?6");
+@import url("assets/css/blocks/card-operational/__headers/card-operational__headers.css?6");
+@import url("assets/css/blocks/card-operational/__img/card-operational__img.css?6");
+@import url("assets/css/blocks/card-operational/__title/card-operational__title.css?6");
+@import url("assets/css/blocks/card-operational/__title/_description//card-operational__title_description.css?6");
+@import url("assets/css/blocks/card-operational/__title/_link/card-operational__title_link.css?6");
+@import url("assets/css/blocks/card-operational/__title/_subtitle/card-operational__title_subtitle.css?6");
+
+@import url("assets/css/blocks/card-rubric/card-rubric.css?6");
+@import url("assets/css/blocks/card-rubric/__container/card-rubric__container.css?6");
+@import url("assets/css/blocks/card-rubric/__img/card-rubric__img.css?6");
+@import url("assets/css/blocks/card-rubric/__list/card-rubric__list.css?6");
+@import url("assets/css/blocks/card-rubric/__lists/card-rubric__lists.css?6");
+@import url("assets/css/blocks/card-rubric/__title/card-rubric__title.css?6");
+@import url("assets/css/blocks/card-rubric/__link/card-rubric__link.css?6");
+
+@import url("assets/css/blocks/card-views/card-views.css?6");
+@import url("assets/css/blocks/card-views/__container/card-views__container.css?6");
+@import url("assets/css/blocks/card-views/__content/card-views__content.css?6");
+@import url("assets/css/blocks/card-views/__description/card-views__description.css?6");
+@import url("assets/css/blocks/card-views/__img/card-views__img.css?6");
+@import url("assets/css/blocks/card-views/__info/card-views__info.css?6");
+@import url("assets/css/blocks/card-views/__sub-title/card-views__sub-title.css?6");
+@import url("assets/css/blocks/card-views/__title/card-views__title.css?6");
+@import url("assets/css/blocks/card-views/__list/card-views__list.css?6");
+@import url("assets/css/blocks/card-views/__lists/card-views__lists.css?6");
+@import url("assets/css/blocks/card-views/_setting-5-25/card-views_setting-5-25.css");
+
+@import url("assets/css/carousel/carousel.css?6");
+
+@import url("assets/css/blocks/element-title/element-title.css?6");
+@import url("assets/css/blocks/element-title/__link/element-title__link.css?6");
+@import url("assets/css/blocks/element-title/__list/element-title__list.css?6");
+@import url("assets/css/blocks/element-title/__lists/element-title__lists.css?6");
+@import url("assets/css/blocks/element-title/__text/element-title__text.css?6");
+@import url("assets/css/blocks/element-title/_center/element-title_center.css?6");
+@import url("assets/css/blocks/element-title/_mobile-none/element-title_mobile-none.css?6");
+@import url("assets/css/blocks/element-title/__lists/_gap/element-title__lists_gap.css?6");
+
+
+@import url("assets/css/blocks/section-politics/section-politics.css?6");
+
+@import url("assets/css/blocks/section-views/section-views.css?6");
+
+@import url("assets/css/blocks/footer/footer.css?6");
+@import url("assets/css/blocks/footer/__copyright/footer__copyright.css?6");
+@import url("assets/css/blocks/footer/__direction/footer__direction.css?6");
+@import url("assets/css/blocks/footer/__link/footer__link.css?6");
+@import url("assets/css/blocks/footer/__container/footer__container.css?6");
+@import url("assets/css/blocks/footer/__info/footer__info.css?6");
+@import url("assets/css/blocks/footer/__img/footer__img.css?6");
+@import url("assets/css/blocks/footer/__img/_rss/footer__img_rss.css?6");
+@import url("assets/css/blocks/footer/__social/footer__social.css?6");
+@import url('assets/css/blocks/footer/__wrapper-copirite/footer__wrapper-copirite.css');
+@import url("assets/css/blocks/footer/__img/_partner/footer__img_partner.css?6");
+
+
+@import url("assets/css/blocks/search/search.css?6");
+@import url("assets/css/blocks/search/_header/search_header.css?6");
+/* 17 Шаблон попап хедер  */
+@import url("assets/css/blocks/popup-menu/popup-menu.css?6");
+@import url("assets/css/blocks/popup-menu/__container/popup-menu__container.css?6");
+@import url("assets/css/blocks/popup-menu/__link/popup-menu__link.css?6");
+@import url("assets/css/blocks/popup-menu/__list/popup-menu__list.css?6");
+@import url("assets/css/blocks/popup-menu/__lists/popup-menu__lists.css?6");
+@import url("assets/css/blocks/popup-menu/__title/popup-menu__title.css?6");
+@import url("assets/css/blocks/popup-menu/__lists/_column-2/popup-menu__lists_column-2.css?6");
+
+@import url("assets/css/blocks/section-rubric/section-rubric.css?6");
+@import url("assets/css/blocks/section-rubric/__donat/section-rubric__donat.css?6");
+@import url("assets/css/blocks/section-rubric/__container/section-rubric__container.css?6");
+@import url("assets/css/blocks/section-rubric/__container/_bottom/section-rubric__container_bottom.css?6");
+
+@import url("assets/css/blocks/element-main-title/element-main-title.css?6");
+
+@import url("assets/css/blocks/section-rubric-simple-card/section-rubric-simple-card.css?6");
+@import url("assets/css/blocks/section-rubric-simple-card/__item/section-rubric-simple-card__item.css?6");
+@import url("assets/css/blocks/section-rubric-simple-card/__item/_midle/section-rubric-simple-card__item_midle.css?6");
+
+@import url("assets/css/blocks/section-next-button/section-next-button.css?6");
+
+@import url("assets/css/blocks/button-next/button-next.css?6");
+
+@import url("assets/css/blocks/section-main-duble/section-main-duble.css?6");
+
+@import url("assets/css/blocks/card-video-max/card-video-max.css?6");
+@import url("assets/css/blocks/card-video-max/__container/card-video-max__container.css?6");
+@import url("assets/css/blocks/card-video-max/__play/card-video-max__play.css?6");
+@import url("assets/css/blocks/card-video-max/__title/card-video-max__title.css?6");
+@import url("assets/css/blocks/card-video-max/__video/card-video-max__video.css?6");
+
+@import url("assets/css/blocks/section-live/section-live.css?6");
+
+@import url("assets/css/blocks/section-title/section-title.css?6");
+@import url("assets/css/blocks/section-title/_top/section-title_top.css?6");
+@import url("assets/css/blocks/section-title/_main/section-title_main.css?6");
+
+@import url("assets/css/blocks/card-video-mid/card-video-mid.css?6");
+@import url("assets/css/blocks/card-video-mid/__play/card-video-mid__play.css?6");
+@import url("assets/css/blocks/card-video-mid/__time/card-video__time.css?6");
+@import url("assets/css/blocks/card-video-mid/__title/card-video-mid__title.css?6");
+@import url("assets/css/blocks/card-video-mid/__video/card-video-mid__video.css?6");
+
+@import url("assets/css/blocks/section-copirite/section-copirite.css?6");
+@import url("assets/css/blocks/section-copirite/__right/section-copirite__right.css?6");
+@import url("assets/css/blocks/section-copirite/__content/section-copirite__content.css?6");
+
+@import url("assets/css/blocks/card-copirite/card-copirite.css?6");
+@import url("assets/css/blocks/card-copirite/__containet/card-copirite__container.css?6");
+@import url("assets/css/blocks/card-copirite/__img/card-copirite__img.css?6");
+@import url("assets/css/blocks/card-copirite/__text/card-copirite__text.css?6");
+@import url("assets/css/blocks/card-copirite/__lists/card-copirite__lists.css?6");
+@import url("assets/css/blocks/card-copirite/__list/card-copirite__list.css?6");
+@import url("assets/css/blocks/card-copirite/__list/_point/card-copirite__list_point.css?6");
+@import url("assets/css/blocks/card-copirite/__text/_headers/card-copirite__text_headers.css?6");
+@import url("assets/css/blocks/card-copirite/__text/_line/card-copirite__text_line.css?6");
+@import url("assets/css/blocks/card-copirite/__donat-list/card-copirite__donat-list.css?6");
+@import url("assets/css/blocks/card-copirite/__donat-rub/card-copirite__donat-rub.css?6");
+@import url("assets/css/blocks/card-copirite/__container-video/card-copirite__container-video.css?6");
+@import url("assets/css/blocks/card-copirite/__text/_mod/card-copirite__text_mod.css?6");
+@import url("assets/css/blocks/section-copirite/__right/_mobile-none/section-copirite__right_mobile-none.css?6");
+@import url("assets/css/blocks/card-copirite/__img/_video/card-copirite__img_video.css?6");
+
+@import url("assets/css/blocks/element-time/element-time.css?6");
+@import url("assets/css/blocks/element-time/__contaimer/element-time__container.css?6");
+@import url("assets/css/blocks/element-time/__img/element-time__img.css?6");
+
+@import url("assets/css/blocks/section-social-simple/section-social-simple.css?6");
+@import url("assets/css/blocks/section-social-simple/__bottom/section-social-simple__bottom.css?6");
+@import url("assets/css/blocks/section-social-simple/__top/section-social-simple__top.css?6");
+@import url("assets/css/blocks/section-social-simple/__text/section-social-simple__text.css?6");
+@import url("assets/css/blocks/section-social-simple/__duble/section-social-simple__duble.css?6");
+
+@import url("assets/css/blocks/social-dark/social-dark.css?6");
+@import url("assets/css/blocks/social-dark/__container/social-dark__container.css?6");
+@import url("assets/css/blocks/social-dark/__img/social-dark__img.css?6");
+
+@import url("assets/css/blocks/section-tab/section-tab.css?6");
+
+@import url("assets/css/blocks/element-rest/element-rest.css?6");
+@import url("assets/css/blocks/element-play/element-play.css?6");
+
+@import url("assets/css/blocks/section-main/__content/section-main__content.css?6");
+/* @import url("assets/css/blocks/section-main/__title/section-main__title.css?6"); */
+@import url("assets/css/blocks/section-main/section-main.css?6");
+@import url("assets/css/blocks/section-main/__item/section-main__item.css?6");
+@import url("assets/css/blocks/section-main/__donat/section-main__donat.css?6");
+@import url("assets/css/blocks/section-main/_mobile-none/section-main_mobile-none.css?6");
+@import url("assets/css/blocks/section-main/__item/_desctop/section__item_desctop.css?6");
+@import url("assets/css/blocks/section-main/__item/_mobile/section__item_mobile.css?6");
+@import url("assets/css/blocks/section-main/_head-fixed/sextion-main_head-fixed.css?6");
+
+@import url("assets/css/blocks/element-margin/element-margin.css?6");
+
+
+
+/*
+   Общее:
+*/
+
+
+a {text-decoration: none; color: #000;}
+
+
+.marquee {overflow: hidden;}
+
+.marquee span { display:inline-block;width:100%; text-indent:0;animation: marquee 10s linear infinite;}
+.marquee span:hover { animation-play-state: paused;}
+
+@keyframes marquee {
+0%  { transform: translate(100%, 0); }
+100% { transform: translate(-100%, 0); }
+}
+
+.rotable {
+  transition: transform .3s;
+  transform-origin: center center;
+}
+.rotated180 {
+   transform: rotate(-180deg);
+}
+
+.popup-menu-left {
+  right: initial;
+  left: 40px;
+}
+
+.radio_player-popup {
+   display: none;
+   position: absolute;
+}
+
+.article__photo {
+   width: 100%;
+}
+
+.article__date {
+  margin-right: 16px;
+}
+
+.article__photo figure {
+   width: 100% !important;
+   margin: 0;
+}
+figcaption {
+    margin: 10px 20px;
+    color: #6e6e6e;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+img.disabled {
+  filter: brightness(400%);
+}
+
+.tags__link {
+  margin-right: 20px;
+}
+
+.single-social-share {
+  background: transparent;
+  margin-bottom: 30px;
+}
+
+/* -------------- comments template -----------  */
+.section-comments {
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.block_form_comments {
+   display: none;
+}
+
+#open_block_comments {    
+    background-color: #FBFBFB;
+    color: #6e6e6e;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.block_form_comments__subtitle {
+    color: #8f8f8f;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.block_form_comments__label, .comment-form-cookies-consent {
+    color: #8f8f8f;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+.block_form_comments input{
+    font-size: 14px;
+    line-height: 17px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    margin: 6px 2px;
+}
+
+.block_form_comments__comment {
+    height: 200px;
+    width: 100%;
+    font-family: 'Verdana Italic', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: rgba(37, 40, 52, 0.7);
+    outline: none;    
+    resize: none;
+}
+
+.comment-reply-link, .comment-reply-cancel, .comment-reply-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+.comment-reply-link {
+    display: block;
+    margin-top: 10px;
+}
+.comment-reply-cancel {
+    color: #7f7f7f;  
+}
+
+#submit_comment {
+    background-color: #7f7f7f;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* comment like-dislike */
+.comment__like > *, .comment__dislike > *,
+.comment__like, .comment__dislike {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(37, 40, 52, 0.7);
+}
+.comment__like-icon,
+.comment__dislike-icon {
+    width: 16px;
+    height: 16px;
+}
+.comment__like-icon {
+    background: url('img/like.svg') no-repeat center;   
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.comment__dislike-icon {
+    background: url('img/dislike.svg') no-repeat center;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.comment__like {
+    margin-right: 30px;
+}

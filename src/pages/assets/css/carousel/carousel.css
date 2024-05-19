@@ -1,0 +1,161 @@
+.slick-slide {
+  margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+   margin: 0 -10px !important;
+}
+
+.slisk-slider {
+  padding: 0;
+}
+
+.slide {
+  padding: 10px;
+}
+
+/* Корусель из простых карточек */
+.slick-track li {
+  /* margin-right: 20px; */
+}
+
+.slick-arrow {
+  content: "";
+  background-image: url("../images/chevronLeft.svg");
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 76px;
+  border: none;
+  background-color: inherit;
+  left: -40px;
+  top: calc(50% + -34px);
+  /* margin-top: -47px; */
+  position: absolute;
+  color: transparent;
+  padding: 0px;
+}
+
+@media (max-width: 980px) {
+  .slick-slider {
+margin-bottom: 0px ;
+  }
+}
+
+
+@media (max-width: 580px) {
+  .slick-arrow {
+    display: none;
+  }
+}
+
+.slick-arrow.slick-next {
+  /* left: calc(100% - 12px); */
+
+  background-image: url("../images/chevron.svg");
+}
+
+@media (max-width: 5020px) {
+  .slick-arrow {
+    background-size: cover;
+    width: 23px;
+    height: 46px;
+    left: -40px;
+  }
+  .slick-arrow.slick-next {
+    left: calc(100% + 12px);
+    transform: rotate(0deg);
+  }
+}
+
+/* Корусель на главной странице */
+.caorusel__main .slick-arrow {
+  content: "";
+
+  background-image: url("../images/minChevronRight.svg");
+  width: 15px;
+  height: 31px;
+  left: calc(100% + -34px);
+  /* margin-top: -47px; */
+  position: absolute;
+  z-index: 99;
+}
+
+@media (max-width: 580px) {
+  .slick-list.slick-next {
+    display: none;
+  }
+}
+
+.caorusel__main .slick-prev {
+  background-image: url("../images/chevron_min.svg");
+  left: 17px;
+}
+
+.caorusel__main .slick-dots {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 10px;
+}
+
+.caorusel__main .slick-dots button {
+  text-indent: -9999px;
+  background-image: url(../images/point.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 12px;
+  background-color: inherit;
+}
+
+.caorusel__main .slick-dots .slick-active button {
+  background-image: url(../images/point_activ.svg);
+}
+
+
+/* слайдер мнения */
+
+.caorusel-views .slick-dots button, .section-carousel__content .slick-dots button{
+  text-indent: -9999px;
+  background-image: url(../images/point.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 12px;
+  background-color: inherit;
+}
+
+
+.caorusel-views .slick-dots .slick-active button, .section-carousel__content .slick-dots .slick-active button{
+  background-image: url(../images/point_activ.svg);
+}
+
+.caorusel-views ul.slick-dots, .section-carousel__content ul.slick-dots {
+  display: none !important;
+}
+
+
+@media (max-width: 580px) {
+  .caorusel-views ul.slick-dots, .section-carousel__content ul.slick-dots {
+    list-style-type: none;
+  display: flex !important;
+  gap: 5px;
+  justify-content: center;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 10px;
+  margin-top: 20px;
+  }
+} 
+
+@media (max-width: 580px) {
+  .caorusel-views .slick-slide {
+    margin-right: 10px;
+  }
+  .slick-track li {
+    margin-right: 10px;
+  }
+}

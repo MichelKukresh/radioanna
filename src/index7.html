@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="pages/style.css" />
     <title>Radio-ANNA</title>
     <link
       rel="stylesheet"
@@ -30,7 +30,10 @@
               src="images/radio.svg"
               alt="картинка иконки радио лайв"
           /></a>
-          <a class="header__widget header__widget_none header__widget_long" href="">
+          <a
+            class="header__widget header__widget_none header__widget_long"
+            href=""
+          >
             <span>Бегущая строка</span> <span>Бегущая строка</span>
             <span>Бегущая строка</span> <span>Бегущая строка</span></a
           >
@@ -40,9 +43,7 @@
               src="../src/images/telegram.svg"
               alt="иконка телеграмм"
             />
-            <span class="header__widget_telegramm-text"
-              >Присоединиться</span
-            >
+            <span class="header__widget_telegramm-text">Присоединиться</span>
           </a>
           <a class="header__message" href=""
             ><img src="../src/images/icon_message.svg" alt="иконка сообщения"
@@ -55,7 +56,7 @@
               alt="картинка поиска"
             />
           </button>
-
+          <div class="search search_header" style="display: none; position: absolute; top: 57px; right: 10px;"><input></div>
           <button class="header__button haeder__button_desctop-none">
             <img
               class="header__button_menu"
@@ -99,14 +100,15 @@
             </ul>
           </nav>
 
-          <div>
-            <button class="header__button">
+          <div class="header__handle">
+            <div class="search search_header"><input></div>
+            <!-- <button class="header__button">
               <img
                 class="header__button_search"
                 src="images/search-white.svg"
                 alt="картинка поиска"
               />
-            </button>
+            </button> -->
             <button class="header__button header__button_mobile-none">
               <img
                 class="header__button_flag"
@@ -875,5 +877,9 @@
         });
       });
     </script>
+      <script>
+
+        $(".header__button_search").click(function(){ $(".search_header").toggle(); })
+        </script>
   </body>
 </html>

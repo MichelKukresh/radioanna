@@ -1,0 +1,10 @@
+.header__radio {
+
+}
+
+@media (max-width: 580px) {
+    .header__radio {
+        width: 80px;
+    }
+    
+}

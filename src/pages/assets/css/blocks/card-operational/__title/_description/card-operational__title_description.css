@@ -1,0 +1,10 @@
+.card-operational__title_description {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+@media (max-width: 1270px) {
+  .card-operational__title_description {
+    font-size: 11px;
+  }
+}

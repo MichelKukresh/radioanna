@@ -1,0 +1,17 @@
+.card-avatar__list {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.card-avatar__list:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 105px);
+  height: 1px;
+  background-color: #dadada;
+}
+.card-avatar__list:last-child {
+  margin-bottom: 6px;
+}

@@ -1,0 +1,26 @@
+.page__header {
+  /* width: calc(100% - 40px); */
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  max-width: 1630px;
+  /* padding: 5px 5px 5px 5px; */
+  width: calc(100% - 200px);
+}
+.page__header:last-child {
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+@media (max-width: 700px) {
+  .page__header {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .page__header {
+    width: calc(100% - 20px);
+  }
+}

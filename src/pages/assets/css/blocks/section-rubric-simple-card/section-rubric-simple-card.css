@@ -1,0 +1,9 @@
+.section-rubric-simple-card {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  .section-rubric-simple-card {
+    margin-bottom: 20px;
+  }
+}

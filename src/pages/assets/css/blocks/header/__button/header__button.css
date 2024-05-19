@@ -1,0 +1,8 @@
+.header__button {
+    border: none;
+    background-color: inherit;
+}
+
+.header__button img {
+    height: 22px;
+}

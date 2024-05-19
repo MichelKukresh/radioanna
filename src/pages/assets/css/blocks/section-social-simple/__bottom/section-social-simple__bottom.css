@@ -1,0 +1,5 @@
+.section-social-simple__bottom {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

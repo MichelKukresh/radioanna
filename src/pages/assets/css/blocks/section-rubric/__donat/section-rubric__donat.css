@@ -1,0 +1,11 @@
+.section-rubric__donat {
+    display: grid;
+    gap: 50px;
+    height: 100%;
+}
+
+@media (max-width: 800px) {
+   .section-rubric__donat {
+    gap: 20px;
+   } 
+}

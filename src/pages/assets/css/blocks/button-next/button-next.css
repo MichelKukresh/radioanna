@@ -1,0 +1,9 @@
+.button-next {
+    background-color: #FBFBFB;
+    border-radius: 15px;
+    color: black;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    font-weight: 500;
+    font-size: 18px;
+}

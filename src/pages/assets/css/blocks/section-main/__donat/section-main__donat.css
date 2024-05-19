@@ -1,0 +1,18 @@
+.section-main__donat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 340px;
+}
+
+@media (max-width: 980px) {
+    .section-main__donat {
+        height: 100%;
+    }
+}
+
+@media (max-width: 980px) {
+    .section-main__donat {
+        min-height: 150px;
+    }
+}

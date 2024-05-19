@@ -1,0 +1,10 @@
+.card-edition__list_donat {
+
+}
+
+@media (max-width: 580px) {
+    .card-edition__list_donat {
+      min-height: 170px;
+    }
+  }
+ 

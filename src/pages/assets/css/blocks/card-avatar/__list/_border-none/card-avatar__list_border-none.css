@@ -1,0 +1,9 @@
+.card-avatar__list_border-none {
+
+}
+
+@media (max-width: 580px) {
+    .card-avatar__list_border-none::before {
+        background-color: #fbfbfb !important;        
+    } 
+}

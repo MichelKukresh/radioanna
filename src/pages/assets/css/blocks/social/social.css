@@ -1,0 +1,10 @@
+.social {
+  background-color: #575b53;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 9px 15px 6px 15px;
+  min-height: 144px;
+  justify-content: center;
+}

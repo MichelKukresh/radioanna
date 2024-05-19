@@ -1,0 +1,13 @@
+.card-avatar__discription {
+  font-size: 15px;
+  font-weight: 500;
+  min-height: 90px;
+  margin-bottom: 0px;
+  min-height: 76px;
+}
+
+@media (max-width: 1270px) {
+  .card-avatar__discription {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,13 @@
+.card-operational__title_subtitle {
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+
+
+@media (max-width: 1270px) {
+    .card-operational__title_subtitle {
+        font-size: 15px;
+    }  
+}

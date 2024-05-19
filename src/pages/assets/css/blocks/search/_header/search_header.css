@@ -1,0 +1,28 @@
+.search_header {    
+    position: relative;   
+}
+.search_header input {
+    height: 30px;
+    border: none;
+    /* margin-bottom: 36px; */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.search_header::after {
+    content: "";
+    position: absolute;   
+    /* background-image: url('../../images/search-blask.svg'); */
+    height: 21px;
+    width: 21px;
+    top: 6px;
+    right: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 580px) {
+    .search_header {
+        display: none;
+    }
+}
